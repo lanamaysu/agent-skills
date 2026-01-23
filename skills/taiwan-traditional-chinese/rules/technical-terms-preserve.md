@@ -38,12 +38,12 @@ useEffect(() => {
 - [ ] Code keywords preserved: `const`, `async`, `import`, `export`
 - [ ] Comments can be in Chinese, but code stays English
 
-## When in Doubt
+## 不確定時的原則
 
-> **Rule of thumb**: If you're not sure, keep it in English. It's better to preserve technical clarity than to force a translation that might confuse developers.
+> **經驗法則**：不確定時就保留英文。保持技術清晰度比強行翻譯造成混淆更重要。
 
 ```javascript
-// Uncertain? Keep English
+// 不確定時保留英文
 ✓ 在 React 中使用
 ✗ 在 瑞克特 中使用
 ```
