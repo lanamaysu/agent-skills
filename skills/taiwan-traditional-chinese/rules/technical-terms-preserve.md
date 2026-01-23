@@ -2,6 +2,9 @@
 title: Technical Terms to Preserve in English
 impact: HIGH
 category: language-standards
+tags: english-preservation, technical-terms, zh-tw
+---
+
 # 保留英文的技術術語
 
 核心原則：框架名稱、API、檔案路徑、程式碼符號一律保留英文；中文只用在敘述與註解。
