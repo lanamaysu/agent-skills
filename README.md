@@ -34,10 +34,16 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 ## 🚀 Installation
 
-使用 `npx add-skill` 命令安裝技能：
+使用 `npx add-skill` 安裝技能。該工具會自動探索 `skills/` 目錄。
 
+**列出可用技能：**
 ```bash
-npx add-skill https://github.com/lanamaysu/agent-skills
+npx add-skill lanamaysu/agent-skills --list
+```
+
+**安裝特定技能：**
+```bash
+npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
 ```
 
 ---

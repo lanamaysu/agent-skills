@@ -1,6 +1,18 @@
 # Taiwan Traditional Chinese Skill
 
-可用 `npx add-skill <repo-url>` 安裝；技能入口檔案為 `SKILL.md`。
+台灣繁體中文回應指南。SKILL.md 為技能入口。
+
+## 安裝
+
+```bash
+npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
+```
+
+或列出所有可用技能：
+
+```bash
+npx add-skill lanamaysu/agent-skills --list
+```
 
 ## 授權與資料來源
 - `references/terms.csv` 來源：Wikibooks《大陸台灣計算機術語對照表》，授權：CC BY-SA 4.0，同方式分享。
