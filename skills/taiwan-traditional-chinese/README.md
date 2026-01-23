@@ -1,6 +1,6 @@
 # Taiwan Traditional Chinese Skill
 
-可用 `npx add-skill <repo>#v1.0.0`（範例 tag 請自行建立）安裝；技能入口檔案為 `SKILL.md`。
+可用 `npx add-skill <repo-url>` 安裝；技能入口檔案為 `SKILL.md`。
 
 ## 授權與資料來源
 - `references/terms.csv` 來源：Wikibooks《大陸台灣計算機術語對照表》，授權：CC BY-SA 4.0，同方式分享。
