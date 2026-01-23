@@ -80,7 +80,12 @@ skills/
 
 ## 📝 License
 
-各技能擁有獨立授權。詳見各技能資料夾的 README 與 references 資訊。
+本 repository 採用 MIT License，但個別技能可能包含不同授權的參考資料。
+
+- **技能內容**：MIT License
+- **參考資料**：依各技能 references 資料夾說明（如 taiwan-traditional-chinese/references/terms.csv 採用 CC BY-SA 4.0）
+
+詳見各技能資料夾的 README 與 references 說明。
 
 ---
 

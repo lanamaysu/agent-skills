@@ -1,6 +1,7 @@
 ---
 name: taiwan-traditional-chinese
 description: READ FIRST before ANY Traditional Chinese output (files, docs, markdown, comments, translations). Taiwan zh_TW terminology standards. Must read when creating content, writing documentation, or responding in Chinese.
+license: MIT License (skill content); CC BY-SA 4.0 (references/terms.csv from Wikibooks)
 ---
 
 # Taiwan Traditional Chinese Response Skill
