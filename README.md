@@ -32,6 +32,37 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 ---
 
+### [Jest + React Testing Library](./skills/jest-rtl-testing)
+**Jest + RTL 測試最佳實踐**
+
+基於 Testing Library 核心原則與 Kent C. Dodds 最佳實踐的測試指南。
+
+- ✅ 以使用者為中心的測試方法
+- ✅ Query 優先順序指南（accessibility-first）
+- ✅ 常見錯誤與正確做法對照
+- ✅ 非同步測試處理模式
+- ✅ 優先讀取專案 AGENTS.md 的測試規範
+
+**使用時機：**
+- 撰寫或審查 React component 測試
+- 測試失敗時除錯，判斷 API 使用是否正確
+- 需要優化測試可讀性與可維護性
+- 確保測試遵循無障礙（accessibility）最佳實踐
+
+**快速開始：**
+```bash
+# 預覽技能
+cat skills/jest-rtl-testing/SKILL.md
+
+# 查看 Query 速查表
+cat skills/jest-rtl-testing/references/query-cheatsheet.md
+
+# 查看常見測試模式
+cat skills/jest-rtl-testing/references/common-patterns.md
+```
+
+---
+
 ## 🚀 Installation
 
 使用 `npx add-skill` 安裝技能。該工具會自動探索 `skills/` 目錄。
@@ -43,7 +74,11 @@ npx add-skill lanamaysu/agent-skills --list
 
 **安裝特定技能：**
 ```bash
+# 安裝台灣繁體中文技能
 npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
+
+# 安裝 Jest + RTL 測試技能
+npx add-skill lanamaysu/agent-skills --skill jest-rtl-testing
 ```
 
 ---
@@ -89,4 +124,4 @@ skills/
 
 ---
 
-**Last Updated:** 2026-01-23
+**Last Updated:** 2026-02-10
