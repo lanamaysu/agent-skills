@@ -1,6 +1,12 @@
 # Taiwan Traditional Chinese Skill
 
-台灣繁體中文回應指南。SKILL.md 為技能入口。
+台灣繁體中文回應指南。`SKILL.md` 為技能入口。
+
+## 適用範圍
+
+- 使用者要求中文或繁體中文輸出時。
+- 撰寫回應、註解、文件、在地化文案時。
+- 需要台灣術語、標點與語氣一致性時。
 
 ## 安裝
 
@@ -14,7 +20,14 @@ npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
 npx add-skill lanamaysu/agent-skills --list
 ```
 
+## 使用重點
+
+- 先做品質檢查，未通過才讀取 `references/guidelines.md` 與 `references/terms.csv`。
+- 若使用者說「用中文／中文回答／中文輸出」，預設視為繁體中文。
+- 檔案路徑與程式碼請使用反引號標示。
+
 ## 授權與資料來源
+
 - `references/terms.csv` 來源：Wikibooks《大陸台灣計算機術語對照表》，授權：CC BY-SA 4.0，同方式分享。
 - 若再散佈此技能，請保留來源與授權連結：https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -31,9 +44,10 @@ python3 -m venv .venv && .venv/bin/pip install -r references/requirements.txt
 ```
 
 ## 結構
-- SKILL.md — 技能說明、使用時機、步驟、疑難排解
-- references/ — 參考資料與維護工具
-  - terms.csv — 術語對照表（由 fetch_terms.py 產出）
-  - fetch_terms.py — 從 Wikibooks 抓取表格並輸出 CSV
-  - requirements.txt — 抓取腳本的依賴
-  - README.md — 資料來源、授權與更新說明
+
+- `SKILL.md` — 技能說明、使用時機、步驟、疑難排解
+- `references/` — 參考資料與維護工具
+  - `terms.csv` — 術語對照表（由 `fetch_terms.py` 產出）
+  - `fetch_terms.py` — 從 Wikibooks 抓取表格並輸出 CSV
+  - `requirements.txt` — 抓取腳本的相依性
+  - `README.md` — 資料來源、授權與更新說明

@@ -5,11 +5,11 @@
 ## 📚 Available Skills
 
 ### [Taiwan Traditional Chinese](./skills/taiwan-traditional-chinese)
-**Taiwan zh_TW 繁體中文回應指南**
+**Taiwan zh-Hant-TW/zh-TW/zh_TW 繁體中文回應指南**
 
-READ FIRST before ANY Traditional Chinese output (files, docs, markdown, comments, translations).
+先做品質檢查，僅在不通過時才讀取完整指南與術語對照表。
 
-- ✅ 台灣繁體中文（zh_TW）術語標準
+- ✅ 台灣繁體中文（zh-Hant-TW/zh-TW/zh_TW）術語標準
 - ✅ 技術術語、標點、語氣規範
 - ✅ 程式碼與框架名稱保留方案
 - ✅ 完整術語對照表 (Wikibooks CC BY-SA 4.0)
