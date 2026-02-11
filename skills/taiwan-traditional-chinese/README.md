@@ -22,9 +22,23 @@ npx add-skill lanamaysu/agent-skills --list
 
 ## 使用重點
 
-- 先做品質檢查，未通過才讀取 `references/guidelines.md` 與 `references/terms.csv`。
-- 若使用者說「用中文／中文回答／中文輸出」，預設視為繁體中文。
-- 檔案路徑與程式碼請使用反引號標示。
+### 針對不同模型的優化
+
+**小模型（Claude Haiku, GPT-4o mini）**：
+- SKILL.md 內建**關鍵術語速查表**，包含 20+ 最常用台灣術語
+- 無需品質檢查流程，直接參考速查表產出正確輸出
+- 只有使用者明確要求術語稽核時，才讀取完整參考文件
+
+**大模型（Claude Sonnet/Opus, GPT-4）**：
+- 先產出草稿並自我檢查
+- 未通過時才讀取 `references/guidelines.md` 與 `references/terms.csv`
+- 可處理更複雜的術語稽核任務
+
+### 通用規則
+
+- 若使用者說「用中文／中文回答／中文輸出」，預設視為繁體中文（台灣）
+- 檔案路徑與程式碼請使用反引號標示
+- 禁用詞包含：組件、異步、數據、服務器、函數、數組等
 
 ## 授權與資料來源
 
