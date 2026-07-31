@@ -83,7 +83,7 @@ Come with,隨附,随附
 Command,指令,命令
 Command line,命令列,命令行
 Comment,留言,评论
-註解，註釋,注释 (win)；注解，批注 (mac),
+Comment (code),註解，註釋,注释 (win)；注解，批注 (mac)
 Commit,提交,提交
 Communication,通訊,通信
 Community,社群,社区
@@ -97,7 +97,7 @@ Composition,組合,组合
 Compress,壓縮,压缩
 Concurrency,並行性，並行,并发性，并发
 Concurrent,並行的；同時的,并发的；同时的
-Configuration,配置；設定 (mac)；組態 (win),配置
+Configuration,設定；組態,配置；设置
 "Connect, Connection",連接；（網路、資料庫）連線,连接
 Constant,常數,常量
 Constraint,約束；限制,约束；限制
@@ -181,7 +181,7 @@ Firmware,韌體,固件
 Flag,旗標,标记
 Flash memory,快閃記憶體,闪存
 Flush,排清，清除,刷新
-對齊，齊平,对齐，齐平,
+Flush (align),對齊，齊平,对齐，齐平
 Folder,資料夾 (win)；檔案夾 (mac),文件夹
 Font,字型 (win)；字體 (mac),字体
 Form,表單,表单
@@ -445,7 +445,7 @@ Text box,文字框,文本框
 Thread,執行緒,线程
 Top-up,加值，儲值,充值
 Token,標記 (win); 代號 (mac),标记 (win); 令牌 (mac)
-權杖；代幣,权杖；代幣,
+Token (security/currency),權杖；代幣,权杖；代币
 Traverse,走訪,遍历
 Tray (or System tray),系統匣,系统托盘
 Tree,樹,树
