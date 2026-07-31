@@ -16,13 +16,13 @@
 ## 安裝
 
 ```bash
-npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
+npx skills add lanamaysu/agent-skills --skill taiwan-traditional-chinese
 ```
 
 或列出所有可用技能：
 
 ```bash
-npx add-skill lanamaysu/agent-skills --list
+npx skills add lanamaysu/agent-skills --list
 ```
 
 ## 使用重點
@@ -81,3 +81,7 @@ python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 - `scripts/` — 維護工具
   - `fetch_terms.py` — 從 Wikibooks 抓取表格並輸出 CSV
   - `requirements.txt` — 抓取腳本的相依性
+
+---
+
+**Last Updated**: 2026-07-31

@@ -1,5 +1,7 @@
 # Agent Skills
 
+[![skills.sh](https://skills.sh/b/lanamaysu/agent-skills)](https://skills.sh/lanamaysu/agent-skills)
+
 我的自訂 Claude Agent Skills 集合，為 Claude Code 補上領域知識與工作流程規範。
 
 ## Available Skills
@@ -65,20 +67,30 @@ cat skills/jest-rtl-testing/references/common-patterns.md
 
 ## Installation
 
-使用 `npx add-skill` 安裝技能。該工具會自動探索 `skills/` 目錄。
+使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。
 
 **列出可用技能：**
 ```bash
-npx add-skill lanamaysu/agent-skills --list
+npx skills add lanamaysu/agent-skills --list
 ```
 
 **安裝特定技能：**
 ```bash
 # 安裝台灣繁體中文技能
-npx add-skill lanamaysu/agent-skills --skill taiwan-traditional-chinese
+npx skills add lanamaysu/agent-skills --skill taiwan-traditional-chinese
 
 # 安裝 Jest + RTL 測試技能
-npx add-skill lanamaysu/agent-skills --skill jest-rtl-testing
+npx skills add lanamaysu/agent-skills --skill jest-rtl-testing
+```
+
+**安裝到全域，跨專案可用：**
+```bash
+npx skills add lanamaysu/agent-skills --skill '*' -g -a claude-code
+```
+
+**不安裝，單次試用：**
+```bash
+npx skills use lanamaysu/agent-skills@taiwan-traditional-chinese | claude
 ```
 
 ---

@@ -24,13 +24,13 @@
 ## 安裝
 
 ```bash
-npx add-skill lanamaysu/agent-skills --skill jest-rtl-testing
+npx skills add lanamaysu/agent-skills --skill jest-rtl-testing
 ```
 
 或列出所有可用技能：
 
 ```bash
-npx add-skill lanamaysu/agent-skills --list
+npx skills add lanamaysu/agent-skills --list
 ```
 
 ## 使用時機
