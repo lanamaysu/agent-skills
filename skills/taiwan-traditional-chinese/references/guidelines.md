@@ -18,7 +18,7 @@
 
 根據 Wikibooks《大陸台灣計算機術語對照表》（CC BY-SA 4.0）
 
-> **完整對照表**：[terms.csv](./terms.csv) - 465 筆術語（自動從 Wikibooks 抓取）
+> **完整對照表**：[terms.csv](./terms.csv)，464 筆術語（自動從 Wikibooks 抓取）
 
 ### 必知術語
 
@@ -238,7 +238,7 @@ throw new Error('加载用户信息失败')  (Mainland 術語)
 
 ### 怎麼 grep terms.csv
 
-terms.csv 是 465 列的查詢表，**用 `grep` 查，不要整份讀**（整份讀要 4,000-6,000 token）。它的 `cn` 欄存的是簡體字形，所以：
+terms.csv 是 464 筆術語的查詢表，**用 `grep` 查，不要整份讀**（整份讀要 4,000-6,000 token）。它的 `cn` 欄存的是簡體字形，所以：
 
 ```bash
 # 可疑詞是繁體字形時，grep 它的簡體形，否則對不上會誤判為乾淨
@@ -308,8 +308,8 @@ awk -F',' '$3 ~ /数据/ {print}' references/terms.csv
 
 ## 參考資源
 
-- [terms.csv](./terms.csv) - 完整術語對照表（465 筆）。由 [scripts/fetch_terms.py](../scripts/fetch_terms.py) 從下方 Wikibooks 頁面重新產生；重跑會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 Token 的 cn 欄修正，先 diff 再覆蓋
-- [prose-style.md](./prose-style.md) - 去 AI 味的行文規範（寫連續散文時使用）
-- [Wikibooks 對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8) - CC BY-SA 4.0
-- [教育部重編國語辭典](https://dict.revised.moe.edu.tw/) - 官方辭典
-- [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) - CC BY-SA 4.0，「中國用語過濾」與命名規則的來源
+- [terms.csv](./terms.csv)：完整術語對照表（464 筆）。由 [scripts/fetch_terms.py](../scripts/fetch_terms.py) 從下方 Wikibooks 頁面重新產生；重跑會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 Token 的 cn 欄修正，先 diff 再覆蓋
+- [prose-style.md](./prose-style.md)：去 AI 味的行文規範（寫連續散文時使用）
+- [Wikibooks 對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8)：CC BY-SA 4.0
+- [教育部重編國語辭典](https://dict.revised.moe.edu.tw/)：官方辭典
+- [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)：CC BY-SA 4.0，「中國用語過濾」與命名規則的來源

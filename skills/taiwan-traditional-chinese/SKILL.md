@@ -1,6 +1,6 @@
 ---
 name: taiwan-traditional-chinese
-description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation, de-AI tone. Judge by the deliverable, not keywords — if your output will contain Chinese, this applies; read it before the first Chinese character, not after. A git, React or JSON task counts once its output is Chinese: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files, chat replies. Also for repairing Chinese: mainland wording (數據/組件), tech-industry 套話 (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Default zh-Hant-TW unless 簡體 is asked. Skip when Chinese is the bug not the output (fonts, encoding, full-width spacing, 繁簡轉換) or when translating into another language.'
+description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation, de-AI tone. Judge by the deliverable, not keywords — if your output will contain Chinese, this applies; read it before the first Chinese character, not after. A git, React or JSON task counts once its output is Chinese: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files, chat replies. Also for repairing Chinese: mainland wording (數據/組件), mainland software-industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Default zh-Hant-TW unless 簡體 is asked. Skip when Chinese is the bug not the output (fonts, encoding, full-width spacing, 繁簡轉換) or when translating into another language.'
 ---
 
 # Taiwan Traditional Chinese Response Skill
@@ -16,7 +16,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 - **[prose-style.md](./references/prose-style.md)**：寫連續散文才讀（專案文件、README 敘述段落、ADR、release note、規格書、簡報，或使用者說「太像 AI」「潤稿」）。commit message、程式碼註解、測試案例描述、表格與 API 參數說明**不要讀**：固定格式套散文節奏會壞掉，本檔的「AI 味速查」那層已經夠。
 - **[guidelines.md](./references/guidelines.md)**：只在品質檢查未通過，或使用者要求稽核時讀。
-- **[terms.csv](./references/terms.csv)**：永遠 `grep`，不要整份讀。465 列的查詢表整份讀要 4,000-6,000 token，grep 只回幾列。
+- **[terms.csv](./references/terms.csv)**：永遠 `grep`，不要整份讀。464 筆術語的查詢表整份讀要 4,000-6,000 token，grep 只回幾列。
 
 ## Core Rules
 
@@ -33,7 +33,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 **必用台灣術語**：component 元件、array 陣列、object 物件、function 函式、data 資料、variable 變數、parameter 參數、return value 回傳值、import 匯入、export 匯出、async 非同步、cache 快取、load 載入、server 伺服器、database 資料庫、network 網路、thread 執行緒、module 模組、package 套件、dependency 相依性
 
-## 中國科技業套話禁用表（所有任務皆適用）
+## 中國軟體圈行話禁用表（所有任務皆適用）
 
 這些詞既是中國用語也是空話，換成具體動詞後句子會被迫說清楚到底做了什麼。寫專案文件、PR 描述、會議紀錄時最容易漏進來。
 
@@ -101,9 +101,9 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 速查表是給你第一次就寫對用的，不是事後對照用的。
 
-1. 產出前掃一遍上方四塊（絕對禁用、科技業套話、一詞多義、AI 味速查），照著寫。
+1. 產出前掃一遍上方四塊（絕對禁用、軟體圈行話、一詞多義、AI 味速查），照著寫。
 2. 產出後自我檢查一次，以下任一項成立即為不通過：
-   - 出現「絕對禁用」或「中國科技業套話」表裡的詞
+   - 出現「絕對禁用」或「中國軟體圈行話」表裡的詞
    - 一詞多義的詞用錯義項
    - 出現「AI 味速查」刪除清單或替換表裡的詞
    - 破折號、假對比、三項式排比超過量化上限
@@ -111,7 +111,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
    - 中文句子用了半形標點，或程式碼與檔名沒加反引號
    - 英文專有名詞被翻譯掉（React、useState、API 要保留）
 3. 通過：直接輸出，不要開啟 guidelines.md，也不要動 terms.csv。
-4. 未通過：讀 guidelines.md，但 **terms.csv 用 `grep` 查可疑詞，不要整份讀** —— 465 列全讀是 4,000-6,000 token 換幾行結果。重寫後再檢查一次。
+4. 未通過：讀 guidelines.md，但 **terms.csv 用 `grep` 查可疑詞，不要整份讀**：464 筆全讀是 4,000-6,000 token 換幾行結果。重寫後再檢查一次。
 5. 只輸出通過的版本，不要提及檢查或重寫過程。
 
 ## Minimal Example
@@ -123,10 +123,10 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 ## References
 
-- [prose-style.md](./references/prose-style.md) - 去 AI 味的完整行文規範（寫連續散文時讀）
-- [guidelines.md](./references/guidelines.md) - 完整指南（稽核時讀）
-- [terms.csv](./references/terms.csv) - 術語對照表（465 筆，用 `grep` 查），由 [scripts/fetch_terms.py](./scripts/fetch_terms.py) 產生
+- [prose-style.md](./references/prose-style.md)：去 AI 味的完整行文規範（寫連續散文時讀）
+- [guidelines.md](./references/guidelines.md)：完整指南（稽核時讀）
+- [terms.csv](./references/terms.csv)：術語對照表（464 筆，用 `grep` 查），由 [scripts/fetch_terms.py](./scripts/fetch_terms.py) 產生
 - 外部來源（Wikibooks、教育部辭典）列在 guidelines.md
-- [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) - CC BY-SA 4.0，`prose-style.md`、科技業套話表、一詞多義表的來源
+- [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)：CC BY-SA 4.0，`prose-style.md`、軟體圈行話表、一詞多義表的來源
 
 **Last Updated**: 2026-07-31

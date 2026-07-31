@@ -12,14 +12,14 @@
 
 ## 核心特色
 
-✅ **專案規範優先** - 優先遵循 `AGENTS.md` 規則，本技能作為補充指引  
-✅ **情境化 Query 優先順序** - 根據元件大小選擇最佳 query 方法  
-✅ **MSW 強烈推薦** - 網路層級的 API mocking，不綁定實作細節  
-✅ **效能考量** - 警告 `getByRole` 在大型 view 的效能問題  
-✅ **常見錯誤對照** - 錯誤做法 vs 正確做法的對比範例  
-✅ **非同步處理** - findBy、waitFor、waitForElementToBeRemoved 使用時機  
-✅ **使用者互動** - userEvent vs fireEvent 的差異與建議  
-✅ **除錯指南** - 測試失敗時的系統化除錯步驟
+- **專案規範優先**：優先遵循 `AGENTS.md` 規則，本技能作為補充指引
+- **情境化 Query 優先順序**：根據元件大小選擇最佳 query 方法
+- **MSW 強烈推薦**：網路層級的 API mocking，不綁定實作細節
+- **效能考量**：警告 `getByRole` 在大型 view 的效能問題
+- **常見錯誤對照**：錯誤做法與正確做法的對比範例
+- **非同步處理**：findBy、waitFor、waitForElementToBeRemoved 使用時機
+- **使用者互動**：userEvent 與 fireEvent 的差異與建議
+- **除錯指南**：測試失敗時的系統化除錯步驟
 
 ## 安裝
 
@@ -38,7 +38,7 @@ npx add-skill lanamaysu/agent-skills --list
 - 撰寫新的 Jest + React Testing Library 測試
 - 審查或重構現有測試程式碼
 - 測試失敗時除錯，需判斷 API 使用是否正確
-- 需要優化測試可讀性與可維護性
+- 需要改善測試可讀性與可維護性
 - 確保測試遵循無障礙（accessibility）最佳實踐
 
 ## 快速參考
@@ -91,4 +91,4 @@ MIT License
 
 ---
 
-**Last Updated**: 2026-02-10
+**Last Updated**: 2026-07-31
