@@ -1,0 +1,3 @@
+# csv.writer defaults to CRLF; pin LF so regenerating terms.csv does not
+# rewrite every row as a line-ending-only diff.
+*.csv text eol=lf

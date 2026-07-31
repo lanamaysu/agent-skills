@@ -1,0 +1,39 @@
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+This directory (skills/taiwan-traditional-chinese/) is licensed under CC BY-SA
+4.0, NOT under the MIT License that covers the rest of this repository.
+
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+Why this directory differs
+--------------------------
+
+It incorporates adaptations of CC BY-SA 4.0 material. Under the ShareAlike term
+(§4(b) of the license), an adaptation must be shared under the same or a
+compatible license, and MIT is not BY-SA compatible.
+
+Upstream sources
+----------------
+
+1. references/terms.csv
+   Source:  Wikibooks, 大陸台灣計算機術語對照表
+   URL:     https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8
+   License: CC BY-SA 4.0
+   Changes: scraped into CSV form with columns en,tw,cn; three rows carrying a
+            second sense of an existing term were given sense qualifiers
+            (Comment (code), Flush (align), Token (security/currency)).
+
+2. references/prose-style.md, and the 中國科技業套話 and 一詞多義 tables in SKILL.md
+   Source:  allenloves/de-ai-tone
+   URL:     https://github.com/allenloves/de-ai-tone
+   License: CC BY-SA 4.0
+   Changes: translation and music-domain rules removed, examples rewritten for
+            software-development contexts, terminology changed (支語 ->
+            中國用語, 互聯網黑話 -> 中國科技業套話), section labels reformatted,
+            self-check greps added.
+
+If you redistribute this directory or an adaptation of it, keep this notice and
+license the result under CC BY-SA 4.0.
+
+Copyright (c) 2026 Lana Su, for the portions original to this work.

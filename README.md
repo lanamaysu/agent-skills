@@ -115,12 +115,16 @@ skills/
 
 ## 📝 License
 
-本 repository 採用 MIT License，但個別技能可能包含不同授權的參考資料。
+本 repository 採用 MIT License，但個別技能可能不同 —— 技能資料夾內若有 `LICENSE`，以該檔為準。
 
-- **技能內容**：MIT License
-- **參考資料**：依各技能 references 資料夾說明（如 taiwan-traditional-chinese/references/terms.csv 採用 CC BY-SA 4.0）
+| 範圍 | 授權 |
+|------|------|
+| repository 與未特別標示的技能 | MIT License |
+| `skills/taiwan-traditional-chinese/` | **CC BY-SA 4.0**（見該資料夾的 `LICENSE`） |
 
-詳見各技能資料夾的 README 與 references 說明。
+`taiwan-traditional-chinese` 之所以不同：它含有 CC BY-SA 4.0 素材的改作（Wikibooks 術語對照表、[allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) 的行文規範）。ShareAlike 條款要求改作本以相同或相容授權散佈，而 MIT 與 BY-SA 不相容。若你要再散佈該資料夾或其改作，請保留出處並同樣以 CC BY-SA 4.0 釋出。
+
+詳見各技能資料夾的 `LICENSE` 與 README。
 
 ---
 
