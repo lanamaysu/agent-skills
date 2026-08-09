@@ -26,8 +26,14 @@
 
 ### terms.csv
 
-**來源**：[大陸台灣計算機術語對照表（Wikibooks）](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8)
-**授權**：創用 CC BY-SA 4.0（需標示來源並以相同方式分享）
+**來源**：兩份資料合併，用 `type` 欄區分。
+
+| `type` | 來源 | 授權 | `cn` 欄字形 |
+|--------|------|------|-------------|
+| `glossary` | [大陸台灣計算機術語對照表（Wikibooks）](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8) | CC BY-SA 4.0 | 簡體 |
+| `cross_strait`、`variant`、`confusable`、`political_coloring`、`disabled` | [sysprog21/zhtw-mcp](https://github.com/sysprog21/zhtw-mcp) `assets/ruleset.json` | MIT（跨海峽詞條再上溯 [OpenCC](https://github.com/BYVoid/OpenCC)，Apache-2.0） | 繁體 |
+
+兩種字形都留著是刻意的：grep「數據」對不上 Wikibooks 那列（它存的是「数据」），但打得到 zhtw-mcp 那列，反過來也一樣。  <!-- zhtw-lint: skip -->
 
 **授權標示範例**：
 

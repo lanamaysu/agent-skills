@@ -1,3 +1,7 @@
 lxml
 requests
 beautifulsoup4
+
+# Optional: makes lint_zhtw.py's 簡體殘留 check exhaustive instead of relying on
+# the ~200-glyph table derived from terms.csv.
+opencc-python-reimplemented

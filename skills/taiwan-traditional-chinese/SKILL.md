@@ -7,7 +7,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 > **TL;DR**
 > - 必用台灣術語：元件、非同步、資料、伺服器、資料庫、快取；框架與程式碼維持英文。
-> - 絕對禁用：組件/组件、異步/异步、數據/数据、服務器/服务器、函數/函数、數組/数组、加載、依賴。
+> - 絕對禁用：組件/组件、異步/异步、數據/数据、服務器/服务器、函數/函数、數組/数组、加載、依賴。  <!-- zhtw-lint: skip -->
 > - 一看到就刪：值得注意的是、事實上、總的來說、賦能、深入探討、打造、至關重要、進行 + 動詞。
 
 ## Required Pre-Check
@@ -21,7 +21,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 ## Core Rules
 
 - 使用繁體中文（zh-Hant-TW/zh-TW/zh_TW），並且使用在地慣用詞。
-- 使用者說「用中文／中文回答／中文輸出」一律視為繁體中文，除非明確指定簡體（簡體／简体／zh-Hans／简中）。
+- 使用者說「用中文／中文回答／中文輸出」一律視為繁體中文，除非明確指定簡體（簡體／简体／zh-Hans／简中）。  <!-- zhtw-lint: skip -->
 - 術語用台灣慣例（資料、元件、應用程式、資料庫、伺服器）。
 - 框架名稱、API、程式碼符號、檔案路徑保留英文。
 - 檔案路徑不要做成連結，直接用反引號包住。
@@ -29,7 +29,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 ## 關鍵術語速查表（必須遵守）
 
-**絕對禁用**：代碼/代码、组件、異步/异步、回退、變量/变量、映射、對象/对象、數組/数组、函數/函数、返回值、導入/导入、導出/导出、依賴/依赖、數據/数据、應用程序/应用程序、數據庫/数据库、服務器/服务器、緩存/缓存、網絡/网络、加載、模塊、線程
+**絕對禁用**：代碼/代码、组件、異步/异步、回退、變量/变量、映射、對象/对象、數組/数组、函數/函数、返回值、導入/导入、導出/导出、依賴/依赖、數據/数据、應用程序/应用程序、數據庫/数据库、服務器/服务器、緩存/缓存、網絡/网络、加載、模塊、線程  <!-- zhtw-lint: skip -->
 
 **必用台灣術語**：component 元件、array 陣列、object 物件、function 函式、data 資料、variable 變數、parameter 參數、return value 回傳值、import 匯入、export 匯出、async 非同步、cache 快取、load 載入、server 伺服器、database 資料庫、network 網路、thread 執行緒、module 模組、package 套件、dependency 相依性
 

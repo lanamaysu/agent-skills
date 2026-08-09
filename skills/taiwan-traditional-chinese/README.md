@@ -74,7 +74,31 @@ python3 scripts/fetch_terms.py --source ruleset
 .venv/bin/python scripts/fetch_terms.py --source glossary
 ```
 
-重新抓取會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 `Token` 的 `cn` 欄修正，**先 diff 再覆蓋**。腳本會處理 Wikibooks 表格的 `rowspan` 合併儲存格；若 `en` 欄出現非 ASCII 就會中止而不覆寫，那代表上游表格結構變了。
+重新抓取 glossary 會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 `Token` 的 `cn` 欄修正，**先 diff 再覆蓋**。腳本會處理 Wikibooks 表格的 `rowspan` 合併儲存格；若 `en` 欄出現非 ASCII 就會中止而不覆寫，那代表上游表格結構變了。`--source` 只重抓一邊，另一邊沿用檔案裡既有的列，所以 Wikibooks 這半邊掛掉時不會連帶影響規則更新。
+
+## 數量類檢查（選用）
+
+`SKILL.md` 的四張表管用詞與語氣，模型讀得到、也判得準。判不準的是要數數字的那幾條，`scripts/lint_zhtw.py` 只補這一塊：
+
+```bash
+python3 scripts/lint_zhtw.py <file.md>...      # 半形標點、破折號密度、加粗密度、整句加粗、簡體殘留
+python3 scripts/lint_zhtw.py --terms <file.md> # 另外比對 terms.csv 的用詞（會吵，只在稽核時開）
+python3 scripts/test_lint_zhtw.py              # fixture 測試，每條檢查都有正反例
+```
+
+不進技能的載入路徑，context 成本為零。程式碼區塊、行內程式碼、表格列、YAML frontmatter 與 `❌`／`✅` 開頭的示範行都會自動略過；其餘要豁免的地方用行尾 `<!-- zhtw-lint: skip -->`。
+
+`簡體殘留` 只有裝了 `opencc` 才完整。沒裝時字表從 `terms.csv` 推出來，只有 201 字，涵蓋 IT 詞彙：抓得到 `数据`、`组件`、`服务器`，抓不到用 `这`、`来`、`说`、`学`、`东` 寫成的日常簡體散文。沒命中只代表「沒有簡體 IT 用語」，不代表「沒有簡體」。
+
+推導出來的字表另有一批誤報：只出現在對照表中國側的繁體字（`触碰` 的「碰」、`清晰度` 的「晰」）沒有任何台灣側詞條可以為它背書，會被當成簡體。這批已經清乾淨，做法不是等它被踩到才補，而是用 `opencc` 當對照跑一次差集：
+
+```bash
+.venv/bin/python scripts/audit_shared_glyphs.py   # 重新產 terms.csv 後跑
+```
+
+腳本會印出正確的字表並在與 `lint_zhtw.py` 不一致時回傳 1。
+
+`--terms` 跟 `SKILL.md` 的禁用表確實有重疊，這是刻意的分工：表在 context 裡負責產出時寫對，`--terms` 讀 `terms.csv` 負責事後稽核既有檔案，兩邊都不複製詞表。代價是它很吵（本專案 7 份文件會出 85 筆，多數是文件在講這些詞本身），所以預設關閉。
 
 ## 結構
 
@@ -85,7 +109,10 @@ python3 scripts/fetch_terms.py --source ruleset
   - `terms.csv` — 術語對照表 2,122 筆，欄位 `en,tw,cn,type,clues,avoid_clues,note`（用 `grep` 查）
   - `README.md` — 資料來源、授權與欄位說明
 - `scripts/` — 維護工具
-  - `fetch_terms.py` — 從 Wikibooks 抓取表格並輸出 CSV
+  - `fetch_terms.py` — 從 Wikibooks 與 zhtw-mcp ruleset 抓取並合併輸出 CSV
+  - `lint_zhtw.py` — Markdown 的數量類檢查（見下）
+  - `test_lint_zhtw.py` — lint 的 fixture 測試
+  - `audit_shared_glyphs.py` — 用 `opencc` 校正 lint 的簡體字表（需要 opencc）
   - `requirements.txt` — 抓取腳本的相依性
 
 ---
