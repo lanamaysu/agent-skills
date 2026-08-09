@@ -52,7 +52,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 ## 一詞多義：看義項判斷，不是全面禁用
 
-這幾個詞台灣也在用，只是義項不同。terms.csv 是一對一對照表，表達不了這種分歧，所以列在這裡。
+這幾個詞台灣也在用，只是義項不同，看義項判斷。下表是最常踩的幾個；其餘的查 terms.csv，`clues`／`avoid_clues`／`note` 三欄記的就是判斷條件。
 
 | 詞 | 台灣保留的義項 | 這個義項要改 |
 |----|----------------|--------------|
@@ -62,6 +62,11 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 | 項目 | item（清單項目） | project → **專案** |
 | 對齊 | 排版、資料結構對齊 | 會議上的「對齊」→ **同步、取得共識** |
 | 數據 | 數值統計 | 泛稱 data → **資料** |
+| 文件 | document | file → **檔案** |
+| 並行 | concurrency | parallelism → **平行**（中國的「並行」指 parallel，照抄會反過來） |
+| 進程 | 進度、進展 | OS process → **行程** |
+| 渲染 | 誇大；國畫暈染技法 | rendering → **算繪** |
+| 遍歷 | 遍歷理論（Ergodic theory） | traverse → **走訪** |
 
 字形不影響判斷：「數據」「組件」「落地」寫成繁體之後還是中國用語。繁簡是字形問題，用詞是地域問題，上方三張表兩種字形都要改。（grep terms.csv 的細節見 guidelines.md）
 
