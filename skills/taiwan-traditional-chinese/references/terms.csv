@@ -1,465 +1,2123 @@
-en,tw,cn
-Abstract,摘要；抽象的,摘要；抽象的
-Abstraction,抽象,抽象
-Access,存取 (win)；取用 (mac),访问
-Accessibility,無障礙；協助工具 (win)；輔助功能 (mac),无障碍；辅助功能 (win/mac)
-"Activate, Activation",啟用，啟動,激活
-Active,使用中的；現行的；有效的；啟用的,使用中的；现用的；有效的；激活的
-"Adapter, Adaptor",介面卡，配接器 (win)；轉接器 (mac),适配卡，适配器
-Add,加入,添加
-Address,位址，地址,位址，地址
-Advanced,進階的,高级的
-Aggregation,聚合,聚合
-AI (Artificial intelligence),人工智慧,人工智能
-Algorithm,演算法,算法
-Allocate,配置,分配
-Allocator,配置器,分配器
-Annotation,註釋 (win)；註解 (mac)；詮釋 (web),注释 (win)；注解 (mac)
-App bundle,應用程式套件組合 (win)；App 套件 (mac),应用程序包 (win)；App 捆绑包 (mac)
-Application,應用；應用程式,应用；应用程序
-Apply,套用,应用
-Architecture,架構；結構,架构；结构
-Argument,引數,参数（也称为实际参数，实参）
-Arity,元數（所需運算元的數量）,参数数量
-Artifact,成品 (win/mac)；產出物 (web),项目 (win)；成品 (mac)
-Array,陣列,数组
-Assembly language,組合語言,汇编语言
-"Assert, Assertion",判斷提示 (win)；宣告 (win/mac)；聲明 (mac),断言 (win)；声明 (win/mac)；论断 (mac)
-"Assign, Assignment",指派；（程式設計）賦值,分配；（编程）赋值
-Assignment operator,指派運算子,赋值运算符
-Asynchronize,非同步,异步
-Asynchronous,非同步的,异步的
-Atomic,不可分割的,原子的
-Attribute,屬性,属性；特性
-Audio,音訊；音效,音频
-"Authenticate, Authentication",驗證，認證,验证，认证
-"Authorize, Authorization",授權,授权
-Autoboxing,自動裝箱,自动装箱
-Background processes,背景程序，背景處理程序,后台进程
-Bandwidth,頻寬,带宽
-Base class,基底類別,基类
-Batch,批次（處理）,批（处理）
-Binary function,二元函式,二元函数
-Binary operator,二元運算子,二元运算符
-Binary search,二元搜尋法,二分查找
-Binary tree,二元樹,二叉树
-Bind,繫結 (win)；綁定 (mac),绑定
-Bit,位元,位
-Bitrate,位元率,码率
-Block,封鎖；阻擋,屏蔽；阻止
-Block,（程式碼）區塊,（代码）块
-Blocker,封鎖程式 (win)；阻擋器 (mac),阻止程序 (win)；拦截器 (mac)
-Boolean,布林,布尔
-Bounce,退回；彈跳,退回；弹跳
-Breakpoint,中斷點,断点
-Build (verb),建構 (mac)；建置，組建 (win),构建
-Build (noun),構件；版本（號）,构件；版本（号）
-Build-in,內建,内置 (win)；内建 (mac)
-Bundle (noun),組合包 (win)；套件 (mac)；套組,捆绑包
-Bundle (verb),整合,整合
-Bus,匯流排,总线
-Burn,燒錄,刻录
-Byte,位元組,字节
-Cache,快取記憶體，快取,高速缓存，缓存
-Call,呼叫,调用
-Callback,回呼,回调
-Carriage-return,回車字元,回車符
-Certificate,憑證,证书
-Character,字元,字符
-Check,查看,查看
-"Check box, Checkbox",核取方塊 (win)；註記框 (mac),复选框
-Class,類別,类
-Point & Click (noun),點按,点按
-Click; (vs. Tap),點選 (win)；按一下，點/選按 (mac),点击 (win)；点按 (mac)
-Tap; (vs. Click),輕觸 (win)；點一下 (mac),触碰 (win)；轻点 (mac)
-Client-side,用戶端,客户端
-Clipboard,剪貼簿 (win)；剪貼板 (mac),剪贴板
-Clone,複製,克隆
-Cloud computing,雲端運算,云计算
-Cohesion,內聚,内聚
-"Collaborate, Collaboration",（協同）合作,协作
-Combo box,組合方塊；下拉式方塊 (win),组合框
-Come with,隨附,随附
-Command,指令,命令
-Command line,命令列,命令行
-Comment,留言,评论
-Comment (code),註解，註釋,注释 (win)；注解，批注 (mac)
-Commit,提交,提交
-Communication,通訊,通信
-Community,社群,社区
-Compatibility,相容性,兼容性
-Compatible,相容的,兼容的
-"Compile, Compilation",編譯,编译
-"Compile time, Compile-time",編譯期,编译期，编译时
-Compiler,編譯器,编译器
-Component,組件；元件,组件
-Composition,組合,组合
-Compress,壓縮,压缩
-Concurrency,並行性，並行,并发性，并发
-Concurrent,並行的；同時的,并发的；同时的
-Configuration,設定；組態,配置；设置
-"Connect, Connection",連接；（網路、資料庫）連線,连接
-Constant,常數,常量
-Constraint,約束；限制,约束；限制
-Constructor,建構子，建構式，建構函式,构造函数
-Container,容器,容器
-Context,背景（關係）；環境；上下文；内容,背景（关系）；环境；上下文；内容
-Continuous delivery,持續交付,持续交付
-Continuous deployment,持續部署,持续部署
-Continuous integration,持續整合,持续集成
-Control,控制元件，控制項,控件
-Copy,複製 (win)；拷貝 (mac),复制 (win)；拷贝 (mac)
-Coroutine,協程，協同程式,协程，协同程序
-Coupling,耦合,耦合
-Crash,當機 (win/mac)；毀損 (win),崩溃 (win/mac)；故障 (win)
-Create,建立,创建
-Cursor,游標,光标
-Custom,自訂,自定义
-Data,資料,数据
-Data link layer,資料連結層,数据链路层
-Data structure,資料結構,数据结构
-Database,資料庫,数据库
-Database schema,資料庫綱要 (mac)；資料庫結構描述 (win),数据库架构，数据库模式
-Deadlock,死結；鎖死,死锁
-Debug,除錯 (win/mac)；偵錯 (win),调试
-Debugger,除錯器,调试器
-"Declare, Declaration",宣告，聲明,声明
-Default,預設,默认
-Definition,定義；解析度,定义；清晰度
-"Delegate, Delegation",委派,委托
-Dependency,相依性；依賴關係,依赖
-Derived class,衍生類別,派生类
-Design pattern,設計模式,设计模式
-Destructor,解構式，解構函式,析构函数
-"Detect, Detection",偵測,检测
-Device,裝置,设备
-Dialog,對話方塊 (win)；對話框 (mac),对话框
-Digital,數位的；數位化,数字的；数字化
-Digital signature,數位簽章,数字签名
-Digital certificate,數位憑證,数字证书
-Directory,目錄,目录
-Disk,碟,盘
-Disk image,磁碟映像檔,磁盘映像
-Dispatch,分派,分派；调度
-Distributed,分散式,分布式
-"Distribute, Distribution",分發；分配；分散,分发；分配；分布
-Distribution,發布/發行（版本）；發行套件,发行（版本）
-Document,文件,文档；文稿
-Domain,網域,域
-Driver,驅動程式,驱动程序
-"Drop-down, Dropdown (noun)",下拉式選單,下拉菜单
-"Drop-down, Dropdown (verb)",下拉,下拉
-Drop-down menu,下拉式功能表 (win)；下拉式選單 (mac),下拉菜单 (win/mac)
-Drop-down list,下拉式清單,下拉列表
-Dynamic binding,動態繫結，動態連結，動態綁定,动态绑定
-Element,元素；元件,元素；元件
-"Email, E-mail",電子郵件,电子邮件
-Enable,啟用,启用
-Encapsulation,封裝,封装
-Enter,確認；進入,回車鍵
-Entity,實體,实体
-Enumeration,列舉,枚举
-Equal,相等的,相等的
-Equality,相等性，相等,相等性，相等
-Escape code,跳脫碼，逸出碼，轉義碼,转义码
-Event,事件,事件
-Exception,例外,异常
-Explicit,明確的 (win)；顯式 (mac),显式
-Export,匯出,导出
-Expression,運算式 (win)；表示式 (mac)；表達式,表达式
-Extension,擴充（程式、功能）；擴充功能 (win)；延伸功能 (mac),扩展（程序、功能）
-Extension,副檔名,扩展名
-Feature,特色，特點，特徵,特色，特点
-Feature; (vs. Function),（特殊的）功能,（特殊的）功能
-Feedback,回饋,反馈
-Field,欄位；域,字段，栏位；域
-File,檔案,文件
-File system,檔案系統,文件系統
-Filter,過濾器,过滤器
-Find,尋找,查找
-Firmware,韌體,固件
-Flag,旗標,标记
-Flash memory,快閃記憶體,闪存
-Flush,排清，清除,刷新
-Flush (align),對齊，齊平,对齐，齐平
-Folder,資料夾 (win)；檔案夾 (mac),文件夹
-Font,字型 (win)；字體 (mac),字体
-Form,表單,表单
-Format (noun),格式,格式
-Format (verb),格式化,格式化
-Forward,轉發，轉送，轉寄,转发，转送，转寄
-Fragment,片段,片段
-Frame,影格，畫面；框架,帧；框架
-Frame rate; FPS (frames per second),影格率，畫面更新率,帧率
-Framework,框架,框架
-Frozen,（軟體或影片）畫面定格；凍結，鎖定,冻结，锁定
-"Full screen, Fullscreen",全螢幕,全屏
-Function,函式，函數,函数
-Function; (vs. Feature),（一般的）功能,（一般的）功能
-Functionality,功能,功能
-Game,遊戲,游戏
-Gateway,閘道器,网关
-General,一般的,通用的
-Generate,產生，生成,生成
-Generic,通用的,通用的
-Generics,泛型,泛型
-Global,全域的；總體的，整體的，通用的,全局的
-Group box,群組方塊,分组框，群组框
-Graph,圖,图
-Handle,控制代碼,句柄
-Handler,處理常式，處理程式，處理器,处理程序，处理器
-Hardware,硬體,硬件
-Hash,雜湊,哈希
-Header file,標頭檔,头文件
-Heap,堆積,堆
-Help,使用說明；說明；幫助,帮助
-Hierarchy,階層,层次结构
-High Definition,高解析度，高畫質,高清晰度，高清
-Host file,主機檔案，host 檔案,主机文件
-Home folder,主資料夾 (win)；個人專屬檔案夾 (mac),主文件夹 (win)；个人文件夹 (mac)
-Home page,首頁，主頁,主页
-Icon,圖示 (win); 圖像 (mac),图标
-IDE,整合式開發環境,集成开发环境
-Identifier,識別字,标识符
-Idle,閒置,闲置
-Image,影像；圖像，圖片；映像檔,影像；图像，图片；映像
-Immutable,不可變的；無法更改的,不可变的；不可更改的
-Implement,實作,实现
-Implementation,實作（品）,实现
-Implicit,隱含的 (win)；隱式 (mac),隐式
-Import,匯入,导入
-Indent,縮排,缩进
-Info,資訊,简介
-Information,資訊,信息
-Inheritance,繼承,继承
-Initialization,初始化,初始化
-Inline,行內；內嵌,内联
-Instance,實體；實例,实例
-Integrate,整合,集成
-Integrated,整合式，整合的,集成的
-Integrity,完整性,完整性
-"Interact, Interaction",互動,交互
-Interface,介面,接口
-Internal Storage,內部儲存,内存 (仅手机等便携装置，民间称谓)
-Internationalization (I18N),國際化,国际化
-Internet,網際網路,互联网
-Interpreter,直譯器,解释器
-Invoke,呼叫 (mac); 執行，叫用 (win),调用
-Iterate,疊代；; 反覆（運算）,迭代；; 重复、循环（访问）
-Iteration,疊代,迭代
-Iterator,疊代器,迭代器
-Kernel,核心,内核
-Key,金鑰，密鑰,密钥
-Keybind,快速鍵,快捷键
-Lag,延遲,延迟
-Layout,布局，配置,布局，配置
-Lazy loading,惰性載入；消極式載入；延遲載入；懶載入,延迟加载；懒加载
-"Lexer, Lexical analyzer",詞法分析器,词法分析器
-Lexical analysis,詞法分析,词法分析
-Library,程式庫，函式庫,程序库，函数库
-Link,連結,链接
-Link time,連結期,链接期
-Linked list,連結串列,链表
-Linker,連結器,链接器
-List,清單；列表,列表
-Listener,監聽器,监听器
-Literals,字面值，定數，常值,字面值，字面量
-Literal constant,字面常數，字面常值,字面常量
-Load,載入,加载
-Load time,載入期,加载期
-Loader,載入器,加载器
-Local,區域的，本地的；本機,局部的，本地的；本地（主機）
-Localization (L10N),在地化,本地化
-Local variable,區域變數,局部变量
-Lock,鎖定,锁定
-Log,記錄,日志
-"Log in, Login",登入,登录
-"Log out, Logout",登出,退出；注销
-Loop,迴圈；重複；循環,循环
-"Map, Mapping",對應；映射,映射
-Match,配對；符合；配合；比對；匹配,匹配
-Macro,巨集,宏
-Memory,記憶體,内存
-Menu,選單；功能表,菜单
-Message,訊息,消息；信息
-Metadata,中繼資料 (win); 後設資料 (mac); 詮釋資料,元数据
-Middleware,中介層，中介軟體,中间件，中间软件
-Mobile,行動,移动
-"Moderate, Moderation",審核,审核
-Modifier,修飾子，修飾詞,修饰符
-Module,模組,模块
-Monomorphism,單型,单态
-Motherboard,主機板,主板
-Mouse,滑鼠,鼠标
-Mouse pointer,滑鼠指標,鼠标指针
-Multitasking,多工（處理）,多任务（处理）
-Mutable,可變的,可变的
-Mutex,互斥,互斥
-Native,原生,原生
-"Navigate, Navigation",導覽,导航
-Navigator,導覽器,导航器
-Nested,巢狀的,嵌套的
-Network,網路,网络
-New,新增,新建
-Notarization,公證,公证
-Object,物件,对象
-Object code,目的碼,目标代码
-Object file,目的檔，目的碼檔,目标文件
-Object-oriented,物件導向,面向对象
-Online,線上,在线
-Operand,運算元,操作数，运算元
-Operating system,作業系統,操作系统
-Operator,運算子,操作符，运算符
-"Optimize, Optimization",最佳化,优化
-Option,選項,参数
-Overflow,溢位（上限溢位）,溢出（上溢出）
-Overlay,嵌入介面,叠加面板
-Overload,多載，覆載，重載,重载
-Override,覆寫，重寫,覆盖，重写
-Pack,封裝，壓縮,打包，压缩
-Package (noun),套件，軟體包,（程序、软件）包
-Package (verb),封裝,打包，封装
-Pane,窗格 (win); 面板 (mac),窗格 (win); 面板 (mac)
-Parallelism,平行性，平行,并行性，并行
-Parameter,參數,参数（也称为形式参数，形参）
-Parse,分析；剖析；解析,解析
-Parser,語法剖析器,语法分析器
-Partition,分割；（硬碟）分割區,分割；（硬盘）分区
-Paste,貼上,粘贴
-Patch,更新檔 (win); 修補程式 (mac),补丁 (win); 修补程序 (mac)
-Pattern,模式；樣式,模式；样式
-Performance,效能,性能
-Persistence,持續性,持久性
-Photo,照片,照片
-Physical layer,實體層,物理层
-Picklist,挑選清單 (win)；選取列表 (mac),选择列表
-Placeholder,佔位符號，; 預留位置 (win); 暫存區 (mac),占位符
-Pluggability,可拔插性,可插入性
-Plugin,外掛程式 (win); 外掛模組 (mac),插件 擴展
-Pointer,指標,指针
-Polymorphism,多型,多态
-Port,（連接）埠,端口
-Power bank,行動電源,移动电源，充电宝
-Presentation layer,表現層,表示层
-Preset,預設,预设
-Print,列印,打印
-Printer,列印機，印表機,打印机
-Procedure,程序,过程
-Process,行程；程序,进程
-Profile,設定檔 (win); 描述檔 (mac),配置文件 (win); 描述文件 (mac)
-Profile,評測,评测
-Profile (or Personal profile),個人檔案,个人资料
-Profiler,（效能）分析工具,（性能）分析器
-Program,程式,程序
-Project,專案,项目，工程
-Protocol,協定,协议
-"Provision, Provisioning",佈建,预配
-Proxy (or Proxy server),代理伺服器,代理服务器
-Pseudo code,虛擬碼,伪代码
-Pull-down list,下拉式清單,下拉列表
-Quality,品質,质量
-Queue,佇列,队列
-Quit unexpectedly,(App)閃退,意外退出
-Radian,徑度,弧度
-Radio button,選項按鈕 (win); 圓形按鈕 (mac),单选按钮
-RAM (Random Access Memory),隨機存取記憶體,随机存取存储器
-Read,讀取,读
-Read-only,唯讀,只读
-Recovery,復原，還原,还原 (win)，恢复 (mac)
-Recursion,遞迴,递归
-"Redirect, Redirection",重新導向；轉址,重定向
-Reference,參照，參考,参考
-Register,暫存器；註冊,寄存器；注册
-Regular expression,正規表示式；正規表示法；正規表達式；規則運算式,正则表达式
-Release,（發行、發布）版本,（发行、发布）版本
-Remote,遠端,远程
-Render,算繪；渲染,渲染
-Resolution,解析度,分辨率
-Response,回應,响应
-Response body,回應本文,响应正文
-Response header,回應標頭,响应头
-Restore,還原 (win)，回復 (mac),还原 (win)，恢复 (mac)
-Return,回傳，傳回；恢復,返回；恢复
-"Revoke, Revocation",撤銷,撤销
-Rollback,復原,回滚，回退
-Routine,常式,程序
-Run,執行,运行
-"Runtime, Run-time",執行期；執行環境,运行期，运行时；运行环境
-"Runtime environment (RTE), Runtime system",執行環境；執行系統,运行环境；运行系统
-Save,儲存,保存
-Sampling,取樣,取样
-Scalar,純量,标量
-Schedule,排程,调度
-Scheduler,排程器，排程程式,调度器，调度程序
-Scope,（作用、有效）範圍，域,（作用、有效）范围，域
-Scroll bar,捲軸,滚动条
-Script,指令碼 (win); 工序指令 (mac),脚本
-SDK (Software Development Kit),軟體開發工具包 (win); 軟體開發套件 (mac),软件开发工具包 (win); 软件开发套件 (mac)
-Search engine,搜尋引擎,搜索引擎
-Security,安全性,安全性
-Segment,區段,段
-Semaphore,號誌,信号量
-Server,伺服器,服务器
-Server-side,伺服器端,服务器端，服务端
-Session,工作階段，作業階段,会话
-Session,（電腦網路）對談/話，會談/話；連線階段,会话
-Session layer,會議層,会话层
-Set up,設定,设置
-Settings,設定,设置
-Shortcut,捷徑,快捷
-Shortcut key,快速鍵,快捷键
-"Sign in, sign-in",登入,登录
-"Sign out, sign-out",登出,退出，注销
-Silicon,矽,硅
-Simulation,模擬,模拟
-Signature,簽章；簽名,签名
-Slider,滑桿,滑块
-Smart,智慧,智能
-Smartphone,智慧型手機,智能手机
-SMS (Short Message Service),簡訊,短信
-Snip,擷圖,截图
-Source code,原始碼,源代码，源码
-Stack,堆疊,栈
-Star rating,星級評等 (win); 星號評等 (mac),星级评分
-Statement,敘述，陳述（句）,语句
-Status bar,狀態列,状态栏
-Stepper,步進器,步进器
-Stream,串流；資料流,（数据）流
-String,字串,字符串
-String interpolation,字串插值,字符串插值
-Stuttering,（軟體或影片的畫面）斷斷續續,-
-Subclass,子類別,子类
-Subroutine,副程式,子例程
-Superclass,父類別,超类
-Support,支援,支持
-Suspend,暫停（權限）,暂停（权限）
-Synchronize,同步,同步
-Synchronous,同步的,同步的
-Syntactic analysis,語法分析；語法剖析,语法分析
-Tab,索引標籤，分頁，標籤（頁）,标签（页）
-Tag,標記,标签
-Task,工作,任务
-Template,範本,模板
-Text,文字,文本
-Text box,文字框,文本框
-Thread,執行緒,线程
-Top-up,加值，儲值,充值
-Token,標記 (win); 代號 (mac),标记 (win); 令牌 (mac)
-Token (security/currency),權杖；代幣,权杖；代币
-Traverse,走訪,遍历
-Tray (or System tray),系統匣,系统托盘
-Tree,樹,树
-Tuple,元組,元组
-Tutorial,教學,教程
-Type,型別，型態,类型
-Universal,通用的,通用的
-Variable,變數,变量
-Video,影片；視訊,视频
-View,檢視；顯示；視圖,查看；顯示；视图
-Voice,語音,语音
-Volume,磁碟區 (win)；卷宗 (mac),卷 (win)；宗卷 (mac)
-Window,視窗,窗口
-Widget,視窗元件；小工具,窗口部件；小部件
-Wildcard,萬用字元,通配符
-Workspaces,工作區；工作空間,工作区
-Write,寫入,写
+en,tw,cn,type,clues,avoid_clues,note
+Abstract,摘要；抽象的,摘要；抽象的,glossary,,,
+Abstraction,抽象,抽象,glossary,,,
+Access,存取 (win)；取用 (mac),访问,glossary,,,
+Accessibility,無障礙；協助工具 (win)；輔助功能 (mac),无障碍；辅助功能 (win/mac),glossary,,,
+"Activate, Activation",啟用，啟動,激活,glossary,,,
+Active,使用中的；現行的；有效的；啟用的,使用中的；现用的；有效的；激活的,glossary,,,
+"Adapter, Adaptor",介面卡，配接器 (win)；轉接器 (mac),适配卡，适配器,glossary,,,
+Add,加入,添加,glossary,,,
+Address,位址，地址,位址，地址,glossary,,,
+Advanced,進階的,高级的,glossary,,,
+Aggregation,聚合,聚合,glossary,,,
+AI (Artificial intelligence),人工智慧,人工智能,glossary,,,
+Algorithm,演算法,算法,glossary,,,
+Allocator,配置器,分配器,glossary,,,
+Annotation,註釋 (win)；註解 (mac)；詮釋 (web),注释 (win)；注解 (mac),glossary,,,
+App bundle,應用程式套件組合 (win)；App 套件 (mac),应用程序包 (win)；App 捆绑包 (mac),glossary,,,
+Application,應用；應用程式,应用；应用程序,glossary,,,
+Apply,套用,应用,glossary,,,
+Architecture,架構；結構,架构；结构,glossary,,,
+Argument,引數,参数（也称为实际参数，实参）,glossary,,,
+Arity,元數（所需運算元的數量）,参数数量,glossary,,,
+Artifact,成品 (win/mac)；產出物 (web),项目 (win)；成品 (mac),glossary,,,
+Array,陣列,数组,glossary,,,
+Assembly language,組合語言,汇编语言,glossary,,,
+"Assert, Assertion",判斷提示 (win)；宣告 (win/mac)；聲明 (mac),断言 (win)；声明 (win/mac)；论断 (mac),glossary,,,
+"Assign, Assignment",指派；（程式設計）賦值,分配；（编程）赋值,glossary,,,
+Assignment operator,指派運算子,赋值运算符,glossary,,,
+Asynchronize,非同步,异步,glossary,,,
+Asynchronous,非同步的,异步的,glossary,,,
+Atomic,不可分割的,原子的,glossary,,,
+Attribute,屬性,属性；特性,glossary,,,
+Audio,音訊；音效,音频,glossary,,,
+"Authenticate, Authentication",驗證，認證,验证，认证,glossary,,,
+"Authorize, Authorization",授權,授权,glossary,,,
+Autoboxing,自動裝箱,自动装箱,glossary,,,
+Background processes,背景程序，背景處理程序,后台进程,glossary,,,
+Bandwidth,頻寬,带宽,glossary,,,
+Base class,基底類別,基类,glossary,,,
+Batch,批次（處理）,批（处理）,glossary,,,
+Binary function,二元函式,二元函数,glossary,,,
+Binary operator,二元運算子,二元运算符,glossary,,,
+Binary search,二元搜尋法,二分查找,glossary,,,
+Binary tree,二元樹,二叉树,glossary,,,
+Bind,繫結 (win)；綁定 (mac),绑定,glossary,,,
+Bit,位元,位,glossary,,,
+Bitrate,位元率,码率,glossary,,,
+Block,封鎖；阻擋,屏蔽；阻止,glossary,,,
+Block,（程式碼）區塊,（代码）块,glossary,,,
+Blocker,封鎖程式 (win)；阻擋器 (mac),阻止程序 (win)；拦截器 (mac),glossary,,,
+Boolean,布林,布尔,glossary,,,
+Bounce,退回；彈跳,退回；弹跳,glossary,,,
+Breakpoint,中斷點,断点,glossary,,,
+Build (verb),建構 (mac)；建置，組建 (win),构建,glossary,,,
+Build (noun),構件；版本（號）,构件；版本（号）,glossary,,,
+Build-in,內建,内置 (win)；内建 (mac),glossary,,,
+Bundle (noun),組合包 (win)；套件 (mac)；套組,捆绑包,glossary,,,
+Bundle (verb),整合,整合,glossary,,,
+Bus,匯流排,总线,glossary,,,
+Burn,燒錄,刻录,glossary,,,
+Byte,位元組,字节,glossary,,,
+Cache,快取記憶體，快取,高速缓存，缓存,glossary,,,
+Call,呼叫,调用,glossary,,,
+Callback,回呼,回调,glossary,,,
+Carriage-return,回車字元,回車符,glossary,,,
+Certificate,憑證,证书,glossary,,,
+Character,字元,字符,glossary,,,
+Check,查看,查看,glossary,,,
+"Check box, Checkbox",核取方塊 (win)；註記框 (mac),复选框,glossary,,,
+Class,類別,类,glossary,,,
+Point & Click (noun),點按,点按,glossary,,,
+Click; (vs. Tap),點選 (win)；按一下，點/選按 (mac),点击 (win)；点按 (mac),glossary,,,
+Tap; (vs. Click),輕觸 (win)；點一下 (mac),触碰 (win)；轻点 (mac),glossary,,,
+Client-side,用戶端,客户端,glossary,,,
+Clipboard,剪貼簿 (win)；剪貼板 (mac),剪贴板,glossary,,,
+Cloud computing,雲端運算,云计算,glossary,,,
+Cohesion,內聚,内聚,glossary,,,
+"Collaborate, Collaboration",（協同）合作,协作,glossary,,,
+Combo box,組合方塊；下拉式方塊 (win),组合框,glossary,,,
+Come with,隨附,随附,glossary,,,
+Command,指令,命令,glossary,,,
+Command line,命令列,命令行,glossary,,,
+Comment,留言,评论,glossary,,,
+Comment (code),註解，註釋,注释 (win)；注解，批注 (mac),glossary,,,
+Commit,提交,提交,glossary,,,
+Communication,通訊,通信,glossary,,,
+Community,社群,社区,glossary,,,
+Compatibility,相容性,兼容性,glossary,,,
+Compatible,相容的,兼容的,glossary,,,
+"Compile, Compilation",編譯,编译,glossary,,,
+"Compile time, Compile-time",編譯期,编译期，编译时,glossary,,,
+Compiler,編譯器,编译器,glossary,,,
+Component,組件；元件,组件,glossary,,,
+Composition,組合,组合,glossary,,,
+Compress,壓縮,压缩,glossary,,,
+Concurrency,並行性，並行,并发性，并发,glossary,,,
+Concurrent,並行的；同時的,并发的；同时的,glossary,,,
+Configuration,設定；組態,配置；设置,glossary,,,
+"Connect, Connection",連接；（網路、資料庫）連線,连接,glossary,,,
+Constant,常數,常量,glossary,,,
+Constraint,約束；限制,约束；限制,glossary,,,
+Constructor,建構子，建構式，建構函式,构造函数,glossary,,,
+Container,容器,容器,glossary,,,
+Context,背景（關係）；環境；上下文；内容,背景（关系）；环境；上下文；内容,glossary,,,
+Continuous delivery,持續交付,持续交付,glossary,,,
+Continuous deployment,持續部署,持续部署,glossary,,,
+Continuous integration,持續整合,持续集成,glossary,,,
+Control,控制元件，控制項,控件,glossary,,,
+Copy,複製 (win)；拷貝 (mac),复制 (win)；拷贝 (mac),glossary,,,
+Coroutine,協程，協同程式,协程，协同程序,glossary,,,
+Coupling,耦合,耦合,glossary,,,
+Crash,當機 (win/mac)；毀損 (win),崩溃 (win/mac)；故障 (win),glossary,,,
+Create,建立,创建,glossary,,,
+Cursor,游標,光标,glossary,,,
+Custom,自訂,自定义,glossary,,,
+Data,資料,数据,glossary,,,
+Data link layer,資料連結層,数据链路层,glossary,,,
+Data structure,資料結構,数据结构,glossary,,,
+Database,資料庫,数据库,glossary,,,
+Database schema,資料庫綱要 (mac)；資料庫結構描述 (win),数据库架构，数据库模式,glossary,,,
+Deadlock,死結；鎖死,死锁,glossary,,,
+Debug,除錯 (win/mac)；偵錯 (win),调试,glossary,,,
+Debugger,除錯器,调试器,glossary,,,
+"Declare, Declaration",宣告，聲明,声明,glossary,,,
+Default,預設,默认,glossary,,,
+Definition,定義；解析度,定义；清晰度,glossary,,,
+"Delegate, Delegation",委派,委托,glossary,,,
+Dependency,相依性；依賴關係,依赖,glossary,,,
+Derived class,衍生類別,派生类,glossary,,,
+Design pattern,設計模式,设计模式,glossary,,,
+Destructor,解構式，解構函式,析构函数,glossary,,,
+"Detect, Detection",偵測,检测,glossary,,,
+Device,裝置,设备,glossary,,,
+Dialog,對話方塊 (win)；對話框 (mac),对话框,glossary,,,
+Digital,數位的；數位化,数字的；数字化,glossary,,,
+Digital signature,數位簽章,数字签名,glossary,,,
+Digital certificate,數位憑證,数字证书,glossary,,,
+Directory,目錄,目录,glossary,,,
+Disk,碟,盘,glossary,,,
+Disk image,磁碟映像檔,磁盘映像,glossary,,,
+Dispatch,分派,分派；调度,glossary,,,
+"Distribute, Distribution",分發；分配；分散,分发；分配；分布,glossary,,,
+Distribution,發布/發行（版本）；發行套件,发行（版本）,glossary,,,
+Document,文件,文档；文稿,glossary,,,
+Domain,網域,域,glossary,,,
+Driver,驅動程式,驱动程序,glossary,,,
+"Drop-down, Dropdown (noun)",下拉式選單,下拉菜单,glossary,,,
+"Drop-down, Dropdown (verb)",下拉,下拉,glossary,,,
+Drop-down menu,下拉式功能表 (win)；下拉式選單 (mac),下拉菜单 (win/mac),glossary,,,
+Drop-down list,下拉式清單,下拉列表,glossary,,,
+Dynamic binding,動態繫結，動態連結，動態綁定,动态绑定,glossary,,,
+Element,元素；元件,元素；元件,glossary,,,
+"Email, E-mail",電子郵件,电子邮件,glossary,,,
+Enable,啟用,启用,glossary,,,
+Encapsulation,封裝,封装,glossary,,,
+Enter,確認；進入,回車鍵,glossary,,,
+Entity,實體,实体,glossary,,,
+Enumeration,列舉,枚举,glossary,,,
+Equal,相等的,相等的,glossary,,,
+Equality,相等性，相等,相等性，相等,glossary,,,
+Escape code,跳脫碼，逸出碼，轉義碼,转义码,glossary,,,
+Event,事件,事件,glossary,,,
+Exception,例外,异常,glossary,,,
+Explicit,明確的 (win)；顯式 (mac),显式,glossary,,,
+Export,匯出,导出,glossary,,,
+Expression,運算式 (win)；表示式 (mac)；表達式,表达式,glossary,,,
+Extension,擴充（程式、功能）；擴充功能 (win)；延伸功能 (mac),扩展（程序、功能）,glossary,,,
+Extension,副檔名,扩展名,glossary,,,
+Feature,特色，特點，特徵,特色，特点,glossary,,,
+Feature; (vs. Function),（特殊的）功能,（特殊的）功能,glossary,,,
+Feedback,回饋,反馈,glossary,,,
+Field,欄位；域,字段，栏位；域,glossary,,,
+Filter,過濾器,过滤器,glossary,,,
+Find,尋找,查找,glossary,,,
+Firmware,韌體,固件,glossary,,,
+Flag,旗標,标记,glossary,,,
+Flash memory,快閃記憶體,闪存,glossary,,,
+Flush,排清，清除,刷新,glossary,,,
+Flush (align),對齊，齊平,对齐，齐平,glossary,,,
+Folder,資料夾 (win)；檔案夾 (mac),文件夹,glossary,,,
+Font,字型 (win)；字體 (mac),字体,glossary,,,
+Form,表單,表单,glossary,,,
+Format (noun),格式,格式,glossary,,,
+Format (verb),格式化,格式化,glossary,,,
+Forward,轉發，轉送，轉寄,转发，转送，转寄,glossary,,,
+Fragment,片段,片段,glossary,,,
+Frame,影格，畫面；框架,帧；框架,glossary,,,
+Frame rate; FPS (frames per second),影格率，畫面更新率,帧率,glossary,,,
+Framework,框架,框架,glossary,,,
+Frozen,（軟體或影片）畫面定格；凍結，鎖定,冻结，锁定,glossary,,,
+"Full screen, Fullscreen",全螢幕,全屏,glossary,,,
+Function,函式，函數,函数,glossary,,,
+Function; (vs. Feature),（一般的）功能,（一般的）功能,glossary,,,
+Functionality,功能,功能,glossary,,,
+Game,遊戲,游戏,glossary,,,
+Gateway,閘道器,网关,glossary,,,
+General,一般的,通用的,glossary,,,
+Generate,產生，生成,生成,glossary,,,
+Generic,通用的,通用的,glossary,,,
+Generics,泛型,泛型,glossary,,,
+Global,全域的；總體的，整體的，通用的,全局的,glossary,,,
+Group box,群組方塊,分组框，群组框,glossary,,,
+Graph,圖,图,glossary,,,
+Handle,控制代碼,句柄,glossary,,,
+Handler,處理常式，處理程式，處理器,处理程序，处理器,glossary,,,
+Hardware,硬體,硬件,glossary,,,
+Header file,標頭檔,头文件,glossary,,,
+Help,使用說明；說明；幫助,帮助,glossary,,,
+Hierarchy,階層,层次结构,glossary,,,
+High Definition,高解析度，高畫質,高清晰度，高清,glossary,,,
+Host file,主機檔案，host 檔案,主机文件,glossary,,,
+Home folder,主資料夾 (win)；個人專屬檔案夾 (mac),主文件夹 (win)；个人文件夹 (mac),glossary,,,
+Home page,首頁，主頁,主页,glossary,,,
+Icon,圖示 (win); 圖像 (mac),图标,glossary,,,
+IDE,整合式開發環境,集成开发环境,glossary,,,
+Identifier,識別字,标识符,glossary,,,
+Idle,閒置,闲置,glossary,,,
+Image,影像；圖像，圖片；映像檔,影像；图像，图片；映像,glossary,,,
+Immutable,不可變的；無法更改的,不可变的；不可更改的,glossary,,,
+Implement,實作,实现,glossary,,,
+Implementation,實作（品）,实现,glossary,,,
+Implicit,隱含的 (win)；隱式 (mac),隐式,glossary,,,
+Import,匯入,导入,glossary,,,
+Indent,縮排,缩进,glossary,,,
+Info,資訊,简介,glossary,,,
+Inheritance,繼承,继承,glossary,,,
+Initialization,初始化,初始化,glossary,,,
+Inline,行內；內嵌,内联,glossary,,,
+Instance,實體；實例,实例,glossary,,,
+Integrate,整合,集成,glossary,,,
+Integrated,整合式，整合的,集成的,glossary,,,
+Integrity,完整性,完整性,glossary,,,
+Internal Storage,內部儲存,内存 (仅手机等便携装置，民间称谓),glossary,,,
+Internationalization (I18N),國際化,国际化,glossary,,,
+Internet,網際網路,互联网,glossary,,,
+Interpreter,直譯器,解释器,glossary,,,
+Invoke,呼叫 (mac); 執行，叫用 (win),调用,glossary,,,
+Iterate,疊代；; 反覆（運算）,迭代；; 重复、循环（访问）,glossary,,,
+Iteration,疊代,迭代,glossary,,,
+Iterator,疊代器,迭代器,glossary,,,
+Kernel,核心,内核,glossary,,,
+Key,金鑰，密鑰,密钥,glossary,,,
+Keybind,快速鍵,快捷键,glossary,,,
+Lag,延遲,延迟,glossary,,,
+Layout,布局，配置,布局，配置,glossary,,,
+Lazy loading,惰性載入；消極式載入；延遲載入；懶載入,延迟加载；懒加载,glossary,,,
+"Lexer, Lexical analyzer",詞法分析器,词法分析器,glossary,,,
+Lexical analysis,詞法分析,词法分析,glossary,,,
+Library,程式庫，函式庫,程序库，函数库,glossary,,,
+Link,連結,链接,glossary,,,
+Link time,連結期,链接期,glossary,,,
+Linked list,連結串列,链表,glossary,,,
+Linker,連結器,链接器,glossary,,,
+List,清單；列表,列表,glossary,,,
+Listener,監聽器,监听器,glossary,,,
+Literals,字面值，定數，常值,字面值，字面量,glossary,,,
+Literal constant,字面常數，字面常值,字面常量,glossary,,,
+Load,載入,加载,glossary,,,
+Load time,載入期,加载期,glossary,,,
+Loader,載入器,加载器,glossary,,,
+Local,區域的，本地的；本機,局部的，本地的；本地（主機）,glossary,,,
+Localization (L10N),在地化,本地化,glossary,,,
+Local variable,區域變數,局部变量,glossary,,,
+Lock,鎖定,锁定,glossary,,,
+Log,記錄,日志,glossary,,,
+"Log in, Login",登入,登录,glossary,,,
+"Log out, Logout",登出,退出；注销,glossary,,,
+Loop,迴圈；重複；循環,循环,glossary,,,
+"Map, Mapping",對應；映射,映射,glossary,,,
+Match,配對；符合；配合；比對；匹配,匹配,glossary,,,
+Memory,記憶體,内存,glossary,,,
+Menu,選單；功能表,菜单,glossary,,,
+Message,訊息,消息；信息,glossary,,,
+Metadata,中繼資料 (win); 後設資料 (mac); 詮釋資料,元数据,glossary,,,
+Middleware,中介層，中介軟體,中间件，中间软件,glossary,,,
+Mobile,行動,移动,glossary,,,
+"Moderate, Moderation",審核,审核,glossary,,,
+Modifier,修飾子，修飾詞,修饰符,glossary,,,
+Module,模組,模块,glossary,,,
+Monomorphism,單型,单态,glossary,,,
+Motherboard,主機板,主板,glossary,,,
+Mouse,滑鼠,鼠标,glossary,,,
+Mouse pointer,滑鼠指標,鼠标指针,glossary,,,
+Multitasking,多工（處理）,多任务（处理）,glossary,,,
+Mutable,可變的,可变的,glossary,,,
+Mutex,互斥,互斥,glossary,,,
+Native,原生,原生,glossary,,,
+"Navigate, Navigation",導覽,导航,glossary,,,
+Navigator,導覽器,导航器,glossary,,,
+Nested,巢狀的,嵌套的,glossary,,,
+Network,網路,网络,glossary,,,
+New,新增,新建,glossary,,,
+Notarization,公證,公证,glossary,,,
+Object,物件,对象,glossary,,,
+Object code,目的碼,目标代码,glossary,,,
+Object file,目的檔，目的碼檔,目标文件,glossary,,,
+Object-oriented,物件導向,面向对象,glossary,,,
+Online,線上,在线,glossary,,,
+Operand,運算元,操作数，运算元,glossary,,,
+Operating system,作業系統,操作系统,glossary,,,
+Operator,運算子,操作符，运算符,glossary,,,
+"Optimize, Optimization",最佳化,优化,glossary,,,
+Option,選項,参数,glossary,,,
+Overflow,溢位（上限溢位）,溢出（上溢出）,glossary,,,
+Overlay,嵌入介面,叠加面板,glossary,,,
+Overload,多載，覆載，重載,重载,glossary,,,
+Override,覆寫，重寫,覆盖，重写,glossary,,,
+Pack,封裝，壓縮,打包，压缩,glossary,,,
+Package (noun),套件，軟體包,（程序、软件）包,glossary,,,
+Package (verb),封裝,打包，封装,glossary,,,
+Pane,窗格 (win); 面板 (mac),窗格 (win); 面板 (mac),glossary,,,
+Parallelism,平行性，平行,并行性，并行,glossary,,,
+Parameter,參數,参数（也称为形式参数，形参）,glossary,,,
+Parse,分析；剖析；解析,解析,glossary,,,
+Parser,語法剖析器,语法分析器,glossary,,,
+Partition,分割；（硬碟）分割區,分割；（硬盘）分区,glossary,,,
+Paste,貼上,粘贴,glossary,,,
+Patch,更新檔 (win); 修補程式 (mac),补丁 (win); 修补程序 (mac),glossary,,,
+Pattern,模式；樣式,模式；样式,glossary,,,
+Performance,效能,性能,glossary,,,
+Persistence,持續性,持久性,glossary,,,
+Photo,照片,照片,glossary,,,
+Physical layer,實體層,物理层,glossary,,,
+Picklist,挑選清單 (win)；選取列表 (mac),选择列表,glossary,,,
+Placeholder,佔位符號，; 預留位置 (win); 暫存區 (mac),占位符,glossary,,,
+Pluggability,可拔插性,可插入性,glossary,,,
+Plugin,外掛程式 (win); 外掛模組 (mac),插件 擴展,glossary,,,
+Pointer,指標,指针,glossary,,,
+Polymorphism,多型,多态,glossary,,,
+Port,（連接）埠,端口,glossary,,,
+Power bank,行動電源,移动电源，充电宝,glossary,,,
+Presentation layer,表現層,表示层,glossary,,,
+Preset,預設,预设,glossary,,,
+Printer,列印機，印表機,打印机,glossary,,,
+Procedure,程序,过程,glossary,,,
+Process,行程；程序,进程,glossary,,,
+Profile,設定檔 (win); 描述檔 (mac),配置文件 (win); 描述文件 (mac),glossary,,,
+Profile,評測,评测,glossary,,,
+Profile (or Personal profile),個人檔案,个人资料,glossary,,,
+Profiler,（效能）分析工具,（性能）分析器,glossary,,,
+Project,專案,项目，工程,glossary,,,
+Protocol,協定,协议,glossary,,,
+"Provision, Provisioning",佈建,预配,glossary,,,
+Proxy (or Proxy server),代理伺服器,代理服务器,glossary,,,
+Pseudo code,虛擬碼,伪代码,glossary,,,
+Pull-down list,下拉式清單,下拉列表,glossary,,,
+Quality,品質,质量,glossary,,,
+Queue,佇列,队列,glossary,,,
+Quit unexpectedly,(App)閃退,意外退出,glossary,,,
+Radian,徑度,弧度,glossary,,,
+Radio button,選項按鈕 (win); 圓形按鈕 (mac),单选按钮,glossary,,,
+RAM (Random Access Memory),隨機存取記憶體,随机存取存储器,glossary,,,
+Read,讀取,读,glossary,,,
+Read-only,唯讀,只读,glossary,,,
+Recovery,復原，還原,还原 (win)，恢复 (mac),glossary,,,
+Recursion,遞迴,递归,glossary,,,
+"Redirect, Redirection",重新導向；轉址,重定向,glossary,,,
+Reference,參照，參考,参考,glossary,,,
+Register,暫存器；註冊,寄存器；注册,glossary,,,
+Regular expression,正規表示式；正規表示法；正規表達式；規則運算式,正则表达式,glossary,,,
+Release,（發行、發布）版本,（发行、发布）版本,glossary,,,
+Remote,遠端,远程,glossary,,,
+Render,算繪；渲染,渲染,glossary,,,
+Resolution,解析度,分辨率,glossary,,,
+Response,回應,响应,glossary,,,
+Response body,回應本文,响应正文,glossary,,,
+Response header,回應標頭,响应头,glossary,,,
+Restore,還原 (win)，回復 (mac),还原 (win)，恢复 (mac),glossary,,,
+Return,回傳，傳回；恢復,返回；恢复,glossary,,,
+"Revoke, Revocation",撤銷,撤销,glossary,,,
+Rollback,復原,回滚，回退,glossary,,,
+Routine,常式,程序,glossary,,,
+Run,執行,运行,glossary,,,
+"Runtime, Run-time",執行期；執行環境,运行期，运行时；运行环境,glossary,,,
+"Runtime environment (RTE), Runtime system",執行環境；執行系統,运行环境；运行系统,glossary,,,
+Sampling,取樣,取样,glossary,,,
+Scalar,純量,标量,glossary,,,
+Schedule,排程,调度,glossary,,,
+Scheduler,排程器，排程程式,调度器，调度程序,glossary,,,
+Scope,（作用、有效）範圍，域,（作用、有效）范围，域,glossary,,,
+Scroll bar,捲軸,滚动条,glossary,,,
+Script,指令碼 (win); 工序指令 (mac),脚本,glossary,,,
+SDK (Software Development Kit),軟體開發工具包 (win); 軟體開發套件 (mac),软件开发工具包 (win); 软件开发套件 (mac),glossary,,,
+Search engine,搜尋引擎,搜索引擎,glossary,,,
+Security,安全性,安全性,glossary,,,
+Segment,區段,段,glossary,,,
+Semaphore,號誌,信号量,glossary,,,
+Server,伺服器,服务器,glossary,,,
+Server-side,伺服器端,服务器端，服务端,glossary,,,
+Session,工作階段，作業階段,会话,glossary,,,
+Session,（電腦網路）對談/話，會談/話；連線階段,会话,glossary,,,
+Session layer,會議層,会话层,glossary,,,
+Set up,設定,设置,glossary,,,
+Settings,設定,设置,glossary,,,
+Shortcut,捷徑,快捷,glossary,,,
+Shortcut key,快速鍵,快捷键,glossary,,,
+"Sign in, sign-in",登入,登录,glossary,,,
+"Sign out, sign-out",登出,退出，注销,glossary,,,
+Simulation,模擬,模拟,glossary,,,
+Signature,簽章；簽名,签名,glossary,,,
+Slider,滑桿,滑块,glossary,,,
+Smart,智慧,智能,glossary,,,
+Smartphone,智慧型手機,智能手机,glossary,,,
+SMS (Short Message Service),簡訊,短信,glossary,,,
+Snip,擷圖,截图,glossary,,,
+Source code,原始碼,源代码，源码,glossary,,,
+Stack,堆疊,栈,glossary,,,
+Star rating,星級評等 (win); 星號評等 (mac),星级评分,glossary,,,
+Statement,敘述，陳述（句）,语句,glossary,,,
+Status bar,狀態列,状态栏,glossary,,,
+Stepper,步進器,步进器,glossary,,,
+Stream,串流；資料流,（数据）流,glossary,,,
+String,字串,字符串,glossary,,,
+String interpolation,字串插值,字符串插值,glossary,,,
+Stuttering,（軟體或影片的畫面）斷斷續續,-,glossary,,,
+Subclass,子類別,子类,glossary,,,
+Subroutine,副程式,子例程,glossary,,,
+Superclass,父類別,超类,glossary,,,
+Suspend,暫停（權限）,暂停（权限）,glossary,,,
+Synchronize,同步,同步,glossary,,,
+Synchronous,同步的,同步的,glossary,,,
+Syntactic analysis,語法分析；語法剖析,语法分析,glossary,,,
+Tab,索引標籤，分頁，標籤（頁）,标签（页）,glossary,,,
+Tag,標記,标签,glossary,,,
+Task,工作,任务,glossary,,,
+Template,範本,模板,glossary,,,
+Text,文字,文本,glossary,,,
+Text box,文字框,文本框,glossary,,,
+Thread,執行緒,线程,glossary,,,
+Top-up,加值，儲值,充值,glossary,,,
+Token,標記 (win); 代號 (mac),标记 (win); 令牌 (mac),glossary,,,
+Token (security/currency),權杖；代幣,权杖；代币,glossary,,,
+Traverse,走訪,遍历,glossary,,,
+Tray (or System tray),系統匣,系统托盘,glossary,,,
+Tree,樹,树,glossary,,,
+Tuple,元組,元组,glossary,,,
+Tutorial,教學,教程,glossary,,,
+Type,型別，型態,类型,glossary,,,
+Universal,通用的,通用的,glossary,,,
+Variable,變數,变量,glossary,,,
+Video,影片；視訊,视频,glossary,,,
+View,檢視；顯示；視圖,查看；顯示；视图,glossary,,,
+Voice,語音,语音,glossary,,,
+Volume,磁碟區 (win)；卷宗 (mac),卷 (win)；宗卷 (mac),glossary,,,
+Widget,視窗元件；小工具,窗口部件；小部件,glossary,,,
+Wildcard,萬用字元,通配符,glossary,,,
+Workspaces,工作區；工作空間,工作区,glossary,,,
+Write,寫入,写,glossary,,,
+32-bit architecture,32 位元架構,32 位架構,cross_strait,,,cn 「位」兼作量詞易混淆；tw 用「位元」明確表示 bit
+32-bit,32 位元,32位,cross_strait,架構；處理器；CPU；ARM；作業系統；定址；位址,,cn 「位」兼作量詞易混淆；tw 用「位元」明確表示 bit
+64-bit architecture,64 位元架構,64 位架構,cross_strait,,,cn 「位」兼作量詞易混淆；tw 用「位元」明確表示 bit
+64-bit,64 位元,64位,cross_strait,架構；處理器；CPU；ARM；作業系統；定址；位址,,cn 「位」兼作量詞易混淆；tw 用「位元」明確表示 bit
+ultrasound,超音波,B超,cross_strait,檢查；醫院；胎兒；診斷,,
+CPU core,CPU 核,CPU核心,cross_strait,,,區分 core (核) 和 kernel (核心)；processor core 譯為「核」
+GSM mobile,GSM 行動,GSM移動,cross_strait,,,
+Google Toolbar,Google 工具列,Google工具條,cross_strait,,,
+PN junction,PN 接面,PN結,cross_strait,,,
+SQL injection,SQL 隱碼攻擊,SQL注入,cross_strait,,,
+SQL injection attack,SQL 隱碼攻擊,SQL注入攻擊,cross_strait,,,
+Sun Microsystems,昇陽電腦,Sun微系統,cross_strait,,,
+USB flash drive,隨身碟,U盤,cross_strait,,,
+X Window System,X 視窗系統,X Window 系統,cross_strait,,,tw 慣用「視窗」而非直接使用 Window
+unary operator,一元運算子,一元操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+everything is a file,一切皆為檔案,一切皆文件,cross_strait,,,"Unix 哲學 'everything is a file'；cn「文件」= file, tw「檔案」= file"
+disposable,拋棄式,一次性,cross_strait,,,
+one-click,單鍵,一鍵,cross_strait,,,
+passing fad,三分鐘熱度,一陣風,cross_strait,,,
+nullify all at once,一筆勾銷,一風吹,cross_strait,,,
+DINK couple,頂克族,丁克夫妻,cross_strait,,,
+7-day return policy,七天鑑賞期,七天無理由,cross_strait,退貨；退款；購物；消費,,
+ternary tree,三元樹,三叉樹,cross_strait,程式；軟體；系統；電腦；網路,,
+salmon,鮭魚,三文魚,cross_strait,,,
+triode,三極體,三極管,cross_strait,,,
+netbook,小筆電,上網本,cross_strait,程式；軟體；系統；電腦；網路,,
+underline/underscore,底線,下劃線,cross_strait,文字；格式；字元；CSS；HTML；樣式,,
+dropdown menu,下拉式選單,下拉菜單,cross_strait,,,
+subscript operator,下標運算子,下標操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+underflow,下限溢位,下溢,cross_strait,,,
+download file,下載檔案,下載文件,cross_strait,,,
+parallel port,平行埠,並口,cross_strait,,,
+concurrency,並行,並發,cross_strait,,,並行 = 同時進行，源自《禮記·中庸》:「萬物並育而不相害，道並行而不相悖」。「併發」指「同時發生」(如併發症)，語意不同 (@seealso 並行)
+concurrent execution,並行執行,並發執行,cross_strait,,,tw: 並行=concurrency；「並發」為 cn 用法 (@seealso 並發)
+parallelism,平行,並行,cross_strait,多核；多處理器；GPU；SIMD；MIMD；加速；吞吐量；向量化,,"tw: 並行=concurrency, 平行=parallelism。僅在 parallelism 語境替換"
+parallel execution,平行執行,並行執行,cross_strait,多核；多處理器；GPU；SIMD；MIMD；加速；吞吐量；向量化,並發,tw: 平行=parallelism；僅在 parallelism 語境替換 (@seealso 並行)
+parallel computing,平行運算,並行計算,cross_strait,,,
+union (set theory),聯集,並集,cross_strait,,,
+neutrino,微中子,中微子,cross_strait,粒子；物理；衰變；質量；振盪；費米；弱交互作用；輻射,,
+middleware,中介層；中介軟體,中間件,cross_strait,,,架構層次概念 vs 軟體產品 (如 message broker)
+serial port,串列埠；序列埠,串口,cross_strait,,,
+serial,序列,串行,cross_strait,,,
+serial port,序列埠,串行端口,cross_strait,,,
+master boot record (MBR),主開機記錄,主引導記錄,cross_strait,,,
+main thread,主執行緒,主線程,cross_strait,,,
+homepage,首頁,主頁,cross_strait,網站；瀏覽器；網頁；URL；連結,,限網站語境，社群媒體 profile page 不適用
+Chad,查德,乍得,cross_strait,,,@geo country (國名)
+speechless / absurd,沒救了；無言,也是醉了,cross_strait,,,
+Yemen,葉門,也門,cross_strait,,,@geo country (國名)
+transaction,交易,事務,cross_strait,資料庫；SQL；commit；回滾；ACID；交易,,一般用法「事務」(affairs) 為正確 tw 用法
+binary operator,二元運算子,二元操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+binary search,二分搜尋法,二分查找,cross_strait,,,
+binary tree,二元樹,二叉樹,cross_strait,,,
+pre-owned house,中古屋,二手房,cross_strait,,,
+diode,二極體,二極管,cross_strait,,,
+loafer / hoodlum,流氓,二流子,cross_strait,,,
+QR code,二維條碼,二維碼,cross_strait,,,
+binary,二進位；二進位制,二進制,cross_strait,,,
+Internet,網際網路,互聯網,cross_strait,,,
+grade-separated interchange,交流道,互通式立交,cross_strait,,,
+subpixel,子像素,亞像素,cross_strait,,,
+interact,互動,交互,cross_strait,介面；接口；UI；使用者；用戶；設計；網頁；操作,,限 HCI/UI 語境。「交互連接」(interconnect) 和「交互作用」(interaction/effect) 為正確用法
+interactive,互動式,交互式,cross_strait,,,
+switch,交換器,交換機,cross_strait,網路；路由；封包；VLAN,,
+shelter-style station,候車亭,亭式車站,cross_strait,,,
+flip-flops,夾腳拖,人字拖,cross_strait,,,
+artificial neural (network),類神經,人工神經,cross_strait,,,
+face recognition,臉部辨識,人臉識別,cross_strait,,,
+pedestrian crossing,斑馬線,人行橫道,cross_strait,,,
+Fairchild Semiconductor,快捷半導體,仙童半導體,cross_strait,,,
+code,程式碼,代碼,cross_strait,編譯；函式；函數；軟體；軟件；開發；程式；編寫；原始碼；除錯,,source code 常被簡寫為 code，因此要翻譯為程式碼。非 IT 語境則該有對應的翻譯
+code generation,程式碼產生,代碼生成,cross_strait,,,
+code page,內碼表,代碼頁,cross_strait,,,
+voucher,折價券,代金券,cross_strait,購物；消費；折扣；優惠,,
+token,權杖；代幣；詞元,令牌,cross_strait,,,區分驗證/授權、加密貨幣、NLP 分詞 (tokenization) 等不同語境
+token ring,,令牌環,cross_strait,,,IEEE 802.5 token ring 不應意譯，tw 直接使用英文 token ring
+Ethernet,乙太,以太,cross_strait,,,
+Ethernet,乙太網,以太網,cross_strait,,,
+memberwise,以成員為單元,以成員為單位,cross_strait,,,
+memberwise copy,以成員為單元複製,以成員為單位的複製,cross_strait,,,
+taskbar,工作列,任務欄,cross_strait,,,
+task manager,工作管理員,任務管理器,cross_strait,,,
+simulation/emulation,模擬,仿真,cross_strait,,,
+enterprise mobility management,企業行動管理,企業移動管理,cross_strait,,,
+Istanbul,伊斯坦堡,伊斯坦布爾,cross_strait,,,@geo city (城市)
+Houston,休士頓,休斯敦,cross_strait,,,@geo city (城市)
+Belize,貝里斯,伯利茲,cross_strait,,,@geo country (國名)
+layout,版面配置,佈局,cross_strait,CSS；UI；介面；排版；設計,,layout
+bitmap,點陣圖；位元映射；位元圖,位圖,cross_strait,圖片；像素；畫素；影像；圖形,,限圖形/程式設計語境
+address allocation,位址配置,位址分配,cross_strait,,,compound:「位址」語境自動觸發「分配→配置」(@seealso 記憶體分配)
+address space,定址空間,位址空間,cross_strait,作業系統；行程；執行緒；排程；OS,,限 IT 語境
+bit field,位元欄,位域,cross_strait,,,
+bitwise copy,逐位元複製,位拷貝,cross_strait,,,
+bitwise operation/bit-wise operation,逐位元操作；逐位元運算,位操作,cross_strait,位元；mask；shift；程式碼,,
+bit pattern,位元型樣,位模式,cross_strait,程式；軟體；系統；電腦；網路,,
+low-level,低階,低級,cross_strait,,,
+Cape Verde,維德角,佛得角,cross_strait,,,@geo country (國名)
+Florence,佛羅倫斯,佛羅倫薩,cross_strait,,,@geo city (城市)
+job,工作,作業,cross_strait,Job；job；批次；排程；佇列；queue,,限作業系統 job 語境。「作業系統」「家庭作業」等用法不替換
+concurrency,並行,併發,cross_strait,,併發症,S2T 將「并」轉為「併」，但 concurrency 語境應為「並」行。「併發」(同時發生) 語意為醫學用法如「併發症」(@seealso 並發)
+concurrent execution,並行執行,併發執行,cross_strait,,,"S2T 後形式。tw: 並行=concurrency (@seealso 並發執行, 併發)"
+user process,使用者行程,使用者程序,cross_strait,,,user process；「程序」此處指 process (@seealso 程序管理)
+routine,常式,例程,cross_strait,,,
+dependency,相依性,依賴,cross_strait,套件；模組；npm；pip；安裝；版本,,dependency
+dependency,相依套件,依賴項,cross_strait,安裝；套件；版本；管理,,
+convenience store,便利商店,便利店,cross_strait,,,
+portable,行動式；攜帶型,便攜式,cross_strait,,,
+portable edition,可攜式版本,便攜版,cross_strait,程式；軟體；系統；電腦；網路,,
+warranty,保固,保修,cross_strait,期限；維修；產品；售後,,
+warranty period,保固期,保修期,cross_strait,,,
+save,儲存,保存,cross_strait,檔案；存檔；按鈕；草稿；備份,食物；文化；遺產；期限,tw 日常亦用「保存」(保存食物、保存文化)，僅 IT 存檔語境改「儲存」
+insulated cup,保溫杯,保暖杯,cross_strait,,,
+leave without pay,留職停薪,保職停薪,cross_strait,,,
+nanny/babysitter,保姆,保育員,cross_strait,,,
+orphanage / child care,育幼院,保育院,cross_strait,,,
+expiration date,保存期限,保質期,cross_strait,,,
+signal-to-noise ratio (SNR),訊雜比,信噪比,cross_strait,,,
+information,資訊,信息,cross_strait,軟體；軟件；資料庫；網路；資安,,tw 「信息」通常指 message (訊息) 或生物學名詞，限 IT 語境
+information security,資訊安全,信息安全,cross_strait,,,
+information technology (IT),資訊科技,信息技術,cross_strait,,,
+pheromone,費洛蒙,信息素,cross_strait,,,tw 生物學用語以外來語「費洛蒙」為主流
+information theory,資訊理論,信息論,cross_strait,,,
+signal,訊號,信號,cross_strait,,,
+channel,通道,信道,cross_strait,,,
+modifier,修飾子；修飾詞；飾詞,修飾符,cross_strait,class；public；程式碼；宣告；類別,,
+push-up,伏地挺身,俯臥撑,cross_strait,,,
+repository,儲存庫,倉庫,cross_strait,git；Git；GitHub；clone；commit；push；pull；版本；分支；branch,,Git repository；一般語境「倉庫」(warehouse) 為正確 tw 用法
+personal area network,個人區域網路,個人網,cross_strait,程式；軟體；系統；電腦；網路,,
+personalize,個人化,個性化,cross_strait,,,
+processor core (quantified),個處理器核,個核心,cross_strait,,,"量詞＋核心 在 CPU 語境指 processor core，非 kernel (@seealso CPU核心, 多核心)。exceptions 排除「核心」作形容詞(essential)的用法"
+inverted index,反向索引,倒排索引,cross_strait,,,
+inverted record,反向紀錄,倒排記錄,cross_strait,,,
+countdown,倒數計時,倒讀秒,cross_strait,,,
+candidate function,候選函式,候選函數,cross_strait,,,
+debit card,簽帳金融卡,借記卡,cross_strait,,,
+prosthesis,義肢,假肢,cross_strait,截肢；復健；裝置；肢體,,
+robust,強固；穩健,健壯,cross_strait,,,
+robustness,強固性；穩健性,健壯性,cross_strait,,,
+leggings / fitness pants,韻律褲,健美褲,cross_strait,,,
+pseudocode,虛擬碼,偽代碼,cross_strait,,,
+pseudo-relevance feedback,準相關回饋,偽相關回饋,cross_strait,,,
+pseudo code,虛擬碼,偽碼,cross_strait,,,
+Fourier,傅立葉,傅里葉,cross_strait,,,@person science (數學/物理)
+backup file,備份檔案,備份文件,cross_strait,,,
+sensing,感測,傳感,cross_strait,,,
+sensor,感測器,傳感器,cross_strait,,,
+traditional flavor,古早味,傳統風味,cross_strait,,,
+pixel,畫素,像素,cross_strait,,,
+false / pseudo (char variant),偽,僞,variant,,,MoE 標準字體 (假、不真實的意思)
+pricing strategy,定價策略,價格策略,cross_strait,,,
+dashboard,儀表板,儀表盤,cross_strait,,,
+priority,優先順序,優先級,cross_strait,,,
+priority inversion,優先權反轉,優先級反轉,cross_strait,,,
+priority inheritance,優先權繼承,優先級繼承,cross_strait,,,priority inheritance 中的 priority 譯為「優先權」而非「優先級」(@seealso 優先順序繼承)
+priority inversion,優先權反轉,優先順序反轉,cross_strait,,,priority inversion 中的 priority 譯為「優先權」而非「優先順序」，因反轉的是權利而非順序
+priority inheritance,優先權繼承,優先順序繼承,cross_strait,,,priority inheritance 中的 priority 譯為「優先權」而非「優先順序」，與 inversion 同理 (@seealso 優先順序反轉)
+odds ratio,勝算比,優勢比,cross_strait,統計；病例；風險；研究,,
+optimize,最佳化,優化,cross_strait,,流程；體驗；服務,tw「優化」泛用於商業；IT optimize 改「最佳化」以區分 improve
+Uber,Uber,優步,cross_strait,,,
+USB flash drive,隨身碟,優盤,cross_strait,,,
+UNIQLO,UNIQLO,優衣庫,cross_strait,,,
+debit card,金融卡,儲蓄卡,cross_strait,銀行；提款；帳戶；刷卡,,
+metadata,,元數據,cross_strait,,,源自希臘文 meta- (關於) + data (資料)，原意為「描述資料的資料」。preferred: metadata；可接受: 詮釋資料 / 後設資料；rejected: 元資料
+New Year countdown,跨年倒數,元旦倒計時,cross_strait,,,cn 「倒計時」；tw 用「倒數」
+metaprogramming/meta-programming,超程式設計,元編程,cross_strait,,,
+metadata,,元資料,cross_strait,,,`元資料` 為機械式 Sinification (從 `元數據` 字面替換而來)，無 NAER / MoE 立足點。preferred: metadata；可接受替代: 詮釋資料 / 後設資料
+vowel,母音,元音,cross_strait,,,
+vowel letter,母音字母,元音字母,cross_strait,,,compound:「元音字母」整體替換，避免基礎規則「元音→母音」留下孤立的「字母」(@seealso 元音)
+sibling node,平輩節點,兄弟節點,cross_strait,,,避免父權語彙。sibling 為中性詞，「平輩」明確表達同一層級的血緣關係而不指定性別
+partner school,姊妹校,兄弟院校,cross_strait,,,
+top-up/recharge,加值；儲值,充值,cross_strait,,,
+power bank,行動電源,充電寶,cross_strait,,,
+prior probability,事前機率,先驗機率,cross_strait,,,
+photovoltaic/solar panel,太陽能板,光伏,cross_strait,,,
+lithography machine,曝光機,光刻機,cross_strait,,,
+honor roll,榮譽榜,光榮榜,cross_strait,,,
+cursor,游標,光標,cross_strait,,,
+optical disc,光碟,光盤,cross_strait,,,
+optical drive,光碟機,光驅,cross_strait,,,
+Croatia,克羅埃西亞,克羅地亞,cross_strait,,,@geo country (國名)
+clone,複製,克隆,cross_strait,,,git 或類似命令的語境可保留英文
+hands-free/speakerphone,擴音,免提,cross_strait,,,
+deductible,自負額,免賠額,cross_strait,保險；理賠；保單；醫療,,
+children's activity center,兒童活動中心,兒童文化宮,cross_strait,,,
+inbound marketing,集客式行銷,入站行銷,cross_strait,,,
+mainland,中國大陸；中國,內地,political_coloring,,,區分地理區域與國家/政治實體。「內地」隱含 cn 政治立場
+memory (RAM),記憶體,內存,cross_strait,,,區分 RAM (記憶體) 與 ROM/Flash (儲存空間)
+memory allocation,記憶體配置,內存分配,cross_strait,,,cn: 內存分配 → tw: 記憶體配置 (@seealso 記憶體分配)
+inner class,內部類別,內嵌類,cross_strait,,,
+kernel,核心,內核,cross_strait,Linux；視窗；安卓；作業系統；驅動；系統呼叫；核心模組；OS,,限 IT 語境。天文領域也有「內核」，但指 inner core
+kernel image,核心映像檔,內核映象,cross_strait,,,
+kernel stack,核心堆疊,內核棧,cross_strait,,,
+core dump,記憶體傾印,內核轉儲,cross_strait,,,
+kernel image,核心映像檔,內核鏡像,cross_strait,,,
+endoscope,內視鏡,內窺鏡,cross_strait,檢查；手術；胃；腸,,
+built-in,內建,內置,cross_strait,,,
+Nairobi,奈洛比,內羅畢,cross_strait,,,@geo city (城市)
+inline,行內；內嵌,內聯,cross_strait,,,CSS 語境 vs function 語境
+inline function,行內函數,內聯函數,cross_strait,,,
+inline expansion,行內展開,內聯展開,cross_strait,,,
+intranet,內部網路,內部網,cross_strait,程式；軟體；系統；電腦；網路,,
+global,全域,全局,cross_strait,,,
+global object,全域物件,全局對象,cross_strait,,,
+global,全域的,全局的,cross_strait,變數；變量；函式；函數；作用域；生存空間,,
+global scope resolution operator,全域生存空間運算子,全局範圍解析操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+full-stack,全端,全棧,cross_strait,,,
+broad market rally,長紅,全線飄紅,cross_strait,,,
+full-width,全形,全角,cross_strait,,,
+full-screen smartphone,全螢幕手機,全面屏手機,cross_strait,,,
+octree,八元樹,八叉樹,cross_strait,程式；軟體；系統；電腦；網路,,
+octa-core,八核,八核心,cross_strait,,,"compound:octa-core = 八核 (@seealso CPU核心, 多核心)"
+public bus,公車,公交,cross_strait,,,
+public bus,公車,公交車,cross_strait,,,
+public land mobile network,公用陸上行動網路,公共陸基移動網,cross_strait,,,
+shared library,共享函式庫,共享庫,cross_strait,,,
+compatible,相容,兼容,cross_strait,,,
+bubble sort,泡沫排序；氣泡排序,冒泡排序,cross_strait,,,
+power (mathematics),冪,冪次,cross_strait,,,cn 用「冪次」表示 power，tw 數學標準用「冪」（如「2 的 3 次冪」）或「乘冪」
+popsicle,冰棒,冰棍,cross_strait,,,
+ice cream,冰淇淋,冰激凌,cross_strait,,,
+taxi,計程車,出租車,cross_strait,,,
+outbound marketing,推廣式行銷,出站行銷,cross_strait,,,
+functor,仿函式,函子,cross_strait,C++；編譯；程式；語法；STL；模板；樣板；多載；重載,範疇；範疇論；態射；自然變換；Hom；伴隨函子；遺忘函子,範疇論 (category theory) 的「函子」為正確數學術語，不應更正
+function (math),函數,函式,confusable,sin；cos；tan；log；ln；exp；微積分；導數；積分；極限；收斂；可微；數學；方程式；方程；三角；指數；對數；多項式；線性代數,代碼；程式碼；編譯；軟件；軟體；呼叫；回傳值；回傳；宣告；引數；型別；物件；類別；模組；陣列；指標；介面；實作,限數學語境。「函式」是程式設計用語，數學中應用「函數」(@seealso 函數)
+function,函式,函數,confusable,代碼；程式碼；編譯；軟件；軟體；變量；變數；調用；呼叫；返回值；回傳值,sin；cos；tan；log；ln；exp；微積分；導數；積分；極限；收斂；可微；數學；方程式；方程；三角；指數；對數；多項式；線性代數；函數分析,限程式設計語境 (衍生自數學函數的常式 routine)。數學語境中仍用「函數」。泛指 feature/capability 時應譯「功能」(@seealso 函式)
+function object,函式物件,函數對象,cross_strait,,,
+library,函式庫；程式庫,函數庫,cross_strait,,,
+functional programming,函數式程式設計,函數式編程,cross_strait,,,
+functional language,函數式程式語言,函數式語言,cross_strait,,,
+function template,函式模板；函式範本,函數模板,cross_strait,,,
+function call,函式呼叫,函數調用,cross_strait,代碼；程式碼；編譯；軟件；軟體；程式；API,sin；cos；tan；log；ln；exp；微積分；導數；積分；極限；收斂；可微；數學；方程式；方程；三角；指數；對數；多項式；線性代數；函數分析,"compound:函數＋調用 一次轉換。數學語境中 function 不會 call，而是 evaluate (代入/求值) (@seealso 函數, 調用)"
+function overloaded resolution,函式多載決議,函數重載解決,cross_strait,,,
+blade server,刀鋒伺服器,刀片服務器,cross_strait,,,
+distributed,分散式,分佈式,cross_strait,,,
+distributed computing,分散式計算,分佈式計算,cross_strait,,,
+partition,分割區,分割槽,cross_strait,,,OpenCC 可能將「分区」轉為「分割槽」，tw 正確用語為「分割區」
+divider,分隔線,分割線,cross_strait,UI；介面；排版；分隔,,
+partition,分割區,分區,cross_strait,,,
+split archive compression,分割壓縮,分卷壓縮,cross_strait,,,
+distributed,分散式,分布式,cross_strait,程式；軟體；系統；電腦；網路,,
+fractal,碎形,分形,cross_strait,,,
+cutoff score,最低錄取標準,分數線,cross_strait,,,
+analyzer,剖析器,分析器,cross_strait,程式；軟體；系統；電腦；網路,,
+dispatch,發派,分派,cross_strait,函式；方法；呼叫；多型；事件,,
+packet switching,封包交換,分組交換,cross_strait,,,
+block cipher,區塊加密法,分組密碼,cross_strait,,,
+group box,群組方塊,分組框,cross_strait,,,
+allocate,配置,分配,cross_strait,記憶體；內存；malloc；heap；堆疊；指標；指針；位元組,,限記憶體配置語境。「分配工作」(assign/distribute) 為正確 tw 用法
+splitter,分裂視窗,切分窗口,cross_strait,,,
+Liechtenstein,列支敦斯登,列支敦士登,cross_strait,,,@geo country (國名)
+list,串列,列表,cross_strait,資料結構；數組；陣列；鏈結；鏈表；遍歷；走訪,,限資料結構語境。UI 語境中「列表」通常應譯為「清單」
+train conductor,車掌,列車員,cross_strait,,,
+marshal,編列,列集,cross_strait,,,
+elementary matrix,基本矩陣,初等矩陣,cross_strait,行列式；列運算；行變換；消去；高斯,,
+Liberia,賴比瑞亞,利比裡亞,cross_strait,,,@geo country (國名)
+Liberia,賴比瑞亞,利比里亞,cross_strait,,,@geo country (國名)
+income statement / P&L,損益表,利潤表,cross_strait,財報；會計；營收；損益,,
+scroll on phone,滑手機,刷手機,cross_strait,,,
+refresh,重新整理,刷新,cross_strait,頁面；瀏覽器；網頁；載入；加載；快取；緩存；按鈕,TLB；cache；Cache；flush；快取刷新；指令管線,「刷新紀錄」(break a record) 為正確用法，不應替換。TLB 刷新、cache 刷新為 tw CS 標準用語 (flush)，不應替換
+refresh rate,更新率,刷新率,cross_strait,,,
+burn (disc),燒錄,刻錄,cross_strait,,,
+disc burner,燒錄機,刻錄機,cross_strait,,,
+razor,刮鬍刀,剃鬚刀,cross_strait,,,
+prostate,攝護腺,前列腺,cross_strait,,,
+forward error correction,正向錯誤校正,前向糾錯,cross_strait,,,
+warning / high-energy ahead,注意；小心,前方高能,cross_strait,,,
+cutting-edge/frontier,尖端；前瞻；先進,前沿,cross_strait,,,視語境選用：「尖端」(技術)、「前瞻」(研究)、「先進」(一般)
+prefix,字首,前綴,cross_strait,,,
+forward declaration,前置宣告,前置聲明,cross_strait,,,
+cut,剪下；裁切,剪切,cross_strait,,,UI 操作 cut = 剪下；圖片裁剪 crop = 裁切
+clipboard,剪貼簿,剪貼板,cross_strait,,,
+adhesive bandage,OK 繃,創口貼,cross_strait,,,
+band-aid/adhesive bandage,OK 繃,創可貼,cross_strait,,,
+create,建立,創建,cross_strait,檔案；目錄；物件；帳號；資料庫,公司；國家；政黨；王朝,tw「創建」= found/establish (創建公司)；IT create 改「建立」
+power amplifier,功率擴大機,功放,cross_strait,,,
+feature phone,功能型手機,功能手機,cross_strait,,,
+interest rate hike,升息,加息,cross_strait,利率；央行；貨幣；聯準會,,
+Ghana,迦納,加納,cross_strait,,,@geo country (國名)
+Gabon,加彭,加蓬,cross_strait,,,@geo country (國名)
+load,載入,加載,cross_strait,,,
+mnemonic,輔助記憶碼,助記符,cross_strait,程式；軟體；系統；電腦；網路,,
+dynamic allocation,動態配置,動態分配,cross_strait,,,compound:dynamic allocation，常指動態記憶體配置
+dynamic library,動態函式庫,動態庫,cross_strait,,,
+dynamic binding,動態繫結,動態綁定,cross_strait,,,
+labor insurance,勞工保險,勞動保險,cross_strait,,,
+balance work and rest,適時休息,勞逸結合,cross_strait,,,
+package manager,套件管理員,包管理器,cross_strait,npm；pip；apt；安裝；套件,,
+free shipping,含運,包郵,cross_strait,,,
+private room/booth,包廂,包間,cross_strait,,,
+assembly,組譯,匯編,cross_strait,指令；暫存器；機器碼；CPU；組譯,,
+assembly language,組合語言,匯編語言,cross_strait,,,
+giga,十億,千兆,cross_strait,,,cn「兆」= 10^6 (百萬)，tw「兆」= 10^12，量級定義不同
+kilogram,公斤,千克,cross_strait,,,
+kilometer,公里,千米,cross_strait,,,
+semi-guided tour,半自助式旅遊,半包價式旅遊,cross_strait,,,
+small pickup truck,發財車,半截美,cross_strait,,,
+half-width,半形,半角,cross_strait,,,
+single-parent family,單親家庭,半邊家庭,cross_strait,,,
+protocol,協定,協議,cross_strait,,,
+blogger,部落客,博主,cross_strait,,,
+grab attention,引人注目；吸睛,博取眼球,cross_strait,,,
+doctoral student,博士班,博士研究生,cross_strait,,,
+blog,部落格；網誌,博客,cross_strait,,,
+Botswana,波札那,博茨瓦納,cross_strait,,,@geo country (國名)
+placeholder,預留位置,占位符,cross_strait,程式；軟體；系統；電腦；網路,,
+Carnegie Mellon University,卡內基·美隆大學,卡內基梅隆大學,cross_strait,,,@geo university (大學)
+Qatar,卡達,卡塔爾,cross_strait,,,@geo country (國名)
+Guatemala,瓜地馬拉,危地馬拉,cross_strait,,,@geo country (國名)
+plug and play,隨插即用,即插即用,cross_strait,,,
+just-in-time/in-time,及時,即時,cross_strait,JIT；編譯,,限 JIT 編譯語境; 即時通訊/即時系統中的「即時」不應改為「及時」(@seealso 實時)
+uninstall,解除安裝；移除,卸載,cross_strait,,掛載；mount；umount；檔案系統；分割區,完整移除軟體 (uninstall) vs 移除某個元件/項目 (remove)
+Ecuador,厄瓜多,厄瓜多爾,cross_strait,,,@geo country (國名)
+Eritrea,厄利垂亞,厄立特里亞,cross_strait,,,@geo country (國名)
+centimeter,公分,厘米,cross_strait,,,
+source code,原始程式碼,原代碼,cross_strait,,,
+source code,原始程式碼,原始碼,cross_strait,,,tw 標準用語為「原始程式碼」(source code)
+atomic (concurrency/CPU),不可分割；atomic,原子,cross_strait,並發；並行；互斥；競態；執行緒；thread；atomic；mutex；CAS,物理；化學；中子；質子；粒子,"CS atomic 語境指 indivisible 操作；物理「原子」(atom) 為正確 tw 用法 (@seealso 原子操作, 原子性)"
+atomicity,不可分割的特性；atomics,原子性,cross_strait,,,"CS atomicity；指操作不可被中斷的特性，與物理「原子」無關 (@seealso 原子, 原子操作)"
+atomic operation,不可分割操作；最小操作；atomic operation,原子操作,cross_strait,,,"此處「原子」為 indivisible 語意，非物理學的 atom (@seealso 原子, 原子性)"
+ballpoint pen,原子筆,原珠筆,cross_strait,,,
+soundtrack,原聲帶,原音帶,cross_strait,,,
+parameter,引數,參數,disabled,,,"tw: 參數=parameter (correct tw), 引數=argument. Rule disabled: flagging 參數 is a false positive."
+parameter list,參數列,參數列表,cross_strait,,,
+parameter list,參數列,參數表,cross_strait,,,
+uninstall,解除安裝,反安裝,cross_strait,,,
+ones' complement,一補數,反碼,cross_strait,,,
+denormalization,解除規格化,反規範化,cross_strait,,,
+feedback,回饋,反饋,cross_strait,,,
+uncle node/parent's sibling node,親代的平輩節點,叔伯節點,cross_strait,,,避免父權語彙。parent's sibling 應譯為中性用語
+address-of operator,取址運算子,取地址操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+award-winning product,得獎產品,受獎產品,cross_strait,,,
+classical probability model,古典機率模型,古典概型,cross_strait,,,
+handle,代號；控制代碼；控制代號,句柄,cross_strait,函式；檔案；程式碼；視窗；資源,,作為名詞時使用
+save as,另存新檔,另存為,cross_strait,,,
+read-only,唯讀,只讀,cross_strait,,,
+removable,抽取式,可移動,cross_strait,程式；軟體；系統；電腦；網路,,
+viable function,可行函式,可行函數,cross_strait,,,
+visualization,視覺化,可視化,cross_strait,,,
+Taichung,臺中,台中,variant,,,地名 (@in tw) MoE 標準用字 (地名用「臺」)
+Taipei,臺北,台北,variant,,,地名 (@in tw) MoE 標準用字 (地名用「臺」)
+Tainan,臺南,台南,variant,,,地名 (@in tw) MoE 標準用字 (地名用「臺」)
+National Taiwan University,臺大,台大,variant,,,MoE 標準用字 (地名用「臺」，國立臺灣大學簡稱)
+desktop computer,桌上型電腦,台式機,cross_strait,程式；軟體；系統；電腦；網路,,
+desktop computer,桌上型電腦,台式電腦,cross_strait,,,
+Taitung,臺東,台東,variant,,,地名 (@in tw) MoE 標準用字 (地名用「臺」)
+Taiwan,臺灣,台灣,variant,,,MoE 標準用字 (地名用「臺」)
+billiards,撞球,台球,cross_strait,,,
+contract,合約,合同,cross_strait,簽訂；條款；甲方；乙方；履行,,
+Djibouti,吉布地,吉布提,cross_strait,,,@geo country (國名)
+Kyrgyzstan,吉爾吉斯,吉爾吉斯斯坦,cross_strait,,,@geo country (國名)
+backward compatible,回溯相容,向下兼容,cross_strait,,,
+value / substance,知識含量；潛在價值；內涵,含金量,cross_strait,,,
+eye-catching,引人矚目；目不轉睛,吸引眼球,cross_strait,,,
+flatter / butter up,拍馬屁,吹喇叭,cross_strait,,,
+dial out,撥出,呼出,cross_strait,,,
+call forwarding,來電轉接,呼叫轉移,cross_strait,,,
+imperative programming,命令式程式設計,命令式編程,cross_strait,,,
+curry,咖哩,咖喱,cross_strait,,,
+hash,雜湊,哈希,cross_strait,,,意指將資料打散混雜再映射，採意譯「雜湊」描述其機制，非音譯
+hash table,雜湊表,哈希表,cross_strait,,,
+Kazakhstan,哈薩克,哈薩克斯坦,cross_strait,,,@geo country (國名)
+Costa Rica,哥斯大黎加,哥斯達黎加,cross_strait,,,@geo country (國名)
+Gothic art,哥德式藝術,哥特式藝術,cross_strait,,,
+asthma,氣喘,哮喘,cross_strait,呼吸；過敏；症狀；治療,,
+pump,幫浦,唧筒,cross_strait,水；液體；壓力；抽；管路；流量,,
+business model,商業模式,商業模型,cross_strait,,,
+trade secret,商業機密,商業秘密,cross_strait,,,
+signature dish,招牌菜,商標菜,cross_strait,,,
+open / start (char variant),啟,啓,variant,,,MoE 標準字體 (@example 開啟、啟發)
+launch bar,啟動列,啟動欄,cross_strait,程式；軟體；系統；電腦；網路,,
+boot disk,啟動磁碟,啟動盤,cross_strait,程式；軟體；系統；電腦；網路,,
+boot switching,啟動切換,啟動轉換,cross_strait,,,
+megaphone,擴音器,喇叭筒,cross_strait,,,
+eat (char variant),吃,喫,variant,,,MoE 標準字體 (古體「喫」為文言用法)
+Chomsky,杭士基,喬姆斯基,cross_strait,,,@person science (語言學/CS)
+Steve Jobs,賈伯斯,喬布斯,cross_strait,,,@person tech (科技業)
+cell,儲存格,單元格,cross_strait,程式；軟體；系統；電腦；網路,,
+unary function,一元函式,單參函數,cross_strait,,,
+SLR camera,單眼相機,單反相機,cross_strait,,,
+click,點選；按一下,單擊,cross_strait,,,UI 操作 click
+single-episode drama,單元劇,單本劇,cross_strait,,,
+single-core,單核,單核心,cross_strait,,,"compound:single-core = 單核；processor core 用「核」(@seealso CPU核心, 多核心)"
+microcontroller (MCU),微控制器,單片機,cross_strait,,,
+radio button,選項按鈕；圓鈕,單選按鈕,cross_strait,,,
+radio button,選項按鈕,單選框,cross_strait,表單；UI；選擇；勾選；介面,,
+wizard (UI),精靈,嚮導,cross_strait,安裝；設定；配置；視窗；窗口；步驟；下一步,,非 UI 語境中「嚮導」仍正確 (如旅遊嚮導)
+quadtree,四元樹,四叉樹,cross_strait,程式；軟體；系統；電腦；網路,,
+quad-core,四核,四核心,cross_strait,,,"compound:quad-core = 四核 (@seealso CPU核心, 多核心)"
+recycle bin,資源回收桶,回收站,cross_strait,刪除；檔案；桌面；清空；還原,,
+playback,重播,回放,cross_strait,,,
+regression analysis,迴歸分析,回歸分析,cross_strait,,,
+rollback,回溯；還原,回滾,cross_strait,,,
+callback,回呼,回調,cross_strait,,,有時翻譯為「回呼」
+Enter key/carriage return,Enter,回車,cross_strait,,,
+Enter key/Return key,Enter 鍵；輸入鍵,回車鍵,cross_strait,,,
+Internet,網際網路,因特網,cross_strait,程式；軟體；系統；電腦；網路,,
+solid compression,結實壓縮,固實壓縮,cross_strait,,,
+SSD (solid-state drive),固態硬碟,固態硬盤,cross_strait,,,
+chess,西洋棋,國際象棋,cross_strait,,,
+parentheses,小括弧；小括號,圓括弧,cross_strait,,,
+parentheses,小括弧；小括號,圓括號,cross_strait,,,
+ballpoint pen,原子筆,圓珠筆,cross_strait,,,
+cabbage,高麗菜,圓白菜,cross_strait,,,
+image,影像；圖片,圖像,cross_strait,,,照片/圖檔 = 圖片 (image file)；電腦視覺/處理 = 影像 (visual image)
+pixel,畫素,圖元,cross_strait,,,
+photo gallery,相簿,圖庫,cross_strait,,,
+computer graphics,圖學,圖形學,cross_strait,程式；軟體；系統；電腦；網路,,
+GUI,圖形介面,圖形界面,cross_strait,,,
+graphing calculator,繪圖計算機,圖形計算器,cross_strait,,,
+icon,圖示,圖標,cross_strait,,,
+Tuvalu,吐瓦魯,圖瓦盧,cross_strait,,,@geo country (國名)
+image,影像,圖象,cross_strait,,,
+Earth God,土地公,土地爺,cross_strait,,,
+Turkmenistan,土庫曼,土庫曼斯坦,cross_strait,,,@geo country (國名)
+potato,馬鈴薯,土豆,cross_strait,,,tw 「土豆」指花生 (peanuts)，語意完全不同
+online,線上,在線,cross_strait,,線性；線路；線段,
+Guyana,蓋亞那,圭亞那,cross_strait,,,@geo country (國名)
+address,位址,地址,confusable,記憶體；內存；IP；MAC；網路；網絡；指標；指針；暫存器,,限 IT 語境。家庭/郵寄地址為正確 tw 用法
+address bar,位址列,地址欄,cross_strait,,,
+address space,定址空間,地址空間,cross_strait,作業系統；行程；執行緒；排程；OS,,限 IT 語境
+coordinate system,座標系統；座標系,坐標系,cross_strait,直角；極；笛卡兒；卡氏；向量；平面,,cn「坐標」= tw「座標」；cn「系」= tw「系統」
+Tanzania,坦尚尼亞,坦桑尼亞,cross_strait,,,@geo country (國名)
+trash can / recycle bin,垃圾桶,垃圾箱,cross_strait,,,
+Ethiopia,衣索比亞,埃塞俄比亞,cross_strait,,,@geo country (國名)
+Eiffel Tower,艾菲爾鐵塔,埃菲爾鐵塔,cross_strait,,,@geo landmark (地標)
+metropolitan area network (MAN),都會網路,城域網,cross_strait,,,
+domain name,網域,域名,cross_strait,DNS；網址；註冊；伺服器；網站,,
+port,通訊埠；連接埠,埠口,cross_strait,,,
+training,教育訓練,培訓,cross_strait,,,
+basis vector,基底向量,基向量,cross_strait,,,
+genome,基因體,基因組,cross_strait,,,例：中央研究院基因體研究中心
+baseband,基頻,基帶,cross_strait,,,
+object based,以物件為基礎的,基於對象的,cross_strait,,,
+message based,以訊息為基礎的,基於消息的,cross_strait,,,
+base station,基地台,基站,cross_strait,,,
+Kiribati,吉里巴斯,基裡巴斯,cross_strait,,,@geo country (國名)
+Kiribati,吉里巴斯,基里巴斯,cross_strait,,,@geo country (國名)
+base class,基底類別；基礎類別,基類,cross_strait,繼承；衍生；多型；類別；class；派生,,
+heap,堆積,堆,cross_strait,記憶體；memory；malloc；free；heap；配置；分配；釋放；GC,,
+stack,堆疊,堆棧,cross_strait,,,cn 常用「堆棧」表示 stack; 若無此規則，個別規則 堆→堆積 + 棧→堆疊 會產生錯誤的「堆積堆疊」
+news report,報導,報道,cross_strait,,,
+field-effect transistor (FET),場效電晶體,場效應管,cross_strait,,,
+scenario,情境,場景,confusable,應用；部署；測試；系統；開發；架構；軟件；軟體；程式；行程；核心；記憶體；CPU,,限 IT 語境。電影/戲劇場景為正確 tw 用法
+plastic,塑膠,塑料,cross_strait,,,
+Tajikistan,塔吉克,塔吉克斯坦,cross_strait,,,@geo country (國名)
+Sierra Leone,獅子山,塞拉利昂,cross_strait,,,@geo country (國名)
+Cyprus,塞普勒斯,塞浦路斯,cross_strait,,,@geo country (國名)
+Seychelles,塞席爾,塞舌爾,cross_strait,,,@geo country (國名)
+increment operator,累加運算子,增加操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+augmented reality,擴增實境,增強現實,cross_strait,,,
+cuttlefish / squid,花枝,墨魚,cross_strait,,,
+wallpaper,桌布,墻紙,cross_strait,,,
+wallpaper,桌布,壁紙,cross_strait,,,
+compressed archive,壓縮檔,壓縮包,cross_strait,程式；軟體；系統；電腦；網路,,
+enclosing class,外圍類別,外圍類,cross_strait,,,
+external,外接,外置,cross_strait,,,
+peripheral,硬體周邊,外設,cross_strait,,,
+foreign key,外部索引鍵,外鍵,cross_strait,,,
+multi-agent system,多代理系統,多主體系統,cross_strait,,,
+multitasking/multi-tasking,多工,多任務,cross_strait,,,
+multinational company,跨國公司,多國家公司,cross_strait,,,
+multihomed,多重主機,多宿主,cross_strait,,,multihomed host
+polymorphism,多型,多態,cross_strait,,,
+multicore/multi-core,多核,多核心,cross_strait,,,為了區隔 multi-kernel 這樣的「多核心」，multicore 翻譯為「多核」(@seealso 內核)
+Dominican Republic,多明尼加,多米尼加,cross_strait,,,@geo country (國名)
+multithreading/multi-threading,多執行緒,多線程,cross_strait,,,
+thread safe,多執行緒安全,多線程安全,cross_strait,,,
+mainframe,大型電腦,大型機,cross_strait,程式；軟體；系統；電腦；網路,,
+blunt truth,真心話；實話；真話；人話,大實話,cross_strait,,,
+large file,大檔案,大文件,cross_strait,,,
+show off,大顯身手；大展身手；展現；發揮,大秀一波,cross_strait,,,
+Chinese remainder theorem,中國剩餘定理,大衍求一術,cross_strait,,,秦九韶《數書九章》中的同餘求解法，tw 通稱「中國剩餘定理」
+soybean paste / miso,味噌,大醬,cross_strait,,,
+mainland compatriots,中國民眾,大陸同胞,political_coloring,,,
+large area / large scale,大範圍,大面積,cross_strait,,,
+Mercedes-Benz,賓士,奔馳,cross_strait,,,
+socket,Socket,套接字,cross_strait,,,
+Obama,歐巴馬,奧巴馬,cross_strait,,,@person politics (政治人物)
+cheese,乳酪,奶酪,cross_strait,,,
+"if you need help, please contact",如需協助請聯絡,如需協助請聯繫,cross_strait,,,客服 CTA；避免把日常用法「聯繫」一概改寫
+delegate,委派,委託,cross_strait,程式；事件；回呼；C#；.NET；型別,,tw「委託」= entrust；僅程式設計 delegate 義改「委派」
+extramarital affair,婚外情,婚外戀,cross_strait,,,
+refined / elegant (char variant),嫻,嫺,variant,,,MoE 標準字體 (@example 嫻雅、嫻熟)
+"Gui (river name, char variant)",媯,嬀,variant,,,MoE 標準字體 (姓氏)
+subdomain,子網域,子域名,cross_strait,DNS；網域；網址；伺服器,,
+child process,子代行程,子常式,cross_strait,行程；fork；exec；PID；wait；exit；核心；排程,,"OpenCC 可能將子進程誤植為子常式 (subroutine); tw 正確用語為子代行程 (@seealso 父行程, 父子常式)"
+child process,子行程,子程序,cross_strait,行程；fork；exec；PID；wait；exit；核心；排程；親代；CPU；記憶體；狀態；作業系統,,OpenCC 可能將子進程轉為子程序；OS 語境下指 child process (@seealso 子進程)
+subnet mask,子網路遮罩,子網掩碼,cross_strait,,,
+child process,子行程,子進程,cross_strait,,,"tw: 子行程, cn: 子進程 (@seealso 父行程, 父子常式)"
+child class,子類別,子類,cross_strait,,,
+subtype,子型別,子類型,cross_strait,,,
+font library,字型檔,字庫,cross_strait,,,
+field,欄位,字段,cross_strait,,,
+character set,字元集,字符集,cross_strait,,,
+byte,位元組,字節,cross_strait,,跳動；TikTok；抖音,
+word processor,文書處理器,字處理器,cross_strait,,,
+font size,字級,字號,cross_strait,字型；文字；大小；pt；CSS,,限 GUI/HCI 語境。指號碼與代號時，仍可用，如「公文字號」和「身分證字號」
+literal,字面值；原詞,字面量,cross_strait,常數；字串；編譯；程式碼；型別；代碼,,
+font,字型,字體,confusable,設計；風格；家族；font；family,,區分特定組合 (字型) 與整套設計風格 (字體)
+storage,儲存,存儲,cross_strait,,,
+memory card,記憶卡,存儲卡,cross_strait,,,
+memory/storage,記憶體,存儲器,cross_strait,,,
+stored procedure,預存程序,存儲過程,cross_strait,SQL；資料庫；呼叫；參數,,
+save to disk,存檔,存盤,cross_strait,,,
+Bangladesh,孟加拉,孟加拉國,cross_strait,,,@geo country (國名)
+orphan process,孤兒行程,孤兒程序,cross_strait,,,orphan process；「程序」此處指 process (@seealso 程序管理)
+Chinese remainder theorem,中國剩餘定理,孫子剩餘定理,cross_strait,,,cn「孫子定理」= tw「中國剩餘定理」(CRT)
+astronaut,太空人,宇航員,cross_strait,,,
+daemon,系統守護行程,守護進程,cross_strait,Linux；Unix；背景；服務；系統,,限 Unix 風格之作業系統語境
+security,保全,安保,cross_strait,,,tw: 保全 (security guard/security); cn: 安保
+security audit,資安稽核,安全審計,cross_strait,漏洞；稽核；合規,,
+Android,Android,安卓,cross_strait,,,
+Antigua and Barbuda,安地卡及巴布達,安提瓜和巴布達,cross_strait,,,@geo country (國名)
+installer/package,安裝檔,安裝包,cross_strait,下載；軟體；APP,,
+macro,巨集,宏,cross_strait,macro；define；預處理；展開；巨集；C語言；編譯器；標頭檔；C 語言,,
+monolithic kernel,單體式核心,宏內核,cross_strait,,,
+monolithic kernel,單體式核心,宏核心,cross_strait,,,monolithic kernel 的 cn 用法；tw 用「單體式核心」以區分 kernel (核心)
+qualitative research,質性研究,定性研究,cross_strait,,,
+time deposit,定存,定期存款,cross_strait,,,
+quantitative research,量化研究,定量研究,cross_strait,,,
+client-server,主從架構,客戶/服務器,cross_strait,,,
+customer satisfaction,顧客滿意,客戶滿意,cross_strait,,,
+client,用戶端,客戶端,cross_strait,,,
+register,暫存器,寄存器,cross_strait,CPU；處理器；指令；記憶體；架構；組合語言；組譯；ALU；暫存,,限 CPU/硬體語境。cash register 翻譯為「收銀機」，不適用本規則
+key (cryptographic),金鑰,密鑰,cross_strait,,,
+instance,實體；例項；具現體；具現化實體,實例,cross_strait,物件；對象；類別；class；new；建構；方法；OOP；繼承；多型；介面；實體化；具現化,,依 MoE 辭典，「實例」僅有 example (實際例子) 之意。程式設計中 instance 應譯「實體」或「具現體」，不可借用「實例」
+instantiated,具現化；實體化,實例化,cross_strait,,,
+argument,引數,實參,cross_strait,,,
+solid / genuine,穩紮穩打；實實在在,實打實,cross_strait,,,
+real-time,即時,實時,cross_strait,,,即時 = 在指定或預期的時間範圍內務必達成。just in time = 及時 (略晚但在可容許的範圍內)，二者語意不同
+real mode,真實模式,實模式,cross_strait,,,
+implement,實作,實現,cross_strait,函式；函數；介面；接口；程式碼；代碼；類別；方法；演算法；算法；模組；編譯；核心；驅動；系統呼叫；API；IPC,,implement 語境；非 IT 語境可表示 realize，為正確 tw 用法
+physical core,實體核,實體核心,cross_strait,,,"compound:physical core = 實體核；processor core 用「核」(@seealso CPU核心, 物理核心)"
+audit/review,稽核,審覈,cross_strait,,,
+write protection,防寫,寫保護,cross_strait,,,
+write file,寫入檔案,寫文件,cross_strait,,,compound: cn 文件 = tw 檔案 + cn 寫 = tw 寫入 (非口語語境)
+broadband,寬頻,寬帶,cross_strait,,,tw 用語採取「頻」而非「帶」
+reassurance,定心丸,寬心丸,cross_strait,,,
+ban,封鎖,封禁,cross_strait,,,
+address (verb),定址,尋址,cross_strait,,,
+dialog box,對話方塊；對話窗；對話盒,對話框,cross_strait,,,tw「對話方塊」為 Microsoft 用語；「對話窗」「對話盒」亦常見
+object,物件,對象,cross_strait,類別；屬性；方法；繼承；封裝；多型；實例；程式碼；代碼；介面；函式,批評,
+object model,物件模型,對象模型,cross_strait,,,
+import,匯入,導入,cross_strait,,,
+export,匯出,導出,cross_strait,,,
+advisor/supervisor,指導教授,導師,cross_strait,論文；研究；碩士；博士；指導,,限學術語境。cn「導師」；tw 用「指導教授」(advisor/supervisor)
+fuse,導火線,導火索,cross_strait,,,
+navigate,導覽,導航,cross_strait,網站；網頁；選單；UI；側邊欄,衛星；GPS；汽車；路線,tw「導航」= GPS navigation；網站/UI navigation 改「導覽」
+navigation bar,導覽列,導航欄,cross_strait,網頁；瀏覽器；選單；UI；介面；導覽,,
+portable cassette player,隨身聽,小型單放機,cross_strait,,,
+private stash / slush fund,私房錢,小金庫,cross_strait,,,
+e-scooter,電動自行車,小電驢,cross_strait,,,
+Euler,歐拉,尤拉,cross_strait,公式；恆等式；定理；數學；函數；常數,,@person science (數學/物理)
+ready process,就緒狀態的行程,就緒進程,cross_strait,,,compound:就緒＋進程，tw 慣用「就緒狀態的行程」較通順 (@seealso 進程)
+Nigeria,奈及利亞,尼日利亞,cross_strait,,,@geo country (國名)
+Niger,尼日,尼日爾,cross_strait,,,@geo country (國名)
+exhaust measurement,排氣測量,尾氣測量,cross_strait,,,
+LAN (local area network),區域網路,局域網,cross_strait,,,
+local,區域性,局部,cross_strait,變數；變量；函式；函數；local；區域；全域,局部細節；局部最；局部地區；局部區域,local variable/scope 語境；「局部」(partial/local area) 為標準 tw 用法
+local object,區域物件,局部對象,cross_strait,,,
+partial specialization,偏特化,局部特化,cross_strait,,,
+local,區域的,局部的,cross_strait,變數；變量；函式；函數；作用域；生存空間,,
+local variable,區域變數,局部變量,cross_strait,,,
+resident identity card,國民身分證,居民身分證,cross_strait,,,
+screensaver,螢幕保護程式,屏保,cross_strait,,,
+screen,螢幕,屏幕,cross_strait,,,projection screen (電影院) = 銀幕，與電子顯示裝置用途不同
+snapshot,螢幕截圖；螢幕快照,屏幕截圖,cross_strait,,,
+block,封鎖,屏蔽,cross_strait,,,
+hierarchy,階層結構；階層；階層體系,層次結構,cross_strait,,,
+mountain bike,登山車,山地車,cross_strait,,,
+Gambia,甘比亞,岡比亞,cross_strait,,,@geo country (國名)
+peak (char variant),峰,峯,variant,,,MoE 標準字體 (@example 山峰、高峰)
+nested,巢狀,嵌套,cross_strait,,,
+nested class,巢狀類別,嵌套類,cross_strait,,,
+workgroup,工作群組,工作組,cross_strait,程式；軟體；系統；電腦；網路,,
+toolbar,工具列,工具欄,cross_strait,瀏覽器；選單；按鈕；視窗；介面；UI,,
+project,專案,工程,cross_strait,專案；項目；管理；IDE；開發,,限 project 語境。「軟體工程」(software engineering) 為正確 tw 用法
+super delicious,超好吃,巨好吃,cross_strait,,,
+monolithic kernel,單體式核心,巨集核心,cross_strait,,,OpenCC artifact: 宏→巨集 (macro) 誤轉；monolithic kernel 應為「單體式核心」
+Barcelona,巴塞隆納,巴塞羅那,cross_strait,,,@geo city (城市)
+Barbados,巴貝多,巴巴多斯,cross_strait,,,@geo country (國名)
+Papua New Guinea,巴布亞紐幾內亞,巴布亞新幾內亞,cross_strait,,,@geo country (國名)
+Baroque art,巴洛克藝術,巴羅克藝術,cross_strait,,,
+market segmentation,市場區隔,市場細分,cross_strait,,,
+market research,市場調查,市場調研,cross_strait,,,
+price-to-book ratio / P/B ratio,股價淨值比,市淨率,cross_strait,股票；估值；投資；淨值,,
+price-to-earnings ratio / P/E ratio,本益比,市盈率,cross_strait,股票；估值；投資；財報,,
+Bush,布希,布什,cross_strait,總統；美國；白宮；共和黨；政治,,@person politics (政治人物)
+Burkina Faso,布吉納法索,布基納法索,cross_strait,,,@geo country (國名)
+Boolean,布林,布爾,cross_strait,,,
+Boolean algebra,布林代數,布爾代數,cross_strait,,,
+boolean,布林值,布爾值,cross_strait,,,
+Burundi,蒲隆地,布隆迪,cross_strait,,,@geo country (國名)
+Hillary Clinton,希拉蕊,希拉里,cross_strait,,,@person politics (政治人物)
+Palau,帛琉,帕勞,cross_strait,,,@geo country (國名)
+Parkinson's disease,帕金森氏症,帕金森,cross_strait,疾病；神經；症狀；治療,,
+post,貼文,帖子,cross_strait,,,
+bandwidth,頻寬,帶寬,cross_strait,,,
+steer the narrative,帶風向,帶節奏,cross_strait,,,
+frame synchronization,影格同步化,幀同步,cross_strait,程式；軟體；系統；電腦；網路,,
+frame rate,影格率,幀率,cross_strait,,,
+tablet computer,平板,平板電腦,cross_strait,,,
+one / tiny (char variant),么,幺,variant,,,MoE 標準字體 (「幺」為異體)
+slide,投影片,幻燈片,cross_strait,,,
+what do you mean,什麼意思,幾個意思,cross_strait,,,
+Guinea-Bissau,幾內亞比索,幾內亞比紹,cross_strait,,,@geo country (國名)
+probability,機率,幾率,cross_strait,,,
+bed scene,床戲,床上戲,cross_strait,,,
+base price / reserve price,基價，底價,底板價,cross_strait,,,
+library function,程式庫函式,庫函式,cross_strait,,,OpenCC 可能將庫函數轉為庫函式但未修正語序；tw「程式庫函式」(@seealso 庫函數)
+library function,程式庫函式,庫函數,cross_strait,,,cn 語序「庫函數」= library function；tw 語序「程式庫函式」避免「函式庫函式」的詞彙重複
+school-enterprise linkage,建教合作,廠校掛鉤,cross_strait,,,
+ad slot,廣告區,廣告位,cross_strait,程式；軟體；系統；電腦；網路,,
+commercial film,廣告片,廣告電影,cross_strait,,,
+WAN (wide area network),廣域網路,廣域網,cross_strait,,,
+export,匯出,引出,cross_strait,匯入；export；import；CSV；JSON；PDF；報表,,僅限資料匯出語境；引出用於「帶出、引起」時為正確用法
+bootloader,開機程式,引導程序,cross_strait,,,
+bring manufacturers into stores,專櫃,引廠進店,cross_strait,,,
+Freud,佛洛伊德,弗洛伊德,cross_strait,,,@person science (心理學)
+popup,彈出視窗,彈窗,cross_strait,廣告；視窗；阻擋；瀏覽器；通知,,
+assembly,組譯,彙編,cross_strait,,,
+assembler,組譯器,彙編器,cross_strait,,,
+assembly language,組合語言,彙編語言,cross_strait,,,
+lottery ticket,彩券,彩票,cross_strait,,,
+video wall,電視牆,彩電牆,cross_strait,,,
+video stream,影片串流,影片流,cross_strait,程式；軟體；系統；電腦；網路,,
+audiovisual stream,影音串流,影音流,cross_strait,程式；軟體；系統；電腦；網路,,
+background traffic,背景流量,後台流量,cross_strait,,,
+background process,背景程式；背景行程,後台進程,cross_strait,,,
+suffix,字尾,後綴,cross_strait,,,
+posterior probability,事後機率,後驗機率,cross_strait,,,
+secondary node,從屬節點,從節點,cross_strait,主節點；叢集；複製,,
+thereby reduce,進而減少,從而減少,cross_strait,,,
+second-run film,二輪片,復映片,cross_strait,,,
+loop,迴圈,循環,confusable,for；while；代碼；程式碼；變量；變數；陣列；數組；遍歷；走訪,,限程式設計語境。非程式語境中「循環」仍正確 (如「循環經濟」)
+microtransaction,小額支付；小額付款,微交易,cross_strait,,,
+micro-average,微觀平均,微平均,cross_strait,程式；軟體；系統；電腦；網路,,
+volunteer,志工；義工,志願者,cross_strait,,,
+busy waiting,忙碌等待,忙等待,cross_strait,,,
+shortcut,捷徑,快捷方式,cross_strait,桌面；檔案；建立；捷徑；鍵盤,,
+shortcut key,快速鍵,快捷鍵,cross_strait,,,
+quick sort,快速排序,快排,cross_strait,,,
+rewind,倒帶,快退,cross_strait,,,
+fast forward,快轉,快進,cross_strait,,,
+cost-performance ratio,價效比,性價比,cross_strait,,,
+restore/recover,還原；復原,恢復,cross_strait,系統；備份；預設；設定；出廠；資料,,cn「恢復」；tw 用「還原」或「復原」(restore/recover)
+recovery record,恢復記錄,恢覆記錄,cross_strait,,,
+Sydney,雪梨,悉尼,cross_strait,,,@geo city (城市)
+Sydney Opera House,雪梨歌劇院,悉尼歌劇院,cross_strait,,,@geo landmark (地標)
+emotion detection,情感偵測,情感發現,cross_strait,,,
+scene mode / profile mode,情境模式,情景模式,cross_strait,,,cn 「情景」；tw 用「情境」
+Italy,義大利,意大利,cross_strait,,,@geo country (國名)
+companion animal / pet,寵物,愛侶動物,cross_strait,,,
+mercy killing / euthanasia,安樂死,慈悲殺人,cross_strait,,,
+panic badly,十分慌張,慌得一批,cross_strait,,,
+slow motion,慢動作,慢運動,cross_strait,,,
+application,應用程式,應用程序,cross_strait,,,
+application framework,應用程式框架；應用框架,應用程序框架,cross_strait,,,
+lazy loading,惰性載入；延遲載入,懶加載,cross_strait,,,
+hover,暫留,懸停,cross_strait,,,指將滑鼠指標暫時停留於畫面某處上
+member function,成員函式,成員函數,cross_strait,,,
+member access operator,成員取用運算子,成員存取操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+data member,成員變數；資料成員,成員變量,cross_strait,,,
+capture/extract,擷取,截取,cross_strait,,,
+screenshot,螢幕截圖,截屏,cross_strait,,,
+strategy,策略,戰略,cross_strait,企業；商業；規劃；佈局；長期,,strategy
+Solomon Islands,索羅門群島,所羅門羣島,cross_strait,,,@geo country (國名)
+Solomon Islands,索羅門群島,所羅門群島,cross_strait,,,@geo country (國名)
+manual transmission,手排,手動檔,cross_strait,,,
+escalator,電扶梯,手扶電梯,cross_strait,,,
+flashlight,手電筒,手電,cross_strait,,,
+print,列印,打印,cross_strait,,,紙本輸出 vs 螢幕/主控台顯示
+printer,印表機,打印機,cross_strait,,,
+disrupt / sabotage,攪局,打橫泡,cross_strait,,,
+just passing by / not involved,湊熱鬧；偶然路過,打醬油,cross_strait,,,
+open,開啟,打開,cross_strait,檔案；連結；頁面；視窗；應用,心扉；門窗；窗戶；大門,tw「打開」= open physically (打開門)；UI open 改「開啟」
+batch processing,批次處理,批處理,cross_strait,,,"tw: 批次處理, cn: 批處理"
+batch,批次,批量,cross_strait,,,
+batch processing,批次處理,批量處理,cross_strait,,,compound:「批量處理」整體替換，避免基礎規則「批量→批次」留下孤立的「處理」(@seealso 批量)
+depression,憂鬱症,抑鬱症,cross_strait,,,
+claw machine,夾娃娃機,抓娃娃機,cross_strait,,,
+grab spare time,抽空,抓空字,cross_strait,,,
+projector,投影機,投影儀,cross_strait,,,
+return on investment (ROI),投資報酬率,投資回報率,cross_strait,,,
+dithering,遞色,抖色,cross_strait,,,
+block (social media),封鎖,拉黑,cross_strait,,,
+throw (exception),丟出,拋出,cross_strait,例外；catch；try；throw；錯誤；異常,,
+denial-of-service / DoS,阻斷服務,拒絕服務,cross_strait,攻擊；DDoS；DoS；安全,,
+drag,拖曳,拖拽,cross_strait,,,
+recruitment,招募,招聘,cross_strait,求職；職缺；應徵；人才,,
+copy,複製,拷貝,cross_strait,,,
+persistence,永續性,持久性,cross_strait,,,
+continuous integration (CI),持續整合,持續集成,cross_strait,,,
+pointer,指標,指針,cross_strait,記憶體；內存；位址；指標；malloc；參照,,不同於 index
+pass by value,傳值,按值傳遞,cross_strait,,,
+pass by reference,傳址,按引用傳遞,cross_strait,,,
+excavator,挖土機,挖掘機,cross_strait,,,
+catch (exception),抓取,捕獲,cross_strait,例外；異常；try；catch；throw；錯誤處理；error；拋出；丟出,,依 MoE 辭典，「捕獲」指捉拿人犯或動物。程式設計中 catch (exception) 應譯「抓取」，避免濫用
+convolution,摺積,捲積,cross_strait,,,
+scanner,掃描器,掃描儀,cross_strait,,,
+hang up,結束通話,掛斷,cross_strait,,,
+hang / suspend,凍結；當機；卡死；暫停；擱置,掛起,cross_strait,,,cn「掛起」兼指 hang（程式/系統凍結，譯為凍結/當機/卡死）與 suspend（任務/執行緒暫停，譯為暫停/擱置）；tw 依語境分別選用
+sampling,取樣,採樣,cross_strait,,,
+sampling rate,取樣率,採樣率,cross_strait,,,
+family-visit leave,省親假,探親假,cross_strait,,,
+access multiplexer,接取多工器,接入覆用器,cross_strait,,,
+access point,存取點,接入點,cross_strait,程式；軟體；系統；電腦；網路,,
+interface,介面,接口,cross_strait,API；函數；函式；類別；定義；實現；實作；調用；呼叫；軟件；軟體,,硬體 connector/port = 接頭/連接埠
+down-to-earth,親民,接地氣,cross_strait,,,
+control (UI),控制項；控制元件,控件,cross_strait,,,
+console,主控台,控制台,cross_strait,程式；程序；終端；命令；主控台,,限程式設計/IT 語境
+control panel,控制台,控制面板,cross_strait,視窗；設定；系統；管理,,
+defer,延緩,推遲,cross_strait,求值；初始化；排程；任務；非同步,會議；選舉；比賽,tw「推遲」= postpone (推遲會議)；IT defer 改「延緩」
+plugin,外掛程式,插件,cross_strait,,,
+handshake,交握,握手,cross_strait,,,
+search,搜尋,搜索,cross_strait,關鍵字；查詢；索引；引擎；結果,搜索令；搜索票；法院,tw「搜索」用於法律 (搜索令)；IT search 義改「搜尋」
+search box,搜尋框,搜索框,cross_strait,輸入；查詢；搜尋；UI；介面,,
+motorcycle,機車,摩托車,cross_strait,,,
+background removal,去背,摳圖,cross_strait,,,
+Thatcher,柴契爾,撒切爾,cross_strait,,,@person politics (政治人物)
+undo,復原,撤銷,cross_strait,復原；操作；Ctrl；上一步；編輯,,cn「撤銷」；tw 用「復原」(undo)
+podcast,,播客,cross_strait,,,
+operand,運算元,操作數,cross_strait,,,「元」意指「基本的/元素」(參考《遠流中文活用大辭典》)，即「用來進行運算的基本單元」
+operator,運算子,操作符,cross_strait,,,「子」(非語尾綴詞) 意指「從事某種職業的人」(如學子、舟子)，故「運算子」即「進行運算者」
+operating system,作業系統,操作系統,cross_strait,,,
+lift / raise (char variant),抬,擡,variant,,,MoE 標準字體 (@example 抬頭、抬舉)
+extension,擴充,擴展,cross_strait,,,
+file extension,副檔名,擴展名,cross_strait,,,
+docking station,擴充埠；擴充集線器,擴展塢,cross_strait,,,
+video camera,攝錄影機,攝像機,cross_strait,程式；軟體；系統；電腦；網路,,
+camera,攝影機,攝像頭,cross_strait,,,
+stall,攤位,攤床,cross_strait,,,
+stall,攤位,攤檔,cross_strait,,,
+support,支援,支持,cross_strait,軟體；軟件；瀏覽器；裝置；設備；協定；協議；格式；驅動；硬體；硬件；函式；函數；API,,「支持」偏指「贊成/背書」(endorse)；技術語境中 support = 支援 (如「瀏覽器支援此功能」)。政治/日常語境的「支持」為正確 tw 用法
+relay station,轉播站,收轉臺,cross_strait,,,
+let oneself go,隨心所欲；不受拘束；我行我素,放飛自我,cross_strait,,,
+political asylum,政治庇護,政治避難,cross_strait,,,
+feature film,劇情片,故事片,cross_strait,,,
+first-aid kit,急救箱,救生盒,cross_strait,,,
+hash,雜湊,散列,cross_strait,,,
+hash table,雜湊表,散列表,cross_strait,,,
+demarshal,反編列,散集,cross_strait,,,
+integer (integral),整數型,整型,cross_strait,,,
+digital,數位,數字,cross_strait,技術；轉型；電視；廣播；影像；音訊；媒體,,「數字化/數字技術」(digital) tw 用「數位」；「數字」作為 number/figure 為正確 tw 用法
+digital printing,數位印刷,數字印刷,cross_strait,,,
+digital disc,數位唱片,數字唱片,cross_strait,,,
+digital signature,數位簽章,數字簽名,cross_strait,,,
+digital electronics,數位電子,數字電子,cross_strait,,,
+digital circuit,數位電路,數字電路,cross_strait,,,
+data,資料,數據,cross_strait,,,資料涵蓋文字、聲音、影像等所有形式的紀錄。「數據」僅指純數值資料，不應一律代替 data。「data and number」應譯為「資料與數據」
+data warehouse,資料倉儲,數據倉庫,cross_strait,,,
+packet,封包,數據包,cross_strait,,,
+datagram,資料包,數據報,cross_strait,,,
+database,資料庫,數據庫,cross_strait,,,「數據」僅指數值資料，database 涵蓋所有形式的資料 (@seealso 數據)
+database schema,資料庫結構綱目,數據庫結構綱目,cross_strait,,,
+data member,資料成員；成員變數,數據成員,cross_strait,,,
+data mining,資料探勘,數據挖掘,cross_strait,,,
+stream,資料流；串流,數據流,cross_strait,,,
+data source,資料來源,數據源,cross_strait,,,
+data structure,資料結構,數據結構,cross_strait,,,
+data type,資料型別,數據類型,cross_strait,,,程式設計語境中慣用「型別」
+digital,數位,數碼,cross_strait,,,
+digital camera,數位相機,數碼相機,cross_strait,,,
+array,陣列,數組,cross_strait,,,
+file,檔案,文件,disabled,,,tw 「文件」= document (正確用法)；cn 「文件」= file。裸詞歧義無法消歧，停用以避免誤判。複合詞 (文件夾→資料夾、頭文件→標頭檔) 不受影響 (@seealso 文檔)
+file content,檔案內容,文件內容,cross_strait,檔案；路徑；I/O；磁碟；目錄；open；read；write；讀取；寫入,,限檔案 I/O 語境。「文件內容」(document content) 為標準 tw 用法
+filename,檔名,文件名,cross_strait,,,
+folder,資料夾,文件夾,cross_strait,,,針對 Windows 環境 (@seealso 資源管理器)
+file descriptor,檔案描述子,文件描述符,cross_strait,,,「符」在繁體中文有宗教暗示；「描述子」與「運算子」(operator) 命名邏輯一致
+file operation,檔案操作,文件操作,cross_strait,,,
+file extension,副檔名,文件擴展名,cross_strait,,,
+filesystem/file system,檔案系統,文件系統,cross_strait,磁碟；掛載；分割區；inode；目錄,,
+recreational activities,康樂活動,文娛活動,cross_strait,,,
+word processing,文書處理,文字處理,cross_strait,,,
+text file,文字檔,文本文件,cross_strait,,,
+text box,文字方塊,文本框,cross_strait,表單；輸入；UI；介面；欄位,,
+document,文件,文檔,cross_strait,,,cn 混用 file/document，tw 區分「檔案」(file) 與「文件」(document) (@seealso 文件)
+literature review,文獻探討,文獻綜述,cross_strait,,,
+Brunei,汶萊,文萊,cross_strait,,,@geo country (國名)
+Stanford,史丹福,斯坦福,cross_strait,,,@geo university (大學)
+Stalin,史達林,斯大林,cross_strait,,,
+Eswatini/Swaziland,史瓦濟蘭,斯威士蘭,cross_strait,,,@geo country (國名)
+Slovenia,斯洛維尼亞,斯洛文尼亞,cross_strait,,,@geo country (國名)
+Sri Lanka,斯里蘭卡,斯裡蘭卡,cross_strait,,,@geo country (國名)
+Snowden,史諾登,斯諾登,cross_strait,,,
+new/create,新增；建立,新建,cross_strait,,,UI create/new
+New Zealand,紐西蘭,新西蘭,cross_strait,,,@geo country (國名)
+breakpoint,中斷點,斷點,cross_strait,,,
+instant noodles,泡麵；速食麵,方便麪,cross_strait,,,
+instant noodles,泡麵,方便麵,cross_strait,,,
+bracket (square bracket),中括弧；中括號,方括弧,cross_strait,,,
+bracket (square bracket),中括弧；中括號,方括號,cross_strait,,,
+tourism bureau,觀光局,旅遊局,cross_strait,,,
+tour bus,遊覽車,旅遊車,cross_strait,,,
+agritourism,觀光農業,旅遊農業,cross_strait,,,
+log,記錄檔；紀錄,日誌,confusable,伺服器；服務器；系統；錯誤；除錯；偵錯；調試；輸出,,限 IT 語境。旅行/個人日誌為正確 tw 用法
+good morning,早安,早上好,cross_strait,,,
+volatility,揮發性,易失性,cross_strait,程式；軟體；系統；電腦；網路,,
+pull-tab can,易開罐,易拉罐,cross_strait,,,
+time-division multiple access (TDMA),分時多重進接,時分多址,cross_strait,,,
+time-division multiplexing (TDM),分時多工,時分複用,cross_strait,,,
+clock frequency,時脈頻率,時鐘頻率,cross_strait,,,
+timeslice,時間片段,時間片,cross_strait,,,"tw: 時間片段, cn: 時間片"
+good evening,晚安,晚上好,cross_strait,,,
+Pulitzer Prize,普利茲獎,普利策獎,cross_strait,,,
+thyristor,閘流體,晶閘管,cross_strait,,,
+transistor,電晶體,晶體管,cross_strait,,,
+educational toy / puzzle,益智玩具,智力玩具,cross_strait,,,
+mentally disabled person,智能障礙人士,智殘人,cross_strait,,,
+smartphone,智慧型手機,智能手機,cross_strait,,,
+AI agent,智慧型代理人,智能體,cross_strait,,,
+most derived class,最末層衍生類別,最底層派生類,cross_strait,,,
+most critical / most core,最關鍵；最主要,最核心,confusable,程式；軟體；系統；模組；架構；演算法,,「核心」保留給 kernel (OS/ML)；形容詞用「關鍵」或「主要」避免語意混淆
+end user,終端使用者,最終用戶,cross_strait,,,
+session hijacking,連線劫持,會話劫持,cross_strait,,,
+session identifier,交談識別碼,會話標識,cross_strait,,,
+to be fair / honestly,平心而論；實話實說；就事論事；說真的；老實說,有一說一,cross_strait,,,
+lossy compression,有失真壓縮,有損壓縮,cross_strait,,,
+organic traffic,自然搜尋流量,有機流量,cross_strait,,,
+supervised learning,監督式學習,有監督的學習,cross_strait,,,
+finite automaton,有限自動機,有窮自動機,cross_strait,,,
+waiter / attendant,服務生,服務員,cross_strait,,,
+server,伺服器,服務器,cross_strait,,,
+service framework,服務架構,服務框架,cross_strait,,,
+service process,服務行程,服務程序,cross_strait,,,service process / daemon；「程序」此處指 process (@seealso 程序管理)
+server,伺服端；伺服器,服務端,cross_strait,,,
+trojan,木馬程式,木馬,cross_strait,病毒；惡意；安全；感染,,trojan
+native code,原生碼,本地代碼,cross_strait,編譯；JIT；執行；機器碼；原生；程式碼,,
+undergraduate,大學部,本科,cross_strait,學位；研究所；大學；學士,,
+undergraduate student,大學生,本科生,cross_strait,,,
+ASEAN,東協,東盟,political_coloring,,,cn「東南亞國家聯盟」簡稱，tw「東南亞國家協會」簡稱
+destructor,解構函式；解構式,析構函數,cross_strait,,,
+enumeration,列舉,枚舉,cross_strait,,,
+Jelly Bean,雷根糖,果凍豆,cross_strait,程式；軟體；系統；電腦；網路,,
+find,尋找；搜尋,查找,cross_strait,,,UI find/search
+view/inspect,檢視,查看,cross_strait,,,
+campus network,校園網路,校園網,cross_strait,程式；軟體；系統；電腦；網路,,
+checksum,總和檢查碼,校驗和,cross_strait,,,
+core function / key feature,關鍵功能；主要功能,核心功能,confusable,程式；軟體；系統；模組；架構；演算法,kernel；核心；核心模組；核心空間,避免混用 kernel (核心) 和 core (關鍵)；除非指 kernel feature
+core issue / key issue,關鍵問題,核心問題,confusable,程式；軟體；系統；模組；架構；演算法,,避免混用 kernel (核心) 和 core (關鍵)
+kernel image,核心映像檔,核心映象,cross_strait,,,
+core service,主體服務,核心服務,cross_strait,Core；core；服務層；PID,,避免混用 kernel (核心) 和 core; tw 用「主體服務」表示 core service
+kernel stack,核心堆疊,核心棧,cross_strait,,,OpenCC 可能將內核棧轉為核心棧，仍需轉為核心堆疊
+core concept,主體概念,核心概念,cross_strait,作業系統；OS；kernel；微核心；程序；行程,,避免混用 kernel (核心) 和 core; 當「核心」不指 OS kernel 時用「主體」
+core insight / key insight,關鍵洞察,核心洞察,cross_strait,,,避免濫用「核心」; 當不指 OS kernel 時改用「關鍵」
+core logic,關鍵邏輯；主要邏輯,核心邏輯,confusable,程式；軟體；系統；模組；架構；演算法,,避免混用 kernel (核心) 和 core (關鍵)
+Grenada,格瑞那達,格林納達,cross_strait,,,@geo country (國名)
+Georgia,喬治亞,格魯吉亞,cross_strait,,,@geo country (國名)
+desktop,桌上型,桌面型,cross_strait,,,
+sauna,三溫暖,桑拿浴,cross_strait,,,
+bar chart,長條圖,條形圖,cross_strait,,,
+barcode,條碼,條形碼,cross_strait,,,
+instruction (classifier),道指令,條指令,cross_strait,,,「指令」(instruction) 的量詞是「道」而非「條」
+stack,堆疊,棧,cross_strait,程式；記憶體；指標；push；pop；溢位,,單字「棧」在非 CS 語境意為客棧、貨棧
+stack unwinding,堆疊輾轉開解,棧輾轉開解,cross_strait,,,
+edge / ridge (char variant),稜,棱,variant,,,MoE 標準字體 (@example 稜角、稜線)
+leisure activity,休閒活動,業餘活動,cross_strait,,,
+geek,科技發燒友,極客,cross_strait,,,
+probability,機率,概率,cross_strait,,,數學/統計領域用詞
+build,建構,構建,cross_strait,,,
+constructor,建構函式；建構式,構造函數,cross_strait,,,
+chaos-lover / drama-seeker,唯恐天下不亂；愉悅犯,樂子人,cross_strait,,,
+standard definition (SD),標準畫質,標清,cross_strait,,,
+C standard library,標準 C 語言函式庫,標準 C 庫,cross_strait,,,避免孤立的「C」造成突兀感，完整表述為「C 語言函式庫」
+standard library,標準函式庫；標準程式庫,標準庫,cross_strait,,,cn 用「庫」作 library 後綴；tw 用「函式庫」或「程式庫」
+orthonormal,單範正交,標準正交,cross_strait,矩陣；向量；基底；基；空間；正交化,,
+tab,分頁,標簽頁,cross_strait,程式；軟體；系統；電腦；網路,,
+tab,分頁標籤；分頁,標籤頁,cross_strait,瀏覽器；視窗；開啟；關閉；切換,,cn「標籤頁」；tw 用「分頁標籤」或「分頁」(tab page)
+identifier,識別子,標識符,cross_strait,,,
+scalar,純量,標量,cross_strait,,,亦適用於程式設計、物理
+header file,標頭檔,標頭檔案,cross_strait,,,tw 慣用「標頭檔」而非「標頭檔案」(@seealso 頭文件)
+title bar,標題列,標題欄,cross_strait,程式；軟體；系統；電腦；網路,,
+module,模組,模塊,cross_strait,,,
+pattern recognition,型態辨識,模式識別,cross_strait,,,
+modal dialog,模態對話框,模態框,cross_strait,UI；視窗；對話；介面；彈出,,
+analog,類比,模擬,cross_strait,電路；訊號；類比；器件；ADC；DAC,,「模擬電路/訊號」(analog) tw 用「類比」；「模擬器/模擬執行」(simulate) 為正確 tw 用法
+analog electronics,類比電子,模擬電子,cross_strait,,,
+analog circuit,類比電路,模擬電路,cross_strait,,,
+template argument deduction,模板引數推導,模板參數推導,cross_strait,,,
+naive Bayes,簡單貝氏,樸素貝氏,cross_strait,,,
+orange juice,柳橙汁,橙汁,cross_strait,,,
+airport express,機場捷運,機場快線,cross_strait,,,
+HDD,機械硬碟,機械硬盤,cross_strait,硬碟；SSD；儲存；硬體,,
+set-top box,機上盒,機頂盒,cross_strait,程式；軟體；系統；電腦；網路,,
+memory,記憶體,機體,confusable,RAM；DDR；DRAM；容量；配置；分配,,ASR confusable: 機體 misrecognized for 記憶體 in CS context
+eave (char variant),簷,檐,variant,,,MoE 標準字體 (@example 屋簷)
+grade/tier,等級,檔次,cross_strait,,,
+detect,偵測,檢測,cross_strait,,,「檢測」偏指 inspect/test，語意不同
+check bit,核對位元,檢驗位,cross_strait,程式；軟體；系統；電腦；網路,,
+checksum,校驗碼,檢驗和,cross_strait,,,
+desktop computer,桌機；桌上型電腦,檯式機,cross_strait,,,
+regular expression (regex),正規表示式,正則表達式,cross_strait,,,
+regular language,正規語言,正則語言,cross_strait,,,
+regular expression,正規表示式,正則運算式,cross_strait,,,
+normal distribution,常態分布,正態分布,cross_strait,,,
+pedestrian street,行人徒步區,步行街,cross_strait,,,
+walkie-talkie,對講機,步談機,cross_strait,,,
+normalization,正規化,歸一化,cross_strait,程式；軟體；系統；電腦；網路,,
+merge sort,合併排序,歸併排序,cross_strait,,,
+crash,當機,死機,cross_strait,,,
+deadlock,死結,死鎖,cross_strait,,,
+defective product,瑕疵品,殘次品,cross_strait,,,
+zombie process,殭屍行程,殭屍程序,cross_strait,,,zombie process；「程序」此處指 process (@seealso 程序管理)
+antivirus,防毒,殺毒,cross_strait,,,
+antivirus,防毒軟體,殺毒軟體,cross_strait,,,
+parent node,親代節點,母節點,cross_strait,,,避免父權語彙。parent 的本意為「親代」，不隱含性別
+bit,位元,比特,cross_strait,,,cn 「位」兼作量詞，造成歧義：「三十二位整数」中 bit 乍看成量詞。tw 「位元」明確為計量單位，無歧義。例外: bitcoin 已約定成俗，寫作「比特幣」
+bitrate,位元率,比特率,cross_strait,,,
+frosted glass,磨砂玻璃；霧面玻璃,毛玻璃,cross_strait,,,
+future son-in-law,準女婿,毛腳女婿,cross_strait,,,
+fiancee / bride-to-be,準媳婦,毛腳媳婦,cross_strait,,,
+Mauritania,茅利塔尼亞,毛裡塔尼亞,cross_strait,,,@geo country (國名)
+Mauritius,模里西斯,毛裡求斯,cross_strait,,,@geo country (國名)
+Mauritania,茅利塔尼亞,毛里塔尼亞,cross_strait,,,@geo country (國名)
+Mauritius,模里西斯,毛里求斯,cross_strait,,,@geo country (國名)
+civil affairs bureau,戶政事務所,民政局,cross_strait,,,
+ethnography,民族誌,民族志,cross_strait,,,
+amino acid,胺基酸,氨基酸,cross_strait,,,
+cement,水泥,水門汀,cross_strait,,,
+pollute (char variant),汙,污,variant,,,MoE 標準字體 (@example 汙染、汙水)
+impossible / no way,不可能,沒可能,cross_strait,,,
+nobody can top that,無人能敵；沒人能超越；敗給你；天兵,沒誰了,cross_strait,,,
+Saudi Arabia,沙烏地,沙特,cross_strait,,,@geo country (國名)
+Saudi Arabia,沙烏地阿拉伯,沙特阿拉伯,cross_strait,,,@geo country (國名)
+sandbox,沙盒,沙箱,cross_strait,隔離；安全；環境；測試,,
+hotspot news,焦點新聞,沸點新聞,cross_strait,,,
+leak (char variant),洩,泄,variant,,,MoE 標準字體 (@example 洩漏、洩氣)
+generic algorithm,泛型演算法,泛型算法,cross_strait,,,
+styrofoam/expanded polystyrene,保麗龍,泡沫塑料,cross_strait,,,
+wavelength-division multiplexing (WDM),波長分波多工,波分複用,cross_strait,,,
+Bosnia and Herzegovina,波士尼亞與赫塞哥維納,波斯尼亞黑塞哥維那,cross_strait,,,@geo country (國名)
+mudslide/debris flow,土石流,泥石流,cross_strait,,,
+wax apple,蓮霧,洋蒲桃,cross_strait,,,
+nail polish remover,去光水,洗甲水,cross_strait,,,
+facial cleanser,洗面乳,洗面奶,cross_strait,,,
+shampoo,洗髮精,洗髮水,cross_strait,,,
+Zimbabwe,辛巴威,津巴布韋,cross_strait,,,@geo country (國名)
+Honduras,宏都拉斯,洪都拉斯,cross_strait,,,@geo country (國名)
+prefab site cabin,鐵皮屋,活動板房,cross_strait,,,
+derived class,衍生類別,派生類,cross_strait,,,
+streaming media,串流媒體,流媒體,cross_strait,,,
+stream cipher,串流加密法,流密碼,cross_strait,程式；軟體；系統；電腦；網路,,
+banquet with multiple seatings,辦桌,流水席,cross_strait,,,
+production line/pipeline,生產線；管線,流水線,cross_strait,,,工廠語境 vs CPU/軟體語境
+business process reengineering,流程再造,流程重構,cross_strait,,,
+stream processing,串流處理,流處理,cross_strait,即時；Kafka；資料；管線,,
+Heisenberg,海森堡,海森伯,cross_strait,,,@person science (物理)
+oyster omelet,蚵仔煎,海蠣煎,cross_strait,,,
+elimination,消去法,消元法,cross_strait,高斯；矩陣；線性；方程組；列運算,,
+message,訊息,消息,cross_strait,,,`好消息`/`壞消息`/`消息來源` 為合法 zh-TW 用法
+message loop,訊息迴圈,消息環,cross_strait,,,
+message queue,訊息佇列,消息隊列,cross_strait,MQ；Kafka；非同步；佇列,,
+cold dish/appetizer,冷盤,涼菜,cross_strait,,,
+mixed reality,混合實境,混合現實,cross_strait,,,
+assembled / hybrid car,拼裝車,混血車,cross_strait,,,
+add,新增,添加,cross_strait,欄位；按鈕；項目；記錄；清單,添加物；添加劑；食品,tw「添加」= add substance (添加物)；UI/IT add 改「新增」
+channel,管道；通路,渠道,cross_strait,,,
+dump truck,砂石車,渣土車,cross_strait,,,
+render,算繪,渲染,cross_strait,圖學；圖形；3D；GPU；畫面；幀；frame；shader；貼圖；光線；場景；引擎；OpenGL；Vulkan；DX；管線,,依 MoE 辭典，「渲染」本義為國畫用水墨暈染技法或文字誇大手法，語意與 rendering (計算+繪製) 相反。CG 語境應譯「算繪」，建築裝潢語境譯「粉刷」
+rendering pipeline,算繪管線,渲染管線,cross_strait,,,
+Tonga,東加,湯加,cross_strait,,,@geo country (國名)
+source code,原始程式碼,源代碼,cross_strait,,,
+source file,原始檔,源文件,cross_strait,,,
+source code,原始程式碼,源碼,cross_strait,,,
+overflow,溢位；上限溢位,溢出,cross_strait,,,
+slider,滑桿,滑塊,cross_strait,,,
+scroll box,捲動方塊,滾動框,cross_strait,程式；軟體；系統；電腦；網路,,
+scroll bar,捲軸,滾動條,cross_strait,,,
+scroll bar,捲軸,滾動欄,cross_strait,程式；軟體；系統；電腦；網路,,
+rollback,還原,滾回,cross_strait,,,
+screen-filling/full-screen,佔滿螢幕,滿屏,cross_strait,,,
+demo/demonstrate,示範；展示,演示,cross_strait,,,實際操作示範 (demo) vs 展覽呈現 (showcase)
+presentation,簡報,演示文稿,cross_strait,,,
+Hamlet,哈姆雷特,漢姆雷特,cross_strait,,,
+smear / sling mud,造謠,潑髒水,cross_strait,,,
+"Wei (river name, char variant)",溈,潙,variant,,,MoE 標準字體 (水名)
+"Cong (water name, char variant)",潀,潨,variant,,,MoE 標準字體 (水流匯聚)
+laser,雷射,激光,cross_strait,,,
+activate,啟用；活化,激活,cross_strait,,,軟體/帳號語境用「啟用」，化學/生物語境用「活化」
+activation code,啟動碼；啟用碼,激活碼,cross_strait,,,
+shady / low-grade film,大爛片,灰色影片,cross_strait,,,
+cook / kitchen worker,廚師,炊事員,cross_strait,,,
+fried chicken cutlet,雞排,炸雞排,cross_strait,,,
+Uzbekistan,烏茲別克,烏茲別克斯坦,cross_strait,,,@geo country (國名)
+dustless chalk,無灰粉筆,無塵粉筆,cross_strait,,,
+lossless compression,無失真壓縮,無損壓縮,cross_strait,,,
+unsupervised,非監督式,無監督,cross_strait,程式；軟體；系統；電腦；網路,,
+shameless,不道德；不堪入目,無節操,cross_strait,,,
+cordless phone,無線電話,無繩電話,cross_strait,,,
+infinite loop,無窮迴圈,無限循環,cross_strait,,,
+infinite scroll,無限捲動,無限滾動,cross_strait,UI；載入；頁面；捲動,,
+infinite recursive,無窮遞迴,無限遞歸,cross_strait,,,
+gas stove,瓦斯爐,燃氣灶,cross_strait,,,
+marketing,行銷,營銷,cross_strait,,,
+be / do (char variant),為,爲,variant,,,MoE 標準字體 (古體「爲」為異體)
+parent and child processes,親代和子代行程,父子常式,cross_strait,,,"中性用語 (tw: 親代和子代行程, cn: 父子進程); OpenCC 可能誤植子進程→子常式"
+parent and child processes,親代和子代行程,父子程序,cross_strait,行程；fork；exec；PID；核心；排程；CPU；記憶體；作業系統；COW；管道,,OpenCC s2twp 將父子進程轉為父子程序；此處指 parent and child processes (@seealso 父子常式)
+parent and child processes,親代和子代行程,父子行程,cross_strait,,,"避免父權語彙。parent and child processes 譯為「親代和子代行程」(@seealso 父子程序, 父子常式)"
+parent process,親代行程,父程序,cross_strait,行程；fork；exec；PID；wait；exit；核心；排程；子行程；CPU；記憶體；狀態；作業系統,,OpenCC 可能將父進程轉為父程序；此處「程序」指 process (行程)，非 program (程式) (@seealso 父行程)
+parent node,親代節點,父節點,cross_strait,,,避免父權語彙。parent 的本意為「親代」，不隱含性別。二元樹中 parent node 無成對性別關連
+parent process,親代行程,父行程,cross_strait,,,"中性用語，避免父權主義遺毒 (tw: 親代行程, cn: 父進程)"
+parent process,親代行程,父進程,cross_strait,,,"cn: 父進程, tw: 親代行程 (@seealso 父行程)"
+parent class,親代類別,父類,cross_strait,,,避免父權語彙。parent 的本意為「親代」，不隱含性別
+bed (char variant),床,牀,variant,,,MoE 標準字體 (@example 床鋪、病床)
+version number,版本號碼,版本號,cross_strait,,,
+key point / crux,要害,牛鼻子,cross_strait,,,
+physical address,實體位址,物理位址,cross_strait,,,compound:physical address = 實體位址 (@seealso 物理記憶體)
+physical memory,實體記憶體,物理內存,cross_strait,記憶體；RAM；位址；分頁；虛擬,,限 IT 語境
+physical address,實體位址,物理地址,cross_strait,記憶體；位址；分頁；MMU；虛擬；MAC,,限 IT 語境
+physical layer,實體層,物理層,cross_strait,,,compound:OSI physical layer = 實體層 (@seealso 物理記憶體)
+physical core,實體核,物理核心,cross_strait,,,compound:physical core = 實體核；「核心」保留給 kernel，processor core 用「核」(@seealso CPU核心)
+physical machine,實體機器,物理機,cross_strait,,,compound:physical machine = 實體機器（相對於虛擬機器）(@seealso 物理記憶體)
+physical disk,實體磁碟,物理磁碟,cross_strait,,,compound:physical disk = 實體磁碟 (@seealso 物理記憶體)
+physical device,實體裝置,物理裝置,cross_strait,,,compound:physical device = 實體裝置 (@seealso 物理記憶體)
+physical memory,實體記憶體,物理記憶體,cross_strait,,物理學；物理系；物理課,"僅在學科名稱時用「物理」，否則用「實體」(tw: 實體記憶體, cn: 物理內存)"
+physical page,實體頁面,物理頁,cross_strait,,,compound:physical page = 實體頁面 (@seealso 物理記憶體)
+specialization,特殊化；特殊化定義；特殊化宣告,特化,cross_strait,模板；範本；C++；泛型,,限 C++ 模板語境
+Trinidad and Tobago,千里達及托巴哥,特立尼達和多巴哥,cross_strait,,,@geo country (國名)
+Trinitron,特麗霓虹,特麗瓏,cross_strait,程式；軟體；系統；電腦；網路,,
+status bar,狀態列,狀態欄,cross_strait,,,
+winner / recipient,得主,獲得者,cross_strait,,,
+kiwi fruit,奇異果,獼猴桃,cross_strait,,,
+Republic of Gamers,玩家共和國,玩家國度,cross_strait,,,
+took it too far,玩過頭；過火了,玩脫了,cross_strait,,,
+homeroom teacher,導師,班主任,cross_strait,班級；學生；學校；老師,,
+reality is harsh,現實很殘酷,現實很骨感,cross_strait,,,
+Nauru,諾魯,瑙魯,cross_strait,,,@geo country (國名)
+Vanuatu,萬那杜,瓦努阿圖,cross_strait,,,@geo country (國名)
+scope operator,生存空間運算子,生存空間操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+scope resolution operator,生存空間決議運算子,生存空間解析操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+biomarker,生物標誌,生物標誌物,cross_strait,,,
+organic food,天然食品,生物食品,cross_strait,,,
+user,使用者,用戶,cross_strait,,,
+username,使用者名稱,用戶名,cross_strait,,,
+user heap,使用者端堆積,用戶堆,cross_strait,,,"tw: 使用者端堆積 (heap→堆積), cn: 用戶堆"
+user stack,使用者端堆疊,用戶棧,cross_strait,,,"tw: 使用者端堆疊 (stack→堆疊), cn: 用戶棧"
+user interface,使用者介面；用戶介面；人機介面,用戶界面,cross_strait,,,
+user-level thread,使用者層級執行緒,用戶級線程,cross_strait,,,"tw: 使用者層級執行緒, cn: 用戶級線程"
+interface,介面,界面,cross_strait,UI；API；GUI；軟體；硬體；開發；使用者；圖形,,
+Picasso,畢卡索,畢加索,cross_strait,,,
+guava,芭樂,番石榴,cross_strait,,,
+exception,例外；異常情況,異常,cross_strait,拋出；捕獲；處理；程式碼；代碼；函式；函數；方法；類別；除錯；偵錯,偵測；檢測；異常值；統計；分佈,
+exception declaration,異常宣告,異常聲明,cross_strait,C++；Java；函式；函數；編譯；throw,,
+exception specification,異常規格,異常規範,cross_strait,C++；Java；函式；函數；編譯；throw,,
+heterogeneous computing,異質運算；異質多核運算,異構運算,cross_strait,,,tw 以「異質」對應 heterogeneous (不同質的元件協作)；「異構」多見於 cn。「異質多核運算」特指 CPU+GPU 整合架構 (如 AMD APU)
+asynchronous,非同步,異步,cross_strait,,,「非」明確表達「不」，而「異」指「不同/特別/不尋常」(如《史記》:「皆異能之士也」的「異」是「特別」)，用「異」會造成歧義並與其他科學術語 (如立體異構物 stereoisomers) 衝突
+if and only if,若且唯若,當且僅當,cross_strait,,,
+current/currently,目前,當前,cross_strait,行程；系統；狀態；執行；核心；記憶體；CPU；排程,,"避免文言表述「當前」，改用「目前」消除歧異 (tw: 目前, cn: 當前)"
+iterate,迭代,疊代,cross_strait,,,「疊」(堆聚、累積) 強調反覆堆疊的過程；「迭」(輪流、更替) 則指交替，「迭」在 1964–1986 年間曾是「疊」的 cn 簡化字。教育部《國家教育研究院雙語詞彙》收錄「疊代」
+iterator,迭代器,疊代器,cross_strait,,,
+troubleshooting,疑難排解,疑難解答,cross_strait,,,
+numbness (char variant),痺,痹,variant,,,MoE 標準字體 (@example 麻痺)
+infatuated (char variant),痴,癡,variant,,,MoE 標準字體 (@example 痴迷、痴情)
+login,登入,登錄,cross_strait,,,
+release/publish,釋出,發佈,cross_strait,,,
+LED,發光二極體,發光二極管,cross_strait,,,
+engine,引擎,發動機,cross_strait,,,
+send,傳送,發送,cross_strait,,,
+send email,寄信,發郵件,cross_strait,,,
+white hat,白帽駭客,白帽,cross_strait,駭客；安全；滲透；漏洞,,
+soap (char variant),皂,皁,variant,,,MoE 標準字體 (@example 肥皂)
+taxi,計程車,的士,cross_strait,,,
+lunchbox/bento,便當,盒飯,cross_strait,,,
+supervision hotline,投訴電話,監督電話,cross_strait,,,
+disk platter,碟片,盤片,cross_strait,,,
+drive letter,磁碟機代號,盤符,cross_strait,,,
+Rwanda,盧安達,盧旺達,cross_strait,,,@geo country (國名)
+Louvre,羅浮宮,盧浮宮,cross_strait,,,@geo landmark (地標)
+object code,目的碼,目標代碼,cross_strait,,,
+object file,目的檔,目標文件,cross_strait,,,
+school for the blind,啟明學校,盲人學校,cross_strait,,,
+immediate derived,直接下層衍生類,直接下層派生類,cross_strait,,,
+Direct Memory Access / DMA,直接記憶體存取,直接記憶體訪問,cross_strait,,,DMA (Direct Memory Access)；「訪問」僅指 visit，access 應譯為「存取」
+photo album,相簿,相冊,cross_strait,,,
+equivalent,等價,相抵,cross_strait,矩陣；線性；列運算；行變換；秩,,矩陣等價 (equivalent)；非日常「相抵」(抵消)
+true negative,正確負例,真陰性,cross_strait,檢驗；篩檢；診斷；測試,,
+particle (char variant),著,着,variant,,,MoE 標準字體 (助詞用法統一為「著」)
+testicle (char variant),睪,睾,variant,,,MoE 標準字體 (@example 睪丸)
+vector,向量,矢量,cross_strait,,,
+knowledge-intensive,技術密集,知識密集,cross_strait,,,
+intellectual property (IP),智慧財產權,知識產權,cross_strait,,,
+graduate school,研究所,研究生院,cross_strait,,,
+high-speed blender,果汁機；豆漿機,破壁機,cross_strait,,,
+silicon,矽,硅,cross_strait,,,tw 依 1933 年 MoE 標準譯名。cn 於 1957 年改用現名，偏離音譯系統
+hard disk,硬碟,硬盤,cross_strait,,,
+hard-code,寫死,硬編碼,cross_strait,程式；軟體；系統；電腦；網路,,
+hard-coded,編死的,硬編碼的,cross_strait,,,
+code-division multiple access (CDMA),分碼多重進接,碼分多址,cross_strait,,,
+bitrate,位元率,碼率,cross_strait,,,
+disk,磁碟,磁盤,cross_strait,,,
+disk file,磁碟檔案,磁碟文件,cross_strait,,,
+track (disk),磁軌,磁道,cross_strait,,,
+social (network),社群,社交,cross_strait,媒體；網路；網絡；平台；帳號；賬號；貼文,,限 social network 語境。「社交能力」為正確 tw 用法
+community,社群,社區,cross_strait,,,「社區」指實體住宅區，online/tech community 語意不同
+secret (char variant),秘,祕,variant,,,MoE 標準字體 (@example 秘密、神秘)
+motherland,中國,祖國,political_coloring,,,當書寫者的國籍認同為 cn 時成立，否則保留原詞
+ticket scalper,黃牛,票販子,cross_strait,,,
+disable,停用,禁用,cross_strait,,,
+Foucault,傅柯,福柯,cross_strait,,,@person science (哲學)
+direct message / DM,私訊,私信,cross_strait,訊息；發送；聊天；好友,,
+Comoros,葛摩,科摩羅,cross_strait,,,@geo country (國名)
+Ivory Coast (Cote d'Ivoire),象牙海岸,科特迪瓦,cross_strait,,,@geo country (國名)
+mobile agent,行動代理,移動代理,cross_strait,,,
+mobile content management,行動內容管理,移動內容管理,cross_strait,,,
+mobile platform,行動平台,移動平台,cross_strait,,,
+mobile broadcasting,行動廣播,移動廣播,cross_strait,,,
+mobility,行動性,移動性,cross_strait,程式；軟體；系統；電腦；網路,,
+mobile application,行動應用,移動應用,cross_strait,,,
+mobile application management,行動應用管理,移動應用管理,cross_strait,,,
+mobile payment,行動支付,移動支付,cross_strait,,,
+mobile browser,行動瀏覽器,移動瀏覽器,cross_strait,,,
+mobile version,行動版,移動版,cross_strait,程式；軟體；系統；電腦；網路,,
+mobile product,行動產品,移動產品,cross_strait,,,
+portable hard drive,行動硬碟,移動硬盤,cross_strait,,,
+mobile,行動裝置,移動端,cross_strait,手機；APP；響應式；行動,,
+mobile network,行動網路,移動網絡,cross_strait,,,
+mobile device,行動裝置,移動設備,cross_strait,,,
+mobile data,行動資料,移動資料,cross_strait,,,
+mobile communication,行動通訊,移動通信,cross_strait,,,
+mobile telecommunications,行動電信,移動電信,cross_strait,,,
+power bank,行動電源,移動電源,cross_strait,,,
+mobile TV,行動電視,移動電視,cross_strait,,,
+mobile phone,行動電話,移動電話,cross_strait,,,
+program,程式,程序,cross_strait,編寫；代碼；程式碼；執行；開發；編譯；軟件；軟體；調試；除錯；偵錯；CPU；排程；行程；核心；記憶體；I/O；作業系統；狀態；IPC,,不應與「程序」(procedure/步驟) 混淆
+process,行程 (Process),程序 (Process),cross_strait,,,OpenCC s2twp 將進程 (Process) 轉為程序 (Process)；明確標註 Process 即為行程
+process switching,行程切換,程序切換,cross_strait,,,process switching / context switch；「程序」此處指 process (@seealso 程序管理)
+programmer,程式設計師；程式開發者,程序員,cross_strait,,,programmer; tw 用「程式設計師」或「程式開發者」
+process abstraction,行程抽象,程序抽象,cross_strait,作業系統；OS；kernel；核心；排程；fork；exec；CPU；記憶體；行程；執行緒；IPC,,限作業系統語境。此處「程序」指 process (行程)，非 program (程式)
+process scheduling,行程排程,程序排程,cross_strait,,,process scheduling；「程序」此處指 process (@seealso 程序管理)
+process model,行程模型,程序模型,cross_strait,,,process model；「程序」此處指 process (@seealso 程序管理)
+process state,行程狀態,程序狀態,cross_strait,READY；阻塞；執行中；就緒；排程；核心；切換；fork,,process state/status；「程序」此處指 process (@seealso 程序管理)
+process management,行程管理,程序管理,cross_strait,行程；fork；exec；PID；排程；核心；作業系統；CPU；記憶體；執行緒；IPC；狀態,,OpenCC 可能將進程管理轉為程序管理；此處指 process management (@seealso 進程管理)
+process information,行程資訊,程序資訊,cross_strait,,,process information；「程序」此處指 process (@seealso 程序管理)
+inter-process,行程間,程序間,cross_strait,通訊；IPC；管道；排程；共享；隔離；核心；同步；訊號,,inter-process；「程序」此處指 process (@seealso 程序管理)
+inter-process communication / IPC,行程間通訊,程序間通訊,cross_strait,,,inter-process communication (IPC)；「程序」此處指 process (@seealso 程序管理)
+process,行程（Process）,程序（Process）,cross_strait,,,OpenCC s2twp 將進程（Process）轉為程序（Process）；全形括弧版本
+points/credits,點數；分數；紅利,積分,cross_strait,會員；紅利；兌換；獎勵；消費；回饋,,限商業語境 (loyalty points)。數學「積分」(integral) 為標準 tw 用語
+Airbus,空中巴士,空中客車,cross_strait,,,
+space-division multiple access (SDMA),分空間多重進接,空分多址,cross_strait,,,
+space-division multiplexing (SDM),空間多工,空分複用,cross_strait,,,
+air purifier,空氣清淨機,空氣淨化器,cross_strait,,,
+idle,閒置,空閒,cross_strait,,,"idle。tw 慣用「閒置」表示 idle 狀態（閒置核心、閒置行程），「空閒」偏 cn 用法(@seealso 空閒程序, 空閒程式)"
+idle process/idle task,閒置行程,空閒程序,cross_strait,排程；CPU；核心；行程；PID,,idle process/idle task。OpenCC 將空闲进程轉為空閒程序，tw 標準為「閒置行程」(@seealso 空閒程式)
+idle process/idle task,閒置行程,空閒程式,cross_strait,排程；CPU；核心；行程；PID,,idle process/idle task。aggressive fixer 可能將空閒程序改為空閒程式，tw 標準為「閒置行程」(@seealso 空閒程序)
+space allocation,空間配置,空間分配,cross_strait,,,compound:定址空間語境自動觸發「分配→配置」(@seealso 記憶體分配)
+space station,太空站,空間站,cross_strait,,,
+Tunisia,突尼西亞,突尼斯,cross_strait,,,@geo country (國名)
+window,視窗,窗口,cross_strait,GUI；UI；介面；桌面；對話框；彈出；最小化；最大化；關閉；視窗；拖曳；操作；應用程式；瀏覽器；工具列；切換；分割；標題列；全螢幕；面板；選單,,限 GUI/HCI 語境。依 MoE 辭典，「窗口」指實體窗戶或服務櫃檯。GUI window 應譯「視窗」
+window function,視窗函式,窗口函數,cross_strait,,,
+form,表單,窗體,cross_strait,UI；介面；接口；控件；按鈕；HTML,,
+stove (char variant),灶,竈,variant,,,MoE 標準字體 (@example 灶台、灶神)
+talking from the sidelines,風涼話；高談闊論,站著說話不腰疼,cross_strait,,,
+site identification button,網站識別鈕,站點標識按鈕,cross_strait,,,
+end-to-end test / E2E test,端對端測試,端到端測試,cross_strait,自動化；瀏覽器；E2E,,
+port,連接埠；埠,端口,cross_strait,,,
+port number,埠號碼,端口號,cross_strait,,,cn: 端口號，tw: 埠號碼 (@seealso 端口)
+race condition,競爭條件,競態條件,cross_strait,執行緒；並行；同步；鎖；race,,
+Descartes,笛卡兒,笛卡爾,cross_strait,,,@person science (數學/哲學)
+the Third Wave,第三波,第三次浪潮,cross_strait,,,
+tertiary industry,服務業,第三產業,cross_strait,,,
+side job,副業,第二職業,cross_strait,,,
+extracurricular classroom,課外活動,第二課堂,cross_strait,,,
+laptop/notebook,筆記型電腦,筆記本電腦,cross_strait,,,
+equality operator,equality 運算子,等號操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+plasma,電漿,等離子,cross_strait,,,
+plasma TV,電漿電視,等離子電視,cross_strait,,,
+operator,運算子,算子,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法；多載；重載,微分算子；積分算子；哈密頓；拉普拉斯；線性算子；投影算子；梯度算子；散度算子；旋度算子；厄米算子；自伴算子；么正算子；泛函；量子；算符,數學領域「算子」(微分算子、哈密頓算子等) 為正確術語，不應更正
+arrow operator,arrow 運算子,箭頭操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+normal form/paradigm,正規化,範式,cross_strait,,,
+paradigm shift,典範轉移,範式轉移,cross_strait,,,tw 學術界標準譯法；「典範」源自孔恩 (Thomas Kuhn)《科學革命的結構》中文譯本用語
+paste,貼上,粘貼,cross_strait,,,
+zongzi / rice dumpling (char variant),粽,糉,variant,,,MoE 標準字體 (@example 粽子)
+affiliated companies,關係企業,系列企業,cross_strait,,,
+system tray,系統匣,系統托盤,cross_strait,,,
+system disk,系統磁碟,系統盤,cross_strait,程式；軟體；電腦；網路,,
+system data,資源管理,系統資料,cross_strait,,,
+Johannesburg,約翰尼斯堡,約翰內斯堡,cross_strait,,,@geo city (城市)
+Hearts (card game),傷心小棧,紅心大戰,cross_strait,,,
+Nash,納許,納什,cross_strait,均衡；賽局；博弈；諾貝爾；數學,,@person science (數學/經濟)
+nanometer/nm,奈米,納米,cross_strait,,,SI 長度單位 (10^-9 m)；製程技術語境最常見 (如 90 奈米、7 奈米製程)
+purified water,純水,純淨水,cross_strait,,,
+prime,質數,素數,cross_strait,,,
+Sony Mobile,索尼行動,索尼移動,cross_strait,,,
+Somalia,索馬利亞,索馬裡,cross_strait,,,@geo country (國名)
+Somalia,索馬利亞,索馬里,cross_strait,,,@geo country (國名)
+terminal,終端機,終端,cross_strait,,,
+end user,終端使用者,終端用戶,cross_strait,,,
+terminator,終端子,終結器,cross_strait,程式；軟體；系統；電腦；網路,,
+component,元件,組件,cross_strait,,,
+combo box,組合方塊；複合方塊；複合框,組合框,cross_strait,,,
+group hint,群組提示,組提示,cross_strait,程式；軟體；系統；電腦；網路,,
+consensus,共識,統一意見,cross_strait,,,
+bind,繫結,綁定,cross_strait,事件；資料；函式；回呼；介面,,data binding = 資料繫結；event binding = 事件繫結。依語境自行斟酌
+bundle,組合,綑綁,cross_strait,,,
+syndrome,症候群,綜合徵,cross_strait,,,
+green / organic food,健康食品,綠色食品,cross_strait,,,
+Network Neighborhood,網路芳鄰,網上鄰居,cross_strait,,,
+network card (NIC),網路卡,網卡,cross_strait,,,
+internet cafe,網咖,網吧,cross_strait,,,
+gridline,格線,網格線,cross_strait,程式；軟體；系統；電腦；網路,,
+netizen,網友,網民,cross_strait,,,
+network,網路,網絡,cross_strait,,,
+network stack,網路堆疊,網絡棧,cross_strait,,,"tw: 網路堆疊, cn: 網絡棧/網路棧"
+network adapter,網路介面卡,網絡適配器,cross_strait,,,
+network stack,網路堆疊,網路棧,cross_strait,,,"tw: 網路堆疊, cn: 網絡棧/網路棧 (OpenCC 可能保留「棧」)"
+gateway,閘道器,網關,cross_strait,,,
+webpage snapshot,頁庫存檔,網頁快照,cross_strait,,,
+thread,執行緒,線程,cross_strait,,,
+thread pool,執行緒池,線程池,cross_strait,,,
+programming,程式設計,編程,cross_strait,,,
+programming language,程式語言,編程語言,cross_strait,,,
+compile time,編譯時期,編譯時,cross_strait,,,
+compile time,編譯時期,編譯期,cross_strait,,,
+cache,快取,緩存,cross_strait,,,快取有「快速存取」的意涵。詞源是法裔北美獵人的俚語「儲存物品的秘密場所」。簡體「緩存」(高速緩衝存儲器的簡稱) 混淆 cache 與 buffer 的概念，「高速」和「緩存」更是語意衝突
+buffer allocation,緩衝區配置,緩衝區分配,cross_strait,,,compound:「緩衝區」語境自動觸發「分配→配置」(@seealso 記憶體分配)
+thumbnail,縮圖,縮略圖,cross_strait,,,
+short URL,縮網址,縮略網址,cross_strait,,,
+indent,縮排,縮進,cross_strait,,,
+bus,匯流排,總線,cross_strait,,,
+can't hold it in,忍不住,繃不住,cross_strait,,,
+rein (char variant),韁,繮,variant,,,MoE 標準字體 (@example 韁繩)
+just / only then (char variant),才,纔,variant,,,MoE 標準字體 (「纔」為古體)
+default,預設,缺省,cross_strait,,,
+page fault,分頁錯誤,缺頁例外,cross_strait,,,page fault 的標準 tw 譯法為「分頁錯誤」。「缺頁」為 cn 用語 (@seealso 缺頁異常)
+page fault,分頁錯誤,缺頁異常,cross_strait,,,page fault 的標準 tw 譯法為「分頁錯誤」。「缺頁」為 cn 用語，「異常」在此指 fault 而非 exception
+confidence,可信度,置信度,cross_strait,程式；軟體；系統；電腦；網路,,
+markup language,標示語言,置標語言,cross_strait,,,
+Federal Reserve System (Fed),美國聯準會,美聯儲,cross_strait,,,全名為「美國聯邦準備理事會」(Federal Reserve System)；cn 音譯/縮略「聯儲」，tw 慣用「聯準會」
+group (char variant),群,羣,variant,,,MoE 標準字體 (@example 群組、群眾)
+group chat,群組聊天,群聊,cross_strait,,,
+translator,轉譯器,翻譯器,cross_strait,編譯；原始碼；程式碼；直譯器；代碼,,
+Laos,寮國,老撾,cross_strait,,,@geo country (國名)
+presbyopia,老花眼,老視眼,cross_strait,,,
+Santiago/San Diego,聖地牙哥,聖地亞哥,cross_strait,,,@geo city (城市)
+Saint Kitts and Nevis,聖克里斯多福及尼維斯,聖基茨和尼維斯,cross_strait,,,@geo country (國名)
+Saint Vincent and the Grenadines,聖文森及格瑞那丁,聖文森特和格林納丁斯,cross_strait,,,@geo country (國名)
+Saint Lucia,聖露西亞,聖盧西亞,cross_strait,,,@geo country (國名)
+San Marino,聖馬利諾,聖馬力諾,cross_strait,,,@geo country (國名)
+online transaction processing,線上異動處理,聯機交易處理,cross_strait,,,
+online analytical processing,線上分析處理,聯機分析處理,cross_strait,,,OLAP
+contact person,聯絡人,聯系人,cross_strait,程式；軟體；系統；電腦；網路,,
+contact support,聯絡客服,聯繫客服,cross_strait,,,客服 CTA；避免把日常用法「聯繫」一概改寫
+contact us,聯絡我們,聯繫我們,cross_strait,,,客服 CTA / contact us copy；避免把日常用法「聯繫」一概改寫
+contact method,聯絡方式,聯繫方式,cross_strait,,,聯絡資訊欄位標籤；避免把日常用法「聯繫」一概改寫
+call history,通話記錄,聯繫歷史,cross_strait,,,
+contact channel,聯絡管道,聯繫管道,cross_strait,,,聯絡資訊欄位標籤；避免把日常用法「聯繫」一概改寫
+contact information,聯絡資訊,聯繫資訊,cross_strait,,,聯絡資訊欄位標籤；避免把日常用法「聯繫」一概改寫
+contact phone,聯絡電話,聯繫電話,cross_strait,,,聯絡資訊欄位標籤；避免把日常用法「聯繫」一概改寫
+sound card,音效卡,聲卡,cross_strait,,,
+declaration,宣告,聲明,cross_strait,變數；變量；函式；函數；型別；類別；類型；屬性；方法；介面；接口；模組,,variable/type declaration 語境；日常語境「發表聲明」(public statement) 為正確 tw 用法
+hearing,公聽會,聽證會,cross_strait,,,
+meat pigeon,食用鴿,肉食鴿,cross_strait,,,
+Kenya,肯亞,肯尼亞,cross_strait,,,@geo country (國名)
+pancreas,胰臟,胰腺,cross_strait,,,
+lip (char variant),唇,脣,variant,,,MoE 標準字體 (@example 嘴唇)
+offline,離線,脫機,cross_strait,,,
+wild imagination,異想天開；出其不意,腦洞大開,cross_strait,,,
+brain drain,人才外流,腦流失,cross_strait,,,
+scaffolding,鷹架,腳手架,cross_strait,,,
+temporary object,暫時物件,臨時對象,cross_strait,,,
+temporary household registration,流動戶口,臨時戶口,cross_strait,,,
+automatic transmission,自排,自動檔,cross_strait,,,
+auto-rotate,自動旋轉螢幕,自動轉屏,cross_strait,,,
+customize,自訂,自定義,cross_strait,,,
+bottom-up,由下而上,自底向上,cross_strait,,,
+bicycle,腳踏車,自行車,cross_strait,,,
+adaptive,適應性,自適應,cross_strait,,,
+self-service market,超級市場,自選市場,cross_strait,,,
+top-down,由上而下,自頂向下,cross_strait,,,
+desktop computer,桌上型電腦,臺式機,cross_strait,,,
+report (complaint),檢舉,舉報,cross_strait,,,
+spaceflight,航空太空,航天,cross_strait,,,
+space shuttle,太空梭,航天飛機,cross_strait,,,
+chip,晶片,芯片,cross_strait,,,
+screen glitch/garbled display,破圖,花屏,cross_strait,,,
+brace (curly brace),大括弧；大括號,花括弧,cross_strait,,,
+brace (curly brace),大括弧；大括號,花括號,cross_strait,,,
+NVIDIA,輝達,英偉達,cross_strait,,,
+Commonwealth of Nations,大英國協,英聯邦,political_coloring,,,
+alpaca,羊駝,草泥馬,cross_strait,,,
+Mozart,莫札特,莫差特,cross_strait,,,
+Mozambique,莫三比克,莫桑比克,cross_strait,,,@geo country (國名)
+menu,選單,菜單,confusable,點選；單擊；按鈕；下拉；視窗；窗口；工具列；右鍵,,限 UI 語境。餐廳菜單仍用「菜單」
+recipe/cookbook,食譜,菜譜,cross_strait,,,
+pineapple,鳳梨,菠蘿,cross_strait,,麵包；包,
+waffle,鬆餅,華夫餅,cross_strait,,,
+Lesotho,賴索托,萊索托,cross_strait,,,@geo country (國名)
+Lesotho,賴索托,萊索託,cross_strait,,,@geo country (國名)
+adorably cute,很可愛,萌萌噠,cross_strait,,,
+trillion,兆,萬億,cross_strait,,,兆 = 10^12
+World Wide Web (WWW),全球資訊網,萬維網,cross_strait,,,
+Vientiane,永珍,萬象,cross_strait,,,@geo city (城市)
+Montreal,蒙特婁,蒙特利爾,cross_strait,,,@geo city (城市)
+Bill Gates,蓋茲,蓋茨,cross_strait,,,@person tech (科技業)
+ginseng (char variant),參,蔘,variant,,,MoE 標準字體 (@example 人參)。「參」另有參加、參考之義
+"Wei (plant name, char variant)",蒍,蔿,variant,,,MoE 標準字體 (植物名)
+Schrödinger,薛丁格,薛定諤,cross_strait,,,@person science (物理)
+blue screen (BSOD),藍色當機畫面,藍屏,cross_strait,,,
+Suriname,蘇利南,蘇裡南,cross_strait,,,@geo country (國名)
+Suriname,蘇利南,蘇里南,cross_strait,,,@geo country (國名)
+handler,處理常式,處理函數,cross_strait,,,
+virtual memory,虛擬記憶體,虛內存,cross_strait,,,
+virtual function,虛擬函式,虛函數,cross_strait,,,
+virtual memory,虛擬記憶體,虛存,cross_strait,,,
+virtual private network,虛擬私人網路,虛擬專用網,cross_strait,,,
+virtual file tree,虛擬檔案樹,虛擬文件樹,cross_strait,,,compound: cn 文件 = tw 檔案
+virtual machine (VM),虛擬機器,虛擬機,cross_strait,,,區分通用的 machine 和特化的 engine (@seealso 發動機)
+Spider Solitaire,連環新接龍,蜘蛛紙牌,cross_strait,,,
+screen advertisement,電視廣告,螢幕廣告,cross_strait,,,
+screwdriver,螺絲起子,螺絲批,cross_strait,,,
+multitude (char variant),眾,衆,variant,,,MoE 標準字體 (@example 眾人、大眾)
+industry,產業,行業,cross_strait,,,
+occupational disease,職業病,行業病,cross_strait,醫療；門診；病患；藥物；診所,,
+sanitary pad,衛生棉,衛生巾,cross_strait,,,
+disposable chopsticks,免洗筷,衛生筷,cross_strait,,,
+sticker pack,貼圖包,表情包,cross_strait,聊天；下載；傳送；LINE,,
+expression,表示式；運算式,表達式,cross_strait,,,
+tea bag,茶包,袋泡茶,cross_strait,,,
+passive smoking,抽二手菸,被動吸菸,cross_strait,,,
+overloaded operator,多載化運算子,被重載的操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+cracking (chemistry),裂解,裂化,cross_strait,,,
+inside (char variant),裡,裏,variant,,,MoE 標準字體 (@example 裡面、心裡)
+patch,修補程式；更新檔,補丁,cross_strait,,,修正程式碼缺陷 (patch) vs 軟體版本更新 (update)
+two's complement,二補數,補碼,cross_strait,,,
+install an operating system,安裝系統,裝系統,cross_strait,,,安裝作業系統
+device number,裝置號碼,裝置號,cross_strait,,,
+device driver,裝置驅動程式,裝置驅動,cross_strait,,,tw 慣用「裝置驅動程式」，省略「程式」二字易與動詞混淆
+photocopy,影印,複印,cross_strait,,,
+photocopier,影印機,複印機,cross_strait,,,
+checkbox,核取按鈕；方鈕,複選按鈕,cross_strait,,,
+checkbox,核取方塊,複選框,cross_strait,,,
+shirt,襯衫,襯衣,cross_strait,,,
+tomato,番茄,西紅柿,cross_strait,,,
+broccoli,青花菜,西蘭花,cross_strait,,,
+check button,核取按鈕,覆選按鈕,cross_strait,,,
+checkbox,核取方塊,覆選框,cross_strait,程式；軟體；系統；電腦；網路,,
+copper-clad laminate,銅箔基板,覆銅板,cross_strait,程式；軟體；系統；電腦；網路,,
+verify / check (char variant),核,覈,variant,,,MoE 標準字體 (@example 審核、核實)
+normalization,規格化,規範化,cross_strait,程式；軟體；系統；電腦；網路,,
+normal matrix,正規矩陣,規範方陣,cross_strait,,,
+view,檢視,視圖,cross_strait,,,
+video,影片；影音；視訊,視頻,cross_strait,,,"指 video content 時用「影片」或「影音」；指 video call/conference 時用「視訊」(@seealso 視頻通話, 視頻會議)。無線電頻率 (RF) 與音頻 (AF) 是完全不同的物理現象，混淆頻率與內容的概念"
+video conference,視訊會議,視頻會議,cross_strait,,,「視訊」指即時影音通訊 (@seealso 視頻)
+video call,視訊通話,視頻通話,cross_strait,,,「視訊」指即時影音通訊 (@seealso 視頻)
+video phone,視訊電話,視頻電話,cross_strait,,,
+decompress/unzip,解壓縮,解壓,cross_strait,檔案；壓縮；zip；rar,,
+dereference,解除參照；取值,解引用,cross_strait,程式；軟體；系統；電腦；網路,,在 C 或 C++ 程式語言一類風格的程式語言，用「取值」簡單且明確
+interpreter,直譯器；解譯器,解釋器,cross_strait,腳本；Python；執行；程式碼；直譯；代碼,,
+interpreted language,直譯語言,解釋型語言,cross_strait,,,
+touchscreen,觸控螢幕,觸控屏,cross_strait,程式；軟體；系統；電腦；網路,,
+touch,觸控,觸摸,cross_strait,螢幕；手勢；事件；介面；裝置,心靈；感動；情感,tw「觸摸」= physical touch；IT/UI touch 改「觸控」
+touch screen,觸控螢幕,觸摸屏,cross_strait,,,
+customization,客製化,訂製化,cross_strait,程式；軟體；系統；電腦；網路,,
+plan,計畫,計劃,cross_strait,,,
+computer,電腦,計算機,cross_strait,,,一般語境「計算機」→「電腦」；科目名稱如「計算機結構」(computer architecture) 保留原詞
+computer security,電腦保安,計算機安全,cross_strait,,,
+computer science,電腦科學,計算機科學,cross_strait,,,
+computer architecture,計算機結構,計算機體系結構,cross_strait,,,電腦科學的科目名稱
+system tray,系統匣,託盤,cross_strait,通知；圖示；工作列；系統,,system tray
+Memory Stick,MS 記憶卡；記憶卡,記憶棒,cross_strait,,,
+memory allocation,記憶體配置,記憶體分配,cross_strait,,,compound:「記憶體」語境自動觸發「分配→配置」，無需 context_clues 窗口比對
+access,存取,訪問,cross_strait,記憶體；指標；陣列；資料；位址；磁碟；檔案；權限；核心；使用者空間；CPU；暫存器；快取,,「訪問」僅指 visit/interview，computing 語境語意不同
+access function,存取函式,訪問函數,cross_strait,,,
+access level,存取級別,訪問級別,cross_strait,,,
+device,裝置,設備,cross_strait,,,大型設施仍可用「設備」
+device number,裝置號碼,設備號,cross_strait,,,
+device driver,裝置驅動程式,設備驅動,cross_strait,,,"compound:設備＋驅動 一次轉換為「裝置驅動程式」，避免拆開後僅得「裝置驅動」(@seealso 設備, 驅動, 裝置驅動)"
+settings,設定,設置,cross_strait,選項；參數；頁面；帳號；介面,路障；崗哨；關卡；據點,tw「設置」= set up physically (設置路障)；IT settings 改「設定」
+design pattern,設計樣式；設計範式,設計模式,cross_strait,GoF；物件導向；面向對象；軟體；軟件,,限軟體設計語境。「設計模式」在 tw 也常用，此規則僅在明確軟體設計語境提示
+permission,權限,許可權,cross_strait,,,「權限」為 tw 慣用詞
+license,授權條款,許可證,cross_strait,MIT；GPL；Apache；開源；授權,,限 IT 語境。軟體授權 (software license) 應譯「授權條款」，法律語境可用「許可證」
+keygen,序號產生器,註冊機,cross_strait,,,
+registry,登錄檔,註冊表,cross_strait,視窗；微軟；系統；登錄,,限 Windows 語境
+logout/sign out,登出,註銷,cross_strait,,,「註銷」指永久刪除帳號，與 logout/sign out 語意不同
+evaluation system / online judge,解題系統,評測系統,cross_strait,,,
+phrase,片語,詞組,cross_strait,,,
+statement,敘述；陳述式；述句,語句,cross_strait,代碼；程式碼；編譯；執行；迴圈；循環；條件,,語言學的「語句」為正確 tw 用法
+block,區塊；區段,語句塊,cross_strait,,,
+semantic web,語意網,語義網,cross_strait,程式；軟體；系統；電腦；網路,,
+language pack,語言套件,語言包,cross_strait,程式；軟體；系統；電腦；網路,,
+hourly pay,鐘點費,課時工資,cross_strait,,,
+modem,數據機,調制解調器,cross_strait,,,
+schedule,排程,調度,cross_strait,,,
+scheduler,排程器,調度程序,cross_strait,,,
+call/invoke,呼叫,調用,cross_strait,函式；函數；API；程式；方法；介面,,cn 調用 = call/invoke；tw 用「呼叫」(程式)、「調閱」(法律)、「調派」(行政)
+call operator,call 運算子,調用操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+call stack,呼叫堆疊,調用棧,cross_strait,,,"tw: 呼叫堆疊, cn: 調用棧"
+palette,調色盤,調色板,cross_strait,,,
+modulation,調變,調製,cross_strait,,,
+modem,數據機,調製解調器,cross_strait,,,
+debug,除錯,調試,cross_strait,,,tw 標準用語為除錯；偵錯偏重找出錯誤，除錯涵蓋找出與修正，為 debug 的慣用翻譯
+debugger,除錯器,調試器,cross_strait,,,
+Do Not Track,停止追蹤,請勿追蹤,cross_strait,,,
+one who speaks cryptically,拐彎抹角；含糊不清,謎語人,cross_strait,,,
+certificate,憑證,證書,confusable,SSL；TLS；HTTPS；數位；數字；加密；金鑰；密鑰；伺服器,,限 digital/SSL 語境。畢業/資格證書為正確 tw 用法
+warning message,警告訊息,警告信息,cross_strait,,,
+card reader,讀卡機,讀卡器,cross_strait,程式；軟體；系統；電腦；網路,,
+read file,讀取檔案,讀取文件,cross_strait,,,compound: cn 文件 = tw 檔案 (@seealso 讀文件)
+read file,讀取檔案,讀文件,cross_strait,檔案；路徑；I/O；磁碟；目錄；open；read；write,,限檔案 I/O 語境。「閱讀文件」(read documentation) 不適用
+variable,變數,變量,cross_strait,,,
+Benin,貝南,貝寧,cross_strait,,,@geo country (國名)
+Today view/widget screen,資訊主頁,負一屏,cross_strait,,,
+negative growth,負成長,負增長,cross_strait,,,
+load balancing,負載平衡,負載均衡,cross_strait,伺服器；流量；叢集；分散,,
+greedy algorithm,貪婪法,貪心法,cross_strait,程式；軟體；系統；電腦；網路,,
+data binding,資料繫結,資料綁定,cross_strait,,,
+resource allocation,資源配置,資源分配,cross_strait,系統；伺服器；網路；雲端；叢集；CPU；運算；核心；行程；記憶體,,compound:「資源」語境自動觸發「分配→配置」(@seealso 記憶體分配)
+file explorer,檔案總管,資源管理器,cross_strait,視窗；微軟；系統；檔案；資料夾,,限 Windows 語境
+bulk retail,量販,賣大戶,cross_strait,,,
+wholesale size,量販,賣大號,cross_strait,,,
+assign,指派,賦值,cross_strait,,,
+assignment operator,指派運算子,賦值操作符,cross_strait,運算；表達式；運算子；C++；編譯；程式；語法,,
+quality,品質,質量,cross_strait,保證；管理；控制；提升；改善；軟件；軟體；產品；服務；測試,,「質量」在 tw 僅指 mass (物理量)，與 quality 語意不同
+quality management,品質管制,質量管理,cross_strait,,,
+bill,帳單,賬單,cross_strait,,,
+account,帳戶,賬戶,cross_strait,,,cn 用「賬」，tw 用「帳」
+account,帳號,賬號,cross_strait,,,
+shopping basket,購物車,購物籃,cross_strait,商品；結帳；訂單,,
+Zambia,尚比亞,贊比亞,cross_strait,,,@geo country (國名)
+day student,通學生,走讀生,cross_strait,,,
+gifted child,天才兒童,超常兒童,cross_strait,,,
+timeout,逾時,超時,cross_strait,連線；請求；伺服器；回應；秒,,
+ultra high definition (UHD),超高畫質,超清,cross_strait,,,
+ultrasound,超音波,超聲波,cross_strait,,,
+follow-up service,售後服務,跟蹤服務,cross_strait,,,
+follow,追蹤,跟隨,cross_strait,,,
+drop tower ride,大怒神；自由落體,跳樓機,cross_strait,,,
+circuit breaker trip/power trip,跳電,跳閘,cross_strait,,,
+leap / eager (char variant),踴,踊,variant,,,MoE 標準字體 (@example 踴躍)
+put one down to praise another,自抬身價,踩一捧一,cross_strait,,,
+ultra-soft cushioned slippers,發泡拖鞋,踩屎感拖鞋,cross_strait,,,
+bungee jumping,高空彈跳,蹦極,cross_strait,,,
+ride the hype,跟風；跟隨潮流,蹭熱度,cross_strait,,,
+identity card,身分證,身份證,cross_strait,,,MoE 標準用「身分」
+software,軟體,軟件,cross_strait,,,
+software package,套裝軟體,軟件包,cross_strait,,,
+soft packaging,鋁箔包,軟包裝,cross_strait,,,
+floppy disk,軟碟,軟盤,cross_strait,,,
+floppy drive,軟碟機,軟驅,cross_strait,,,
+cram school / tutoring class,補習班,輔導班,cross_strait,,,
+consonant,子音,輔音,cross_strait,,,
+repost,轉貼,轉帖,cross_strait,,,
+turning point,轉捩點,轉折點,cross_strait,,,
+forward,轉寄,轉發,cross_strait,,,
+forwarding function,轉發函式；轉呼叫函式,轉發函數,cross_strait,,,
+escape character,跳脫字元,轉義字符,cross_strait,,,
+eyesore,慘不忍睹,辣眼睛,cross_strait,,,
+return value,回傳值；回返值,返回值,cross_strait,,,
+return type,回傳型別；回返型別,返回類型,cross_strait,,,
+cashback,回饋；現金回饋,返現,cross_strait,,,
+Dubai,杜拜,迪拜,cross_strait,,,@geo city (城市)
+rear-end collision,追撞,追尾,cross_strait,,,
+log out,登出,退出登錄,cross_strait,,,
+midnight movie,午夜場,通宵電影,cross_strait,,,
+generic algorithm,泛型演算法,通用算法,cross_strait,,,
+inflation,通膨,通脹,cross_strait,,,
+communication card,通話卡,通訊卡,cross_strait,,,
+through/via,透過,通過,cross_strait,,考試；審核；法案；檢驗；投票,tw「通過」= pass (通過考試)；僅 via/through 義改「透過」
+connect,連線,連接,cross_strait,,,連接埠（port）為正確 tw 慣用語；連接點（articulation/junction point）為圖論術語，均不替換
+connector,聯結器,連接器,cross_strait,,,
+Continuity,接續互通,連續互通,cross_strait,,,
+radix/numeral system,進位制,進制,cross_strait,,,
+process,行程,進程,cross_strait,,,行程強調已在執行中的程式實體。「進程」實為 progress (進度/進展)，不宜指 OS process。半導體語境 = 製程。program 是靜態，process 是動態
+process abstraction,行程抽象,進程抽象,cross_strait,,,
+process management,行程管理,進程管理,cross_strait,,,"作業系統術語；cn: 進程管理, tw: 行程管理"
+operate,營運,運營,cross_strait,,,
+operator,運算子,運算符,cross_strait,,,
+DevOps/operations,維運,運維,cross_strait,,,
+run/execute,執行,運行,cross_strait,程式；軟體；服務；腳本；命令,軌道；列車；班次,
+runtime,執行時期,運行時,cross_strait,環境；程式庫；函式庫；虛擬機器；例外；型別；容器；框架；錯誤；系統；直譯器；編譯器,,限 IT 語境 (@seealso 運行)
+runtime library,執行時期函式庫,運行時庫,cross_strait,,,cn: 運行時庫 (runtime library)；tw: 執行時期函式庫 (@seealso 運行時)
+traverse,走訪,遍歷,cross_strait,,,「遍」含「到處/全面」之意，但 traverse 原意僅為 to pass or move over，不隱含「全部」。另「遍歷」已用於 Ergodic theory (遍歷理論)，不宜混用
+roller coaster,雲霄飛車,過山車,cross_strait,,,
+overfitting,過度擬合,過擬合,cross_strait,程式；軟體；系統；電腦；網路,,
+filter,篩選器,過濾器,cross_strait,,,
+proceduralization,程序化,過程化,cross_strait,程式；軟體；系統；電腦；網路,,
+procedural,程序式,過程式,cross_strait,軟體；系統；電腦；網路,,
+procedural programming,程序式程式設計,過程式編程,cross_strait,,,
+pedestrian overpass,天橋,過街橋,cross_strait,,,
+Dow Jones Index,道瓊指數,道․瓊斯指數,cross_strait,,,
+da Vinci,達文西,達芬奇,cross_strait,,,
+recursion,遞迴,遞歸,cross_strait,,,
+remote,遠端,遠程,cross_strait,,,
+remote control,遙控器,遥控器,variant,,,簡→繁字形。遥控器 → 遙控器
+adapt,配接；轉接,適配,cross_strait,,,軟體/介面 vs 硬體轉接頭
+adapter card,介面卡；配接卡,適配卡,cross_strait,,,
+adapter,配接器；介面卡,適配器,cross_strait,,,
+select,選取,選中,cross_strait,,,
+tab,頁籤,選項卡,cross_strait,,,
+condom,保險套,避孕套,cross_strait,,,
+marginal statistic,邊際統計量,邊緣統計量,cross_strait,,,
+logical volume management,邏輯磁碟區管理,邏輯卷管理,cross_strait,,,LVM
+logic device,邏輯裝置,邏輯器件,cross_strait,,,
+logical core,邏輯核,邏輯核心,cross_strait,,,compound:logical core = 邏輯核；與實體核對應 (@seealso CPU核心)
+logic gate,邏輯閘,邏輯門,cross_strait,,,
+email/mailbox,電子信箱；電子郵件,郵箱,cross_strait,,,「郵箱」指實體郵筒，與電子信箱語意不同
+mail carrier,郵差,郵遞員,cross_strait,,,
+configuration,設定；組態,配置,cross_strait,硬體；韌體；BIOS；路由器；防火牆；網路；交換器；機箱；主機板；插槽；插卡；NIC；PCIe；PCI,記憶體；回收；配置器；malloc；alloc,「硬體/網路配置」tw 用「組態」；「記憶體配置」(allocation) 為正確 tw 用法
+configuration file,組態檔,配置文件,cross_strait,設定；系統；伺服器；修改,,
+configuration file,設定檔,配置檔,cross_strait,,,
+yogurt,優格；發酵乳；優酪乳,酸奶,cross_strait,,,
+yogurt,優酪乳,酸牛奶,cross_strait,,,
+sampling rate,取樣率,采樣率,cross_strait,程式；軟體；系統；電腦；網路,,
+Reagan,雷根,里根,cross_strait,總統；美國；白宮；共和黨；政治,,@person politics (政治人物)
+rename,重新命名,重命名,cross_strait,,,
+restart/reboot,重新啟動,重啟,cross_strait,系統；電腦；伺服器；服務,,
+redirect,重新導向,重定向,cross_strait,,,
+intensive care unit (ICU),加護病房,重症監護病房,cross_strait,,,
+reinstall,重灌,重裝,cross_strait,,,
+overload,多載化,重載,cross_strait,函式；函數；運算子；多載；C++；方法,,
+overloaded function,多載化函式,重載的函數,cross_strait,,,
+overloaded set,多載集合,重載集合,cross_strait,,,
+metal-oxide-semiconductor (MOS),金氧半導體,金屬氧化物半導體,cross_strait,,,
+tuna,鮪魚,金槍魚,cross_strait,,,
+alms bowl (char variant),缽,鉢,variant,,,MoE 標準字體 (@example 衣缽)
+hook,掛鉤,鉤子,cross_strait,,,
+destroy (char variant),銷毀,銷燬,variant,,,MoE 標準字體：「毀」為正體，「燬」為異體字
+tempered glass,強化玻璃,鋼化玻璃,cross_strait,,,
+record (video),錄影,錄像,cross_strait,,,
+error message,錯誤訊息,錯誤信息,cross_strait,,,
+keyboard layout,鍵盤配置,鍵盤布局,cross_strait,,,
+needle (char variant),針,鍼,variant,,,MoE 標準字體 (@example 針灸、指南針)
+link,連結,鏈接,cross_strait,,,
+link library,連結函式庫,鏈接庫,cross_strait,,,
+link,連結,鏈結,cross_strait,,,鏈結串列 (linked list) 為教育部核定資料結構術語，保留不替換 (@seealso 鏈表)
+linked list,鏈結串列,鏈表,cross_strait,,,教育部重編國語辭典「表」指「分格或分項以列記事物的件」，linked list 作為資料結構，不具備任何「表」的意涵 (@seealso 鏈結)
+image,映像檔,鏡像,cross_strait,ISO；Docker；安裝；燒錄；容器,,image file
+close buddy,哥兒們,鐵哥們,cross_strait,,,
+keychain,鑰匙圈,鑰匙扣,cross_strait,,,
+learn something new,學到了；受教了,長知識,cross_strait,,,
+portal system,入口網站,門戶系統,cross_strait,,,
+web portal,入口網站,門戶網站,cross_strait,,,
+gate circuit,閘電路,門電路,cross_strait,,,
+flash memory,快閃記憶體,閃存,cross_strait,,,
+start menu,開始功能表,開始菜單,cross_strait,視窗；桌面；工作列；程式,,
+Open Mobile Alliance,開放行動聯盟,開放移動聯盟,cross_strait,,,
+open source,開放原始碼,開源,confusable,軟體；軟件；程式；程式碼；社群；專案；GitHub；Linux；硬體；授權,,依據 MoE 重編國語辭典，「開源」指開發財源、增加收入（開源節流），與 open source 無關。tw 標準用語為「開放原始碼」
+auspicious start,好采頭,開門紅,cross_strait,,,
+idle process/idle task,閒置行程,閒置程序,cross_strait,,,"idle process/idle task。空閒→閒置 fixer 可能產生「閒置程序」，tw 標準為「閒置行程」(@seealso 空閒程序, 空閒程式)"
+threshold,門檻值；臨界值,閾值,cross_strait,,,「閾」為罕用字，tw 多用「門檻值」
+relational database,關聯式資料庫,關係數據庫,cross_strait,,,
+follow/subscribe,追蹤,關注,cross_strait,訂閱；帳號；貼文；社群；粉絲；推特；臉書；IG；YT；追蹤者,,「關注」偏指 pay attention to，社群媒體語境語意不同
+aspirin,阿斯匹靈,阿司匹林,cross_strait,,,
+Azerbaijan,亞塞拜然,阿塞拜疆,cross_strait,,,@geo country (國名)
+United Arab Emirates (UAE),阿拉伯聯合大公國,阿拉伯聯合酋長國,cross_strait,,,@geo country (國名)
+Alzheimer's disease,阿茲海默症,阿爾茨海默,cross_strait,失智；疾病；記憶；老年,,
+Alzheimer's disease,阿茲海默症,阿爾茨海默病,cross_strait,,,
+addon,附加元件,附加組件,cross_strait,,,
+qualifier,資格修飾詞；飾詞,限定修飾詞,cross_strait,,,
+vacuum cleaner / dust collector,吸塵器,除塵器,cross_strait,,,
+sarcastic / passive-aggressive,怪裡怪氣；假鬼假怪,陰陽怪氣,cross_strait,,,
+queue,佇列,隊列,cross_strait,,,
+RAM,隨機存取記憶體,隨機存取存儲器,cross_strait,,,
+random number,亂數,隨機數,cross_strait,程式；軟體；系統；電腦；網路,,
+latent semantic indexing,隱含語意索引,隱式語義索引,cross_strait,,,
+incognito mode,無痕模式,隱身模式,cross_strait,,,
+only,只,隻,confusable,影響；不過；能夠；需要；只要；只好,,OpenCC 轉換時可能誤植「只」(only) 為「隻」(counter for animals)
+cardinality of a set,集合的基數,集合的勢,cross_strait,,,
+integrated graphics,整合圖形,集成圖形,cross_strait,,,
+integration test,整合測試,集成測試,cross_strait,單元；CI；自動化,,
+IDE,整合式開發環境；整合開發環境,集成開發環境,cross_strait,,,
+integrated circuit (IC),積體電路,集成電路,cross_strait,,,tw 約定成俗的翻譯，其他場景的 integrate 不該翻譯為「積體」(@seealso 集成)
+cluster,叢集,集羣,cross_strait,,,
+cluster,叢集,集群,cross_strait,伺服器；節點；分散；部署；K8s,,
+shipping container,貨櫃,集裝箱,cross_strait,,,
+bazaar / rural market,菜市場,集貿市場,cross_strait,,,
+binary function,二元函式,雙參函數,cross_strait,,,
+bijection,對射,雙射,cross_strait,函數；函式；映射；集合；單射；滿射,雙射射出；雙射成型；雙射模具；雙射機,
+dual-core,雙核,雙核心,cross_strait,,,"compound:dual-core = 雙核 (@seealso CPU核心, 多核心)"
+cloud storage,雲端儲存,雲存儲,cross_strait,,,
+cloud service,雲端服務,雲服務,cross_strait,,,
+cloud computing,雲端運算,雲計算,cross_strait,,,
+start instantly,出其不意；毫無預警；猝不及防,零幀起手,cross_strait,,,
+components/parts,零組件,零部件,cross_strait,,,
+hair dryer,吹風機,電吹風,cross_strait,,,
+email,電子郵件,電子信函,cross_strait,,,
+spreadsheet,電子試算表,電子表格,cross_strait,,,
+digital burnout,失去興趣；提不起勁；沒有熱情,電子陽痿,cross_strait,,,
+power protection / UPS,不斷電系統,電源保護,cross_strait,,,
+power adapter,電源供應器,電源適配器,cross_strait,,,
+electric blanket,電毯,電熱毯,cross_strait,,,
+computer matchmaker,電腦擇友,電腦紅娘,cross_strait,,,
+battery cell,電池芯,電芯,cross_strait,,,
+television university,空中大學,電視大學,cross_strait,,,
+TV series,電視影集,電視系列片,cross_strait,,,
+rice cooker,電鍋,電飯煲,cross_strait,,,
+flexibility,彈性,靈活性,cross_strait,,,
+youth center,青年活動中心,青年宮,cross_strait,,,
+static allocation,靜態配置,靜態分配,cross_strait,,,compound:static allocation，常指靜態記憶體配置
+static library,靜態函式庫,靜態庫,cross_strait,,,
+object-oriented,物件導向,面向對象,cross_strait,,,
+object oriented,物件導向的,面向對象的,cross_strait,,,
+procedural,程序導向,面向過程,cross_strait,,,
+speaker,喇叭；揚聲器；音響,音箱,cross_strait,,,口語/日常 vs 技術文件/規格
+audio,音訊,音頻,cross_strait,,,
+response,回應,響應,cross_strait,請求；伺服器；HTTP；API；延遲,號召；呼籲；倡議,tw「響應」= answer a call (響應號召)；IT response 改「回應」
+header (page),頁首,頁眉,cross_strait,頁碼；排版；印刷；頁尾；版面；Word,,限出版語境
+footer (page),頁尾,頁腳,cross_strait,,,
+page allocation,頁面配置,頁面分配,cross_strait,,,compound:「頁面」語境自動觸發「分配→配置」(@seealso 記憶體分配)
+can't take it,撐不住；受不了,頂不住,cross_strait,,,
+project,專案,項目,cross_strait,開發；部署；版本；軟體；軟件；程式碼；代碼；工程；建置；維護,,限軟體開發語境。cn 以「項目」表示 project，tw 用「專案」；「項目」作為 item/品項時為正確 tw 用法
+project management,專案管理,項目管理,cross_strait,排程；任務；進度；敏捷,,
+sequential container,序列式容器,順序式容器,cross_strait,,,
+pre-allocate,預先配置,預分配,cross_strait,記憶體；緩衝區；malloc；配置；容量,,限記憶體/資源配置語境
+preprocessor,前置處理器,預處理器,cross_strait,,,
+header (programming),標頭,頭,cross_strait,標頭；宣告；定義；編譯；函式；函數；程式碼；代碼；原始碼,,C/C++ header file 語境；「開頭」「剃頭」「橋頭」等日常語境不在此範圍
+avatar,大頭貼,頭像,cross_strait,帳號；個人；設定；上傳,,cn「頭像」；tw 用「大頭貼」或「頭像」(avatar/profile picture)
+header file,標頭檔,頭文件,cross_strait,,,
+brainstorming,腦力激盪,頭腦風暴,cross_strait,,,
+frequency-division multiple access (FDMA),分頻多重進接,頻分多址,cross_strait,,,
+frequency-division multiplexing (FDM),分頻多工,頻分複用,cross_strait,,,
+class,類別,類,cross_strait,class；物件；對象；繼承；多型；介面；OOP；建構；方法；抽象；封裝；實體；子類別；基底；衍生；覆寫；虛擬函式,,依 MoE 辭典，「類」為分類/種類之意。程式設計中 class 應譯「類別」
+type,型態；型別,類型,cross_strait,型別；型態；變數；變量；函式；函數；程式碼；代碼；泛型；編譯；宣告,哪些類型；什麼類型；各種類型；某種類型；這類型,「類型」在日常語境表示「種類/範疇」為正確 tw 用法
+class definition,類別定義；類別定義式,類定義,cross_strait,,,
+class hierarchy,類別繼承體系；類別階層,類層次體系,cross_strait,,,
+class library,類別程式庫；類別庫,類庫,cross_strait,,,
+class template,類別模板；類別範本,類模板,cross_strait,,,
+class template specializations,類別模板特化,類模板特化,cross_strait,,,
+class template partial specializations,類別模板偏特化,類模板部分特化,cross_strait,,,
+class derivation list,類別衍化列,類繼承列表,cross_strait,,,
+class declaration,類別宣告；類別宣告式,類聲明,cross_strait,,,
+class head,類別表頭,類頭,cross_strait,,,
+class body,類別本體,類體,cross_strait,,,
+cathode-ray tube (CRT),映象管,顯像管,cross_strait,,,
+graphics card,顯示卡,顯卡,cross_strait,,,
+video memory (VRAM),視訊記憶體,顯存,cross_strait,,,
+miniature park,小人國,風景微縮區,cross_strait,,,
+Fairchild Semiconductor,快捷半導體,飛兆半導體,cross_strait,,,
+flight attendant,空服員,飛機乘務員,cross_strait,,,
+airplane mode,飛航模式,飛行模式,cross_strait,,,
+starvation,飢餓,餓死,confusable,排程；優先；CPU；行程；執行緒；程序；佇列,,starvation 在作業系統排程語境中的標準 tw 譯法為「飢餓」，而非口語化的「餓死」
+Chief Information Officer (CIO),資訊長,首席信息官,cross_strait,,,
+CEO,執行長,首席執行官,cross_strait,,,「執行長」一詞翻譯不佳，可改寫為 CEO
+Chief Technology Officer (CTO),技術長,首席技術官,cross_strait,,,
+Chief Operating Officer (COO),營運長,首席運營官,cross_strait,,,
+preferences,偏好設定,首選項,cross_strait,,,
+Shannon,夏農,香農,cross_strait,資訊；熵；通訊；定理；編碼,,@person science (資訊理論/CS)
+Maldives,馬爾地夫,馬爾代夫,cross_strait,,,@geo country (國名)
+Mali,馬利共和國,馬裡共和國,cross_strait,,,@geo country (國名)
+Republic of Mali,馬利共和國,馬里共和國,cross_strait,,,@geo country (國名)
+driver,驅動程式,驅動,confusable,裝置；硬體；device；driver；kernel；核心；載入；安裝；VFS；模組；掛載；註冊；設備,,限 IT 名詞語境。「驅動」作為動詞 (to drive) 為正確用法不替換
+drive,磁碟機,驅動器,cross_strait,磁碟；硬碟；檔案；視窗；路徑,,限 IT 語境，針對 DOS/Windows 的檔案系統 (@seealso 資源管理器)
+driver,驅動程式,驅動程序,cross_strait,,,"cn「程序」= program, tw「程式」= program; 「驅動程式」= device driver"
+skeleton screen,骨架畫面,骨架屏,cross_strait,載入；UI；介面；佔位；載入中,,
+architecture,架構；系統架構,體系結構,cross_strait,,,
+highlight,醒目標示,高亮,cross_strait,,,
+high availability / HA,高可用性,高可用,cross_strait,叢集；容錯；備援；伺服器,,
+pressure cooker,壓力鍋,高壓鍋,cross_strait,,,
+high-end and classy,高貴；高雅；有氣質,高大上,cross_strait,,,
+high-performance computing (HPC),高效能運算,高性能計算,cross_strait,,,
+high-standard domestic housing,高級住宅,高標準內銷房,cross_strait,,,
+high-grade,高階,高檔,cross_strait,,,
+high definition (HD),高畫質,高清,cross_strait,,,
+high-end,高階；進階,高端,cross_strait,,,產品定位 vs 技術層級/難度
+institutions of higher education,大專院校,高等院校,cross_strait,,,
+high-level/advanced,高階；進階,高級,cross_strait,設定；功能；語言；型別；選項,餐廳；飯店；住宅；品牌,tw「高級」= luxury/upscale (高級餐廳)；IT 語境改「高階」或「進階」
+cache memory,快取記憶體；快取,高速緩存,cross_strait,,,
+occur/happen,發生,髮生,variant,,,OpenCC 轉換時可能誤植「發」為「髮」(hair)
+magic number,魔術數字；魔術數值,魔法數,cross_strait,,,
+novice lobby / easy match,新手場,魚塘局,cross_strait,,,
+catfish (char variant),鯰,鮎,variant,,,MoE 標準字體 (@example 鯰魚)
+avocado,酪梨,鱷梨,cross_strait,,,
+noodle / flour (char variant),麵,麪,variant,,,MoE 標準字體 (@example 麵條、麵粉)
+paste,貼上,黏貼,cross_strait,,,
+hacker,駭客,黑客,cross_strait,,,指電腦技術高人一等者，並非蓄意破壞 (cracker)
+black hat,黑帽駭客,黑帽,cross_strait,駭客；攻擊；安全；漏洞,,
+black-box testing,黑箱測試,黑盒測試,cross_strait,,,
+Merkel,梅克爾,默克爾,cross_strait,,,@person politics (政治人物)
+default,預設,默認,cross_strait,,,「默認」意指「默許/默示承認」(tacitly approve)，與 default (預設值) 語意不同
+default value,預設值,默認值,cross_strait,,,
+click,點選；按一下,點擊,cross_strait,,,
+like (social media),按讚,點贊,cross_strait,,,
+mouse,滑鼠,鼠標,cross_strait,,,
+palate / jaw (char variant),顎,齶,variant,,,MoE 標準字體 (@example 上顎、下顎)
+overpowered protagonist,開掛仔,龍傲天,cross_strait,,,

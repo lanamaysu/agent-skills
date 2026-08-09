@@ -18,7 +18,7 @@
 
 根據 Wikibooks《大陸台灣計算機術語對照表》（CC BY-SA 4.0）
 
-> **完整對照表**：[terms.csv](./terms.csv)，464 筆術語（自動從 Wikibooks 抓取）
+> **完整對照表**：[terms.csv](./terms.csv)，2,122 筆術語（自動從 Wikibooks 與 zhtw-mcp ruleset 抓取）
 
 ### 必知術語
 
@@ -234,19 +234,21 @@ throw new Error('加载用户信息失败')  (Mainland 術語)
 
 ## 中國用語過濾：表外詞彙與非 IT 領域
 
-「繁體字形」不等於「台灣用語」：把簡體轉成繁體字形後，詞彙仍可能是中國大陸用語。[terms.csv](./terms.csv) 只涵蓋 IT 術語，下面補的是它抓不到的兩類：跨出 IT 領域的日常與學術用語，以及表外詞彙的判斷方法。
+「繁體字形」不等於「台灣用語」：把簡體轉成繁體字形後，詞彙仍可能是中國大陸用語。[terms.csv](./terms.csv) 以 IT 術語為主，下面補的是它抓不到的兩類：跨出 IT 領域的日常與學術用語，以及表外詞彙的判斷方法。
 
 ### 怎麼 grep terms.csv
 
-terms.csv 是 464 筆術語的查詢表，**用 `grep` 查，不要整份讀**（整份讀要 4,000-6,000 token）。它的 `cn` 欄存的是簡體字形，所以：
+terms.csv 是 2,122 筆術語的查詢表，**用 `grep` 查，不要整份讀**（整份讀超過四萬 token）。它的 `cn` 欄兩種字形都有：Wikibooks 來的那批（`type` 為 `glossary`）存簡體，zhtw-mcp 來的那批存繁體。所以：
 
 ```bash
-# 可疑詞是繁體字形時，grep 它的簡體形，否則對不上會誤判為乾淨
-grep -n '数据\|组件\|视频' references/terms.csv
+# 繁簡兩形都打一次，只打一種會漏掉另一批來源
+grep -n '數據\|数据\|組件\|组件' references/terms.csv
 
-# 反向確認更穩：詞不在 tw 欄、但簡體形出現在 cn 欄，就是中國用語
-awk -F',' '$3 ~ /数据/ {print}' references/terms.csv
+# 命中後看 clues／avoid_clues／note 三欄：那是判斷條件，不是註解
+grep -n ',項目,' references/terms.csv
 ```
+
+`type` 是 `disabled` 的列意思相反：那是刻意記下「看起來像錯、但不要改」的組合（`參數`、`文件`）。`confusable` 列的 `cn` 欄放的是台灣用語被用錯義項，不是中國用語。
 
 ### 學術與職場
 
@@ -308,8 +310,9 @@ awk -F',' '$3 ~ /数据/ {print}' references/terms.csv
 
 ## 參考資源
 
-- [terms.csv](./terms.csv)：完整術語對照表（464 筆）。由 [scripts/fetch_terms.py](../scripts/fetch_terms.py) 從下方 Wikibooks 頁面重新產生；重跑會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 Token 的 cn 欄修正，先 diff 再覆蓋
+- [terms.csv](./terms.csv)：完整術語對照表（2,122 筆）。由 [scripts/fetch_terms.py](../scripts/fetch_terms.py) 從下方兩個來源重新產生；重跑 glossary 會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 Token 的 cn 欄修正，先 diff 再覆蓋
 - [prose-style.md](./prose-style.md)：去 AI 味的行文規範（寫連續散文時使用）
 - [Wikibooks 對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8)：CC BY-SA 4.0
+- [sysprog21/zhtw-mcp](https://github.com/sysprog21/zhtw-mcp)：MIT，`assets/ruleset.json` 是 terms.csv 消歧義欄位的來源，跨海峽詞條再上溯 [OpenCC](https://github.com/BYVoid/OpenCC)（Apache-2.0）
 - [教育部重編國語辭典](https://dict.revised.moe.edu.tw/)：官方辭典
 - [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)：CC BY-SA 4.0，「中國用語過濾」與命名規則的來源

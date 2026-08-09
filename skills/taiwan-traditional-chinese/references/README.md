@@ -31,25 +31,30 @@
 
 **授權標示範例**：
 
-- 來源：Wikibooks《大陸台灣計算機術語對照表》
-- 授權：CC BY-SA 4.0
-- 連結：https://creativecommons.org/licenses/by-sa/4.0/
+- 來源：Wikibooks《大陸台灣計算機術語對照表》（CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ ）
+- 來源：sysprog21/zhtw-mcp（MIT），內含 OpenCC 詞庫（Apache-2.0）
 
 **欄位**（依序，第一欄是英文）：
 
 | 欄 | 內容 |
 |----|------|
 | `en` | 英文原文 |
-| `tw` | 台灣繁體中文術語 |
-| `cn` | 中國大陸簡體中文術語 |
+| `tw` | 台灣用語 |
+| `cn` | 要避開的寫法 |
+| `type` | 資料來源與規則種類，見上表 |
+| `clues` | 出現這些詞才成立（以「；」分隔） |
+| `avoid_clues` | 出現這些詞就不成立 |
+| `note` | 為什麼要改、限用於哪個語境 |
+
+`cn` 欄的方向不是每一列都一樣，要連 `type` 一起讀：`confusable` 列放的是**台灣用語被用錯義項**（「函式」在程式設計正確，在數學該用「函數」），`disabled` 列則是刻意記下「這組看起來像錯、但不要改」。
 
 **統計**：
 
-- 資料列：464（含標題共 465 行）
-- 大小：18 KB
+- 資料列：2,122（glossary 447、cross_strait 1,602、variant 48、confusable 18、political_coloring 5、disabled 2）
+- 大小：157 KB
 - 格式：CSV（UTF-8）、LF 換行
 
-**用 grep 查，不要整份讀。** 整份讀進 context 要 4,000-6,000 token，只為換幾行結果。
+用 grep 查，**不要整份讀**。整份讀進 context 超過四萬 token，只為換幾行結果。
 
 ```bash
 # 依英文術語查
@@ -58,14 +63,14 @@ grep -i "array" terms.csv
 # 依台灣術語查
 grep "陣列" terms.csv
 
-# cn 欄存的是簡體字形。可疑詞是繁體時（「數據」），要 grep 它的簡體形
-grep -n '数据\|组件\|视频' terms.csv
+# 可疑詞是繁體時，繁簡兩形都打一次才不會漏
+grep -n '數據\|数据\|組件\|组件' terms.csv
 ```
 
-**多義詞**：同一個英文詞若有兩個義項，會出現兩列。`Comment (code)`、`Flush (align)`、`Token (security/currency)` 這三個義項標註是手動加的，重新抓取會蓋掉，先 diff 再覆蓋。
+**多義詞**：同一個英文詞若有兩個義項，會出現兩列。`Comment (code)`、`Flush (align)`、`Token (security/currency)` 這三個義項標註是手動加的，重抓 glossary 會蓋掉，先 diff 再覆蓋。
 
 **更新**：見 `../scripts/`。
 
 ---
 
-**最後更新**：2026-07-31
+**最後更新**：2026-08-09

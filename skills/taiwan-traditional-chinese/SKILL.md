@@ -16,7 +16,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 - **[prose-style.md](./references/prose-style.md)**：寫連續散文才讀（專案文件、README 敘述段落、ADR、release note、規格書、簡報，或使用者說「太像 AI」「潤稿」）。commit message、程式碼註解、測試案例描述、表格與 API 參數說明**不要讀**：固定格式套散文節奏會壞掉，本檔的「AI 味速查」那層已經夠。
 - **[guidelines.md](./references/guidelines.md)**：只在品質檢查未通過，或使用者要求稽核時讀。
-- **[terms.csv](./references/terms.csv)**：永遠 `grep`，不要整份讀。464 筆術語的查詢表整份讀要 4,000-6,000 token，grep 只回幾列。
+- **[terms.csv](./references/terms.csv)**：永遠 `grep`，不要整份讀。2,122 筆術語，整份讀要四萬 token 以上，grep 只回幾列。
 
 ## Core Rules
 
@@ -111,7 +111,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
    - 中文句子用了半形標點，或程式碼與檔名沒加反引號
    - 英文專有名詞被翻譯掉（React、useState、API 要保留）
 3. 通過：直接輸出，不要開啟 guidelines.md，也不要動 terms.csv。
-4. 未通過：讀 guidelines.md，但 **terms.csv 用 `grep` 查可疑詞，不要整份讀**：464 筆全讀是 4,000-6,000 token 換幾行結果。重寫後再檢查一次。
+4. 未通過：讀 guidelines.md，terms.csv 一樣只 `grep` 可疑詞。重寫後再檢查一次。
 5. 只輸出通過的版本，不要提及檢查或重寫過程。
 
 ## Minimal Example
@@ -125,8 +125,8 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 - [prose-style.md](./references/prose-style.md)：去 AI 味的完整行文規範（寫連續散文時讀）
 - [guidelines.md](./references/guidelines.md)：完整指南（稽核時讀）
-- [terms.csv](./references/terms.csv)：術語對照表（464 筆，用 `grep` 查），由 [scripts/fetch_terms.py](./scripts/fetch_terms.py) 產生
-- 外部來源（Wikibooks、教育部辭典）列在 guidelines.md
+- [terms.csv](./references/terms.csv)：術語對照表，由 [scripts/fetch_terms.py](./scripts/fetch_terms.py) 產生
+- 外部來源（Wikibooks、zhtw-mcp、教育部辭典）列在 guidelines.md
 - [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)：CC BY-SA 4.0，`prose-style.md`、軟體圈行話表、一詞多義表的來源
 
-**Last Updated**: 2026-07-31
+**Last Updated**: 2026-08-09

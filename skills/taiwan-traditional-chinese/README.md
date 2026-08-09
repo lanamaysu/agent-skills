@@ -52,7 +52,7 @@ references 預設不讀，只在品質檢查未通過或明確要求稽核時才
 
 ## 授權與資料來源
 
-- `references/terms.csv` 來源：Wikibooks《大陸台灣計算機術語對照表》，授權 CC BY-SA 4.0，同方式分享。
+- `references/terms.csv` 來源有二：Wikibooks《大陸台灣計算機術語對照表》（CC BY-SA 4.0，同方式分享）；[sysprog21/zhtw-mcp](https://github.com/sysprog21/zhtw-mcp) 的 `assets/ruleset.json`（MIT，跨海峽詞條再上溯 [OpenCC](https://github.com/BYVoid/OpenCC)，Apache-2.0）。
 - `references/prose-style.md`、`SKILL.md` 的軟體圈行話表與一詞多義表：改寫自 [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)，授權 CC BY-SA 4.0，同方式分享。
 - 若再散佈此技能，請保留來源與授權連結：https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -64,8 +64,14 @@ references 預設不讀，只在品質檢查未通過或明確要求稽核時才
 # 建立/啟用虛擬環境（若尚未建立）
 python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 
-# 重新抓取 Wikibooks 對照表並產生 references/terms.csv
+# 兩個來源都重抓並產生 references/terms.csv
 .venv/bin/python scripts/fetch_terms.py
+
+# 只更新 zhtw-mcp 規則（純標準函式庫，不需要 venv）
+python3 scripts/fetch_terms.py --source ruleset
+
+# 只重抓 Wikibooks
+.venv/bin/python scripts/fetch_terms.py --source glossary
 ```
 
 重新抓取會蓋掉手動加的義項標註（`Comment (code)`、`Flush (align)`、`Token (security/currency)`）與 `Token` 的 `cn` 欄修正，**先 diff 再覆蓋**。腳本會處理 Wikibooks 表格的 `rowspan` 合併儲存格；若 `en` 欄出現非 ASCII 就會中止而不覆寫，那代表上游表格結構變了。
@@ -76,7 +82,7 @@ python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 - `references/` — 按需載入的參考資料
   - `prose-style.md` — 去 AI 味的完整行文規範（寫散文時讀）
   - `guidelines.md` — 完整技術寫作指南（稽核時讀）
-  - `terms.csv` — 術語對照表 464 筆，欄位 `en,tw,cn`（用 `grep` 查）
+  - `terms.csv` — 術語對照表 2,122 筆，欄位 `en,tw,cn,type,clues,avoid_clues,note`（用 `grep` 查）
   - `README.md` — 資料來源、授權與欄位說明
 - `scripts/` — 維護工具
   - `fetch_terms.py` — 從 Wikibooks 抓取表格並輸出 CSV
@@ -84,4 +90,4 @@ python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 
 ---
 
-**Last Updated**: 2026-07-31
+**Last Updated**: 2026-08-09

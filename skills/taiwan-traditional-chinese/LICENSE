@@ -16,22 +16,43 @@ compatible license, and MIT is not BY-SA compatible.
 Upstream sources
 ----------------
 
-1. references/terms.csv
+1. references/terms.csv, rows with type `glossary`
    Source:  Wikibooks, 大陸台灣計算機術語對照表
    URL:     https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8
    License: CC BY-SA 4.0
-   Changes: scraped into CSV form with columns en,tw,cn; three rows carrying a
-            second sense of an existing term were given sense qualifiers
-            (Comment (code), Flush (align), Token (security/currency)).
+   Changes: scraped into CSV form with columns en,tw,cn and tagged `glossary` in
+            the `type` column that distinguishes this source from source 3;
+            three rows carrying a second sense of an existing term were given
+            sense qualifiers (Comment (code), Flush (align),
+            Token (security/currency)).
 
-2. references/prose-style.md, and the 中國科技業套話 and 一詞多義 tables in SKILL.md
+2. references/prose-style.md, and the 中國軟體圈行話禁用表 and 一詞多義 tables
+   in SKILL.md
    Source:  allenloves/de-ai-tone
    URL:     https://github.com/allenloves/de-ai-tone
    License: CC BY-SA 4.0
    Changes: translation and music-domain rules removed, examples rewritten for
             software-development contexts, terminology changed (支語 ->
-            中國用語, 互聯網黑話 -> 中國科技業套話), section labels reformatted,
+            中國用語, 互聯網黑話 -> 中國軟體圈行話), section labels reformatted,
             self-check greps added.
+
+3. references/terms.csv, rows with type `cross_strait`, `variant`,
+   `confusable`, `political_coloring`, `disabled`
+   Source:  sysprog21/zhtw-mcp, assets/ruleset.json
+   URL:     https://github.com/sysprog21/zhtw-mcp
+   License: MIT, Copyright (c) 2026 National Cheng Kung University, Taiwan.
+            The cross-strait entries derive in turn from OpenCC
+            (https://github.com/BYVoid/OpenCC), Apache-2.0,
+            Copyright 2010-2026 Carbo Kuo and contributors. OpenCC ships no
+            NOTICE file, so there is nothing further to propagate under
+            Apache-2.0 §4(d).
+   Changes: flattened from JSON into the same en,tw,cn CSV schema as source 1
+            and tagged by rule kind in the `type` column; unlike source 1 these
+            rows keep traditional glyphs in the `cn` column.
+
+MIT and Apache-2.0 both permit redistribution under CC BY-SA 4.0 as long as the
+original copyright and license notices are retained, which this file does. The
+directory as a whole therefore stays CC BY-SA 4.0.
 
 If you redistribute this directory or an adaptation of it, keep this notice and
 license the result under CC BY-SA 4.0.
