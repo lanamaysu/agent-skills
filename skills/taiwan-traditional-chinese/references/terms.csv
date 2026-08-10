@@ -455,8 +455,8 @@ CPU core,CPU 核,CPU核心,cross_strait,,,區分 core (核) 和 kernel (核心)�
 GSM mobile,GSM 行動,GSM移動,cross_strait,,,
 Google Toolbar,Google 工具列,Google工具條,cross_strait,,,
 PN junction,PN 接面,PN結,cross_strait,,,
-SQL injection,SQL 隱碼攻擊,SQL注入,cross_strait,,,
-SQL injection attack,SQL 隱碼攻擊,SQL注入攻擊,cross_strait,,,
+SQL injection,SQL 注入,SQL注入,cross_strait,,,「SQL 隱碼攻擊」僅見於部分正式資安文件；一般技術文件與口語通行「SQL 注入」，不強制替換
+SQL injection attack,SQL 注入攻擊,SQL注入攻擊,cross_strait,,,「SQL 隱碼攻擊」僅見於部分正式資安文件；一般技術文件與口語通行「SQL 注入」，不強制替換
 Sun Microsystems,昇陽電腦,Sun微系統,cross_strait,,,
 USB flash drive,隨身碟,U盤,cross_strait,,,
 X Window System,X 視窗系統,X Window 系統,cross_strait,,,tw 慣用「視窗」而非直接使用 Window

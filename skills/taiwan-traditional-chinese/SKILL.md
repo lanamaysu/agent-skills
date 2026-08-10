@@ -14,9 +14,10 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 本檔的四張表常時生效，references 預設不讀。
 
-- **[prose-style.md](./references/prose-style.md)**：寫連續散文才讀（專案文件、README 敘述段落、ADR、release note、規格書、簡報，或使用者說「太像 AI」「潤稿」）。commit message、程式碼註解、測試案例描述、表格與 API 參數說明**不要讀**：固定格式套散文節奏會壞掉，本檔的「AI 味速查」那層已經夠。
+- **[prose-style.md](./references/prose-style.md)**：寫連續散文才讀（專案文件、README 敘述段落、ADR、release note、規格書、簡報，或使用者說「太像 AI」「潤稿」）。**要讀就在動筆前讀，不是寫完再回頭校對**：稿子的段落結構一旦成形就很難拆，事後校對只改得動詞彙。實測讓模型自行安排順序，它會把這份排到最後一個動作，三篇稿子的骨架那時早就定了。commit message、程式碼註解、測試案例描述、表格與 API 參數說明**不要讀**：固定格式套散文節奏會壞掉，本檔的「AI 味速查」那層已經夠。
+- **不要照抄本檔的外觀。** 本檔為了查閱方便用了大量粗體與表格，那是速查表的格式，不是你要產出的格式。散文就寫成散文：偽小標（獨立一行的 `**……**`）是明確禁止的，見下方「AI 味速查」第 4 條。
 - **[guidelines.md](./references/guidelines.md)**：只在品質檢查未通過，或使用者要求稽核時讀。
-- **[terms.csv](./references/terms.csv)**：永遠 `grep`，不要整份讀。2,122 筆術語，整份讀要四萬 token 以上，grep 只回幾列。
+- **[terms.csv](./references/terms.csv)**：**每次產出中文都要查，這是必要步驟**，做法見下方「品質檢查與重寫流程」第 2 步。永遠 `grep`，不要整份讀：2,122 筆術語，整份讀要四萬 token 以上，grep 只回幾列。
 
 ## Core Rules
 
@@ -107,7 +108,32 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 速查表是給你第一次就寫對用的，不是事後對照用的。
 
 1. 產出前掃一遍上方四塊（絕對禁用、軟體圈行話、一詞多義、AI 味速查），照著寫。
-2. 產出後自我檢查一次，以下任一項成立即為不通過：
+2. **查表。這步無條件執行，不看第 3 步的結果，而且候選詞不由你判斷。**
+
+   下面的路徑都相對於本 skill 目錄，不是相對於專案根目錄。
+
+   能執行指令時，把草稿餵給腳本。用 stdin，不要另存暫存檔——存了就會忘記刪，skill 目錄裡會多出 `draft_check.txt` 這種殘骸：
+
+   ```bash
+   cat <<'EOF' | python3 scripts/lint_zhtw.py --terms -
+   （草稿全文）
+   EOF
+   ```
+
+   已經是檔案就直接給路徑：`python3 scripts/lint_zhtw.py --terms draft.md`。
+
+   它逐列比對整份 terms.csv，不管你覺得哪個詞可疑。輸出格式是 `行號: [用詞] 原詞 → 建議`；標「（語境未確認）」表示該列有 `clues`，要自己確認語境對不對再改。
+
+   只能 grep 時，pattern 要從草稿**機械地**抽：把每個連續中文字串按 2 到 6 字切出來全部放進去，不是放你覺得可疑的那幾個。
+
+   ```bash
+   grep -nE "候選1|候選2|候選3|…" references/terms.csv
+   ```
+
+   `cn` 欄同時收簡體與繁體兩種字形，兩種都要試。有命中就照 `tw` 欄改。
+
+   為什麼候選詞不能自己挑：直覺只挑得出你已經知道有問題的詞。實測讓模型自行「挑出可疑的詞」，它挑的是本來就認得的那幾個，真正查了才會的詞一個都沒進 pattern，等於沒查。**你覺得沒問題的詞，才是最需要查的那些。**
+3. 產出後自我檢查一次，以下任一項成立即為不通過：
    - 出現「絕對禁用」或「中國軟體圈行話」表裡的詞
    - 一詞多義的詞用錯義項
    - 出現「AI 味速查」刪除清單或替換表裡的詞
@@ -115,9 +141,9 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
    - 開場復述問題，或收尾出現「希望這些資訊對你有幫助」
    - 中文句子用了半形標點，或程式碼與檔名沒加反引號
    - 英文專有名詞被翻譯掉（React、useState、API 要保留）
-3. 通過：直接輸出，不要開啟 guidelines.md，也不要動 terms.csv。
-4. 未通過：讀 guidelines.md，terms.csv 一樣只 `grep` 可疑詞。重寫後再檢查一次。
-5. 只輸出通過的版本，不要提及檢查或重寫過程。
+4. 通過：直接輸出，不要開啟 guidelines.md。
+5. 未通過：讀 guidelines.md，重寫後再檢查一次。
+6. 只輸出通過的版本，不要提及檢查或查表過程。
 
 ## Minimal Example
 

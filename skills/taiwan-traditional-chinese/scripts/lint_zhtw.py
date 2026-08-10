@@ -9,6 +9,7 @@ half-width punctuation buried in a CJK sentence, one stray simplified glyph.
 
     python3 scripts/lint_zhtw.py <path>...        # the counting checks
     python3 scripts/lint_zhtw.py --terms <path>   # also grep terms.csv vocabulary
+    ... | python3 scripts/lint_zhtw.py --terms -  # read the draft from stdin
     python3 scripts/test_lint_zhtw.py             # fixtures for every check
 
 Exit status is 1 when anything is reported, so it drops into a pre-commit hook
@@ -372,24 +373,33 @@ def check_terms(path: str, masked: list[str], terms) -> list[Finding]:
 
 
 def lint(path: Path, terms) -> list[Finding]:
+    # 吃 stdin：草稿還在腦子裡就能檢查，不必先落地成暫存檔。少了暫存檔就不會在
+    # skill 目錄裡留下 draft_check.txt 這種殘骸——實測模型會留。
+    if str(path) == "-":
+        return lint_text(sys.stdin.read(), "<stdin>", terms)
     try:
-        lines = path.read_text(encoding="utf-8").split("\n")
+        text = path.read_text(encoding="utf-8")
     except UnicodeDecodeError as exc:
         return [Finding(str(path), 1, "讀取失敗", f"不是 UTF-8：{exc}")]
+    return lint_text(text, str(path), terms)
+
+
+def lint_text(text: str, label: str, terms) -> list[Finding]:
+    lines = text.split("\n")
     try:
         masked, _ = mask(lines)
     except ValueError as exc:
-        return [Finding(str(path), len(lines), "標記錯誤", str(exc))]
+        return [Finding(label, len(lines), "標記錯誤", str(exc))]
 
     simplified = load_simplified_only()
     found = (
-        check_halfwidth(str(path), masked)
-        + check_dash_density(str(path), masked)
-        + check_bold(str(path), masked)
-        + check_simplified(str(path), masked, simplified)
+        check_halfwidth(label, masked)
+        + check_dash_density(label, masked)
+        + check_bold(label, masked)
+        + check_simplified(label, masked, simplified)
     )
     if terms is not None:
-        found += check_terms(str(path), masked, terms)
+        found += check_terms(label, masked, terms)
     return sorted(found, key=lambda f: (f.line, f.check))
 
 
@@ -413,7 +423,7 @@ def main() -> int:
         )
     total = 0
     for path in args.paths:
-        if not path.is_file():
+        if str(path) != "-" and not path.is_file():
             print(f"{path}: not a file", file=sys.stderr)
             return 2
         for finding in lint(path, terms):
