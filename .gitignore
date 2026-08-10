@@ -10,3 +10,9 @@ build/
 node_modules/
 .idea/
 .vscode/
+
+# bench 每次執行都會覆寫的產出；要留的快照複製到 bench/results-<日期>/
+bench/out-*.txt
+bench/haiku-*.txt
+bench/blind.md
+bench/blind-key.txt

@@ -1,0 +1,37 @@
+## G1
+
+```
+fix: 元件卸載時釋放座位鎖並停止續約
+
+setInterval 送出的 renewLock 有機會在 clearInterval 之後才跑完，導致
+座位鎖在使用者離開頁面後仍持續續約。加上 cancelled 旗標阻擋已排定的
+續約，並在 cleanup 呼叫 releaseLock 主動釋放。
+```
+
+## G2
+
+```markdown
+## 變更內容
+
+`lib/api/client.js` 的 `request()` 加入重試：狀態碼落在 502、503、504 時重試，最多 3 次請求（初次加 2 次重試），間隔採指數退避 200ms、400ms。其他狀態碼與第 3 次失敗維持原行為，直接丟出 `ApiError`。逾時設定 `TIMEOUT` 8000ms 不變，套用在每一次請求上，因此最壞情況總耗時約 24.6 秒。
+
+## 驗證方式
+
+1. 用 mock server 讓某個 endpoint 回 503，確認 client 送出 3 次請求、間隔約 200ms 與 400ms，最後丟出 `ApiError(503)`。
+2. 同一個 endpoint 改回 400，確認只送出 1 次請求就丟出 `ApiError(400)`。
+3. 讓第 2 次請求回 200，確認 `request()` 正常回傳 JSON，不再繼續重試。
+
+## 需要一併確認
+
+非 idempotent 的請求（POST 建單、付款）走到 502/503/504 時會重送，若後端未做冪等處理有重複建立的風險。目前 `request()` 不分 method 一律重試，審查時請確認呼叫端是否有這類情境。
+```
+
+## G3
+
+```markdown
+### `experimental.dedupeRequestsPerRender`
+
+開啟後，同一份查詢在單次 render 內只會送出一次請求，結果放在 request 層級的暫存區，render 結束就丟掉。用途是避免多個元件各自取同一份資料時重複打 API，不需要改寫元件把資料提到上層再往下傳。
+
+因為暫存區的生命週期只有一次 render，跨請求不會拿到舊資料，也不能當快取用。目前仍在 `experimental`，升級 Next.js 版本時要重新確認行為。
+```

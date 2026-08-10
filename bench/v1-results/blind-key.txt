@@ -1,0 +1,9 @@
+G1 A = 新版 skill
+G1 B = 沒有 skill
+G1 C = 舊版 skill
+G2 A = 舊版 skill
+G2 B = 新版 skill
+G2 C = 沒有 skill
+G3 A = 沒有 skill
+G3 B = 舊版 skill
+G3 C = 新版 skill
