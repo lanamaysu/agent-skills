@@ -75,7 +75,7 @@ def run(text: str, *, terms=None) -> list[str]:
         f.write(text)
         path = Path(f.name)
     try:
-        return [f.check for f in lint_zhtw.lint(path, terms)]
+        return [f.check for f in lint_zhtw.lint(path, terms, lint_zhtw.load_simplified_only())]
     finally:
         path.unlink()
 

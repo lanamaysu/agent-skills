@@ -357,9 +357,15 @@ def load_terms() -> list[tuple[str, str, list[str], list[str]]]:
 
 
 def check_terms(path: str, masked: list[str], terms) -> list[Finding]:
+    # terms.csv is ~2,000 rows; almost none of them occur in a given draft. One
+    # substring test per row against the whole document -- instead of against
+    # every line -- prunes to the handful that are actually present before the
+    # per-line loop, with no change to which findings come out the far end.
+    text = "\n".join(masked)
+    candidates = [row for row in terms if row[0] in text]
     found = []
     for n, line in enumerate(masked, 1):
-        for cn, tw, clues, avoid in terms:
+        for cn, tw, clues, avoid in candidates:
             if cn not in line:
                 continue
             if any(a in line for a in avoid):
@@ -372,26 +378,25 @@ def check_terms(path: str, masked: list[str], terms) -> list[Finding]:
 # --- driver ------------------------------------------------------------------
 
 
-def lint(path: Path, terms) -> list[Finding]:
+def lint(path: Path, terms, simplified: set[str]) -> list[Finding]:
     # 吃 stdin：草稿還在腦子裡就能檢查，不必先落地成暫存檔。少了暫存檔就不會在
     # skill 目錄裡留下 draft_check.txt 這種殘骸——實測模型會留。
     if str(path) == "-":
-        return lint_text(sys.stdin.read(), "<stdin>", terms)
+        return lint_text(sys.stdin.read(), "<stdin>", terms, simplified)
     try:
         text = path.read_text(encoding="utf-8")
     except UnicodeDecodeError as exc:
         return [Finding(str(path), 1, "讀取失敗", f"不是 UTF-8：{exc}")]
-    return lint_text(text, str(path), terms)
+    return lint_text(text, str(path), terms, simplified)
 
 
-def lint_text(text: str, label: str, terms) -> list[Finding]:
+def lint_text(text: str, label: str, terms, simplified: set[str]) -> list[Finding]:
     lines = text.split("\n")
     try:
         masked, _ = mask(lines)
     except ValueError as exc:
         return [Finding(label, len(lines), "標記錯誤", str(exc))]
 
-    simplified = load_simplified_only()
     found = (
         check_halfwidth(label, masked)
         + check_dash_density(label, masked)
@@ -414,10 +419,11 @@ def main() -> int:
     args = parser.parse_args()
 
     terms = load_terms() if args.terms else None
+    simplified = load_simplified_only()
     if not simplified_is_exact():
         print(
             f"note: opencc not installed -- 簡體殘留 covers only the "
-            f"{len(load_simplified_only())} glyphs derivable from terms.csv. It catches "
+            f"{len(simplified)} glyphs derivable from terms.csv. It catches "
             "simplified IT terms; fluent simplified prose can still pass.",
             file=sys.stderr,
         )
@@ -426,7 +432,7 @@ def main() -> int:
         if str(path) != "-" and not path.is_file():
             print(f"{path}: not a file", file=sys.stderr)
             return 2
-        for finding in lint(path, terms):
+        for finding in lint(path, terms, simplified):
             print(finding)
             total += 1
 
