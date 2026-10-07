@@ -1,6 +1,6 @@
 ---
 name: zh-tw-writing
-description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation, de-AI tone. Judge by the deliverable, not keywords — if your output will contain Chinese, this applies; read it before the first Chinese character, not after. A git, React or JSON task counts once its output is Chinese: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files. Not for ephemeral chat replies, which follow the conversation style rules already in effect. Also for repairing Chinese: mainland wording (數據/組件), mainland software-industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Default zh-Hant-TW unless 簡體 is asked. Skip when Chinese is the bug not the output (fonts, encoding, full-width spacing, 繁簡轉換) or when translating into another language.'
+description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation and de-AI tone. Use it when your output contains Chinese. Decide by the output, not by keywords in the task. Read it before you write the first Chinese character. Git, React and JSON tasks are included when the output is Chinese. Examples: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files. Also use it to repair Chinese: mainland terms (數據/組件), mainland industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Write zh-Hant-TW unless the user asks for 簡體. Do not use it for chat replies. Chat replies follow the conversation style rules. Do not use it when Chinese is the bug, not the output (fonts, encoding, full-width spacing, 繁簡轉換). Do not use it when you translate into another language.'
 ---
 
 # Taiwan Traditional Chinese Response Skill
@@ -30,9 +30,9 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 ## 關鍵術語速查表（必須遵守）
 
-**絕對禁用**：代碼/代码、组件、異步/异步、回退、變量/变量、映射、對象/对象、數組/数组、函數/函数、返回值、導入/导入、導出/导出、依賴/依赖、數據/数据、應用程序/应用程序、數據庫/数据库、服務器/服务器、緩存/缓存、網絡/网络、加載、模塊、線程  <!-- zhtw-lint: skip -->
+**絕對禁用**：代碼/代码、组件、異步/异步、回退、變量/变量、映射、對象/对象、數組/数组、函數/函数、返回值、導入/导入、導出/导出、依賴/依赖、數據/数据、應用程序/应用程序、數據庫/数据库、服務器/服务器、緩存/缓存、網絡/网络、加載、模塊、線程、默認/默认、用戶/用户  <!-- zhtw-lint: skip -->
 
-**必用台灣術語**：component 元件、array 陣列、object 物件、function 函式、data 資料、variable 變數、parameter 參數、return value 回傳值、import 匯入、export 匯出、async 非同步、cache 快取、load 載入、server 伺服器、database 資料庫、network 網路、thread 執行緒、module 模組、package 套件、dependency 相依性
+**必用台灣術語**：component 元件、array 陣列、object 物件、function 函式、data 資料、variable 變數、parameter 參數、return value 回傳值、import 匯入、export 匯出、async 非同步、cache 快取、load 載入、server 伺服器、database 資料庫、network 網路、thread 執行緒、module 模組、package 套件、dependency 相依性、default 預設、user 使用者
 
 ## 中國軟體圈行話禁用表（所有任務皆適用）
 
@@ -99,6 +99,8 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 **開場與收場**：不復述問題（「這是一個很好的問題」）、不用應答式熱情（「當然可以！」）、不用展望式收尾（「希望這些資訊對你有幫助」）。內容說完就停。
 
+**指示詞**：文件與註解裡不寫單獨的「這層」「那段」「它」，每次都寫出名稱（`useCartStore`、結帳按鈕）。之後改稿時，指示詞會悄悄指到別的東西。
+
 **贅詞「一個」**：英文冠詞的殘影，「一種」「一位」「一項」同理。刪掉後句子仍通就刪。
 
 完整規則、例句與逐項自檢流程在 [prose-style.md](./references/prose-style.md)，寫連續散文時才需要讀。
@@ -140,6 +142,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
    - 一詞多義的詞用錯義項
    - 出現「AI 味速查」刪除清單或替換表裡的詞
    - 破折號、假對比、三項式排比、加粗超過量化上限（含整句加粗）
+   - 用指示詞（這層、那段、它）代替名稱
    - 開場復述問題，或收尾出現「希望這些資訊對你有幫助」
    - 中文句子用了半形標點，或程式碼與檔名沒加反引號
    - 英文專有名詞被翻譯掉（React、useState、API 要保留）
@@ -162,4 +165,4 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 - 外部來源（Wikibooks、zhtw-mcp、教育部辭典）列在 guidelines.md
 - [allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone)：CC BY-SA 4.0，`prose-style.md`、軟體圈行話表、一詞多義表的來源
 
-**Last Updated**: 2026-08-09
+**Last Updated**: 2026-10-07

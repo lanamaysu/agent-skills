@@ -144,7 +144,7 @@ screen.getByAltText('Profile picture')
 
 #### `getByTestId`
 
-**Use only when no semantic option exists. Document why in AGENTS.md.**
+**Use only when no semantic query works. Add a code comment that tells why.**
 
 ```javascript
 screen.getByTestId('complex-chart')
@@ -247,7 +247,7 @@ Image?
  ↓ No
 No other option?
  → Last resort: getByTestId
-   (Document why in AGENTS.md)
+   (Add a code comment that tells why)
 ```
 
 ---
