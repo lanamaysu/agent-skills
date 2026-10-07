@@ -6,10 +6,10 @@
 
 ## Available Skills
 
-### [Taiwan Traditional Chinese](./skills/zh-tw-writing)
-**Taiwan zh-Hant-TW/zh-TW/zh_TW 繁體中文回應指南**
+### [zh-tw-writing](./skills/zh-tw-writing)
+**台灣繁體中文（zh-Hant-TW）寫作規範**
 
-先做品質檢查，僅在不通過時才讀取完整指南與術語對照表。
+每次產出中文都用 `lint_zhtw.py` 比對術語對照表；只有品質檢查不通過時，才讀取完整指南。
 
 - 台灣繁體中文（zh-Hant-TW/zh-TW/zh_TW）術語標準
 - 技術術語、標點、語氣規範
@@ -19,7 +19,9 @@
 **使用時機：**
 - 撰寫或審查中文文件、程式碼註解、提交訊息
 - 需要統一台灣技術術語與格式風格
-- 任何繁體中文內容生成任務
+- 任何要交付的繁體中文產出（聊天回覆不算）
+
+**不適用：** 中文本身是問題來源時（字型、編碼、全形與半形間距、繁簡轉換），或要把中文翻成其他語言時。
 
 **快速開始：**
 ```bash
@@ -37,13 +39,13 @@ python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 
 ---
 
-### [Jest + React Testing Library](./skills/jest-rtl-testing)
+### [jest-rtl-testing](./skills/jest-rtl-testing)
 **Jest + RTL 測試最佳實踐**
 
 基於 Testing Library 核心原則與 Kent C. Dodds 最佳實踐的測試指南。
 
 - 以使用者為中心的測試方法
-- Query 優先順序指南（accessibility-first）
+- Query 優先順序指南（效能優先：`getByLabelText`、`getByText` 在前，`getByRole` 只用在小元件）
 - 常見錯誤與正確做法對照
 - 非同步測試處理模式
 - 優先讀取專案 AGENTS.md 的測試規範
@@ -52,23 +54,34 @@ python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt
 - 撰寫或審查 React 元件測試
 - 測試失敗時除錯，判斷 API 使用是否正確
 - 需要改善測試可讀性與可維護性
-- 確保測試遵循無障礙（accessibility）最佳實踐
 
 **快速開始：**
 ```bash
 # 預覽技能
 cat skills/jest-rtl-testing/SKILL.md
 
-# 查看 Query 速查表
-cat skills/jest-rtl-testing/references/query-cheatsheet.md
-
-# 查看常見測試模式
-cat skills/jest-rtl-testing/references/common-patterns.md
+# 參考檔很長，先列標題，再讀需要的段落
+grep -n '^#' skills/jest-rtl-testing/references/query-cheatsheet.md
+grep -n '^#' skills/jest-rtl-testing/references/common-patterns.md
 ```
 
 ---
 
 ## Installation
+
+### Claude Code plugin
+
+本 repo 是 Claude Code plugin marketplace（`.claude-plugin/marketplace.json`），marketplace 名稱是 `lanamaysu`。
+
+```bash
+claude plugin marketplace add lanamaysu/agent-skills
+claude plugin install zh-tw-writing@lanamaysu
+claude plugin install jest-rtl-testing@lanamaysu
+```
+
+在 Claude Code 對話中，也可以改用 `/plugin marketplace add` 與 `/plugin install`。
+
+### skills CLI
 
 使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。
 
@@ -79,10 +92,10 @@ npx skills add lanamaysu/agent-skills --list
 
 **安裝特定技能：**
 ```bash
-# 安裝台灣繁體中文技能
+# 安裝 zh-tw-writing
 npx skills add lanamaysu/agent-skills --skill zh-tw-writing
 
-# 安裝 Jest + RTL 測試技能
+# 安裝 jest-rtl-testing
 npx skills add lanamaysu/agent-skills --skill jest-rtl-testing
 ```
 
@@ -127,6 +140,8 @@ skills/
 
 需要維護腳本時再加 `scripts/`，把 `requirements.txt` 放在該資料夾內。
 
+最後在 repo 根目錄的 `.claude-plugin/marketplace.json` 的 `plugins` 加一筆，Claude Code plugin 才裝得到新技能。改完跑 `claude plugin validate .` 確認格式。
+
 ---
 
 ## License
@@ -146,4 +161,4 @@ skills/
 
 ---
 
-**Last Updated**: 2026-08-09
+**Last Updated**: 2026-10-07

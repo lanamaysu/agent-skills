@@ -1,4 +1,4 @@
-# Taiwan Traditional Chinese Guidelines
+# zh-tw-writing 完整指南
 
 完整的台灣繁體中文技術寫作指南。只在 `SKILL.md` 的品質檢查未通過、或使用者明確要求術語稽核時讀。
 

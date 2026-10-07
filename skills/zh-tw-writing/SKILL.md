@@ -3,7 +3,7 @@ name: zh-tw-writing
 description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation and de-AI tone. Use it when your output contains Chinese. Decide by the output, not by keywords in the task. Read it before you write the first Chinese character. Git, React and JSON tasks are included when the output is Chinese. Examples: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files. Also use it to repair Chinese: mainland terms (數據/組件), mainland industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Write zh-Hant-TW unless the user asks for 簡體. Do not use it for chat replies. Chat replies follow the conversation style rules. Do not use it when Chinese is the bug, not the output (fonts, encoding, full-width spacing, 繁簡轉換). Do not use it when you translate into another language.'
 ---
 
-# Taiwan Traditional Chinese Response Skill
+# zh-tw-writing
 
 > **TL;DR**
 > - 必用台灣術語：元件、非同步、資料、伺服器、資料庫、快取；框架與程式碼維持英文。

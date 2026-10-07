@@ -1,4 +1,4 @@
-# Taiwan Traditional Chinese Skill
+# zh-tw-writing
 
 台灣繁體中文寫作規範：術語、標點、去 AI 味。`SKILL.md` 為技能入口。
 
