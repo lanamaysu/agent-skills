@@ -17,7 +17,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 - **[prose-style.md](./references/prose-style.md)**：寫連續散文才讀（專案文件、README 敘述段落、ADR、release note、規格書、簡報，或使用者說「太像 AI」「潤稿」）。要讀就在動筆前讀，不是寫完再回頭校對：稿子的段落結構一旦成形就很難拆，事後校對只改得動詞彙。實測讓模型自行安排順序，它會把這份排到最後一個動作，三篇稿子的骨架那時早就定了。commit message、程式碼註解、測試案例描述、表格與 API 參數說明不要讀：固定格式套散文節奏會壞掉，本檔的「AI 味速查」那層已經夠。
 - 不要照抄本檔的外觀。本檔為了查閱方便用了大量粗體與表格，那是速查表的格式，不是你要產出的格式。散文就寫成散文：偽小標（獨立一行的 `**……**`）是明確禁止的，見下方「AI 味速查」第 4 條。
 - **[guidelines.md](./references/guidelines.md)**：只在品質檢查未通過，或使用者要求稽核時讀。
-- **[terms.csv](./references/terms.csv)**：**每次產出中文都要查，這是必要步驟**，做法見下方「品質檢查與重寫流程」第 2 步。永遠 `grep`，不要整份讀：2,122 筆術語，整份讀要四萬 token 以上，grep 只回幾列。
+- **[terms.csv](./references/terms.csv)**：**每次產出中文都要查，這是必要步驟**，做法見下方「品質檢查與重寫流程」第 2 步。永遠 `grep`，不要整份讀：整份讀要數萬 token，grep 只回幾列。
 
 ## Core Rules
 
@@ -99,7 +99,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 **開場與收場**：不復述問題（「這是一個很好的問題」）、不用應答式熱情（「當然可以！」）、不用展望式收尾（「希望這些資訊對你有幫助」）。內容說完就停。
 
-**指示詞**：文件與註解不寫單獨的「這層」「那段」「它」，每次寫出名稱（`useCartStore`、結帳按鈕）。改稿後指示詞會指到別的東西。
+**指示詞**：文件與註解不寫單獨的「這層」「那段」「它」，每次寫出名稱（`useSettingsStore`、儲存按鈕）。改稿後指示詞會指到別的東西。
 
 **贅詞「一個」**：英文冠詞的殘影，「一種」「一位」「一項」同理。刪掉後句子仍通就刪。
 

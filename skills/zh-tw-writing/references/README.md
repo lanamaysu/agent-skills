@@ -54,13 +54,9 @@
 
 `cn` 欄的方向不是每一列都一樣，要連 `type` 一起讀：`confusable` 列放的是**台灣用語被用錯義項**（「函式」在程式設計正確，在數學該用「函數」），`disabled` 列則是刻意記下「這組看起來像錯、但不要改」。
 
-**統計**：
+**格式**：CSV（UTF-8）、LF 換行。
 
-- 資料列：2,122（glossary 447、cross_strait 1,602、variant 48、confusable 18、political_coloring 5、disabled 2）
-- 大小：157 KB
-- 格式：CSV（UTF-8）、LF 換行
-
-用 grep 查，**不要整份讀**。整份讀進 context 超過四萬 token，只為換幾行結果。
+用 grep 查，**不要整份讀**。整份讀進 context 要數萬 token，只為換幾行結果。
 
 ```bash
 # 依英文術語查

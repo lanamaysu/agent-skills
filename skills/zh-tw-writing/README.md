@@ -30,7 +30,7 @@ npx skills add lanamaysu/agent-skills --list
 
 | 表 | 管什麼 |
 |----|--------|
-| 關鍵術語速查表 | 20 組必用台灣術語 + 絕對禁用清單 |
+| 關鍵術語速查表 | 必用台灣術語 + 絕對禁用清單 |
 | 中國軟體圈行話禁用表 | 落地、復盤、閉環、抓手、顆粒度⋯⋯ |
 | 一詞多義 | 質量、水平、通過、項目、對齊、數據、文件、並行、進程、渲染、遍歷 —— 看義項判斷，不是全面禁用 |
 | AI 味速查 | 空轉話語標記、貼標語彙、破折號與排比的量化上限、開場收場 |
@@ -97,7 +97,7 @@ python3 scripts/test_lint_zhtw.py              # fixture 測試，每條檢查�
 
 腳本會印出正確的字表並在與 `lint_zhtw.py` 不一致時回傳 1。
 
-`--terms` 跟 `SKILL.md` 的禁用表確實有重疊，這是刻意的分工：表在 context 裡負責產出時寫對，`--terms` 讀 `terms.csv` 負責事後稽核既有檔案，兩邊都不複製詞表。代價是它很吵（本專案 7 份文件會出 85 筆，多數是文件在講這些詞本身），所以預設關閉。
+`--terms` 跟 `SKILL.md` 的禁用表確實有重疊，這是刻意的分工：表在 context 裡負責產出時寫對，`--terms` 讀 `terms.csv` 負責事後稽核既有檔案，兩邊都不複製詞表。代價是它很吵（多數命中是文件在講這些詞本身），所以預設關閉。
 
 ## 結構
 
@@ -105,7 +105,7 @@ python3 scripts/test_lint_zhtw.py              # fixture 測試，每條檢查�
 - `references/` — 按需載入的參考資料
   - `prose-style.md` — 去 AI 味的完整行文規範（寫散文時讀）
   - `guidelines.md` — 完整技術寫作指南（稽核時讀）
-  - `terms.csv` — 術語對照表 2,122 筆，欄位 `en,tw,cn,type,clues,avoid_clues,note`（用 `grep` 查）
+  - `terms.csv` — 術語對照表，欄位 `en,tw,cn,type,clues,avoid_clues,note`（用 `grep` 查）
   - `README.md` — 資料來源、授權與欄位說明
 - `scripts/` — 維護工具
   - `fetch_terms.py` — 從 Wikibooks 與 zhtw-mcp ruleset 抓取並合併輸出 CSV

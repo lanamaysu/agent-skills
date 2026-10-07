@@ -43,10 +43,9 @@ Use the first query in this list that finds the element:
 
 ## Core Principles
 
-1. **User behavior:** Assert what the user sees and does. Do not assert internal state.
-2. **Async:** Use `findBy*` to wait for an element to appear. Use `waitForElementToBeRemoved` to wait for an element to disappear.
-3. **Real interactions:** Use `@testing-library/user-event`. Do not use `fireEvent` when `user-event` can do the interaction.
-4. **HTTP mocks:** Use MSW to mock network requests. Do not mock `fetch` or `axios` manually.
+1. **Async:** Use `findBy*` to wait for an element to appear. Use `waitForElementToBeRemoved` to wait for an element to disappear.
+2. **Real interactions:** Use `@testing-library/user-event`. Do not use `fireEvent` when `user-event` can do the interaction.
+3. **HTTP mocks:** Use MSW to mock network requests. Do not mock `fetch` or `axios` manually.
 
 ---
 

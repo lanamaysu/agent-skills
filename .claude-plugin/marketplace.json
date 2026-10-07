@@ -22,6 +22,17 @@
       "skills": [
         "./"
       ]
+    },
+    {
+      "name": "grill",
+      "source": "./vendor/mattpocock",
+      "description": "grilling, grill-me and grill-with-docs from mattpocock/skills (MIT). A relentless interview that tests a plan or design.",
+      "strict": false,
+      "skills": [
+        "./grilling",
+        "./grill-me",
+        "./grill-with-docs"
+      ]
     }
   ]
 }

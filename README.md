@@ -14,7 +14,7 @@
 - 台灣繁體中文（zh-Hant-TW/zh-TW/zh_TW）術語標準
 - 技術術語、標點、語氣規範
 - 程式碼與框架名稱保留方案
-- 完整術語對照表 2,122 筆（Wikibooks CC BY-SA 4.0；zhtw-mcp MIT）
+- 完整術語對照表（Wikibooks CC BY-SA 4.0；zhtw-mcp MIT）
 
 **使用時機：**
 - 撰寫或審查中文文件、程式碼註解、提交訊息
@@ -67,6 +67,19 @@ grep -n '^#' skills/jest-rtl-testing/references/common-patterns.md
 
 ---
 
+### [grill](./vendor/mattpocock)
+**轉載 [mattpocock/skills](https://github.com/mattpocock/skills) 的 grilling、grill-me、grill-with-docs**
+
+動手實作前，逐輪追問計畫或設計決策，直到所有分支都有答案。只取上游這三個 skill，內容未修改，對應上游 commit [`6fd9479`](https://github.com/mattpocock/skills/commit/6fd947921b935b7e1e69293a200400f0fdd5c15f)。
+
+- `grilling`：追問的方法本體，每輪提出所有目前能問的問題，並附上建議答案
+- `grill-me`：直接開始一場追問，要自己輸入指令才會啟動
+- `grill-with-docs`：追問時同步寫術語表與 ADR，要自己輸入指令才會啟動；另外需要上游的 `domain-modeling`（`skills/engineering/domain-modeling/`），本 repo 未收錄
+
+**更新上游版本：** 從上游最新 commit 重新下載 `skills/productivity/grilling/`、`skills/productivity/grill-me/`、`skills/engineering/grill-with-docs/` 的 `SKILL.md` 與 `agents/openai.yaml`，覆蓋 `vendor/mattpocock/` 底下的同名檔案，再把上方的 commit 連結換成新的 SHA。
+
+---
+
 ## Installation
 
 ### Claude Code plugin
@@ -77,11 +90,14 @@ grep -n '^#' skills/jest-rtl-testing/references/common-patterns.md
 claude plugin marketplace add lanamaysu/agent-skills
 claude plugin install zh-tw-writing@lanamaysu
 claude plugin install jest-rtl-testing@lanamaysu
+claude plugin install grill@lanamaysu
 ```
+
+用 plugin 安裝的 skill 指令會加上 plugin 名稱，例如 `/grill:grill-me`。
 
 ### skills CLI
 
-使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。
+使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。grill 放在 `vendor/`，請改用 Claude Code plugin 安裝。
 
 **列出可用技能：**
 ```bash
@@ -150,6 +166,7 @@ skills/
 |------|------|
 | repository 與未特別標示的技能 | MIT License |
 | `skills/zh-tw-writing/` | **CC BY-SA 4.0**（見該資料夾的 `LICENSE`） |
+| `vendor/mattpocock/` | MIT License，著作權屬 Matt Pocock（見該資料夾的 `LICENSE`） |
 
 `zh-tw-writing` 之所以不同：它含有 CC BY-SA 4.0 素材的改作（Wikibooks 術語對照表、[allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) 的行文規範）。ShareAlike 條款要求改作本以相同或相容授權散佈，而 MIT 與 BY-SA 不相容。若你要再散佈該資料夾或其改作，請保留出處並同樣以 CC BY-SA 4.0 釋出。
 
