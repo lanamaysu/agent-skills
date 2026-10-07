@@ -1,0 +1,27 @@
+{
+  "name": "lanamaysu",
+  "owner": {
+    "name": "lanamaysu"
+  },
+  "description": "lanamaysu's Claude Code skills.",
+  "plugins": [
+    {
+      "name": "zh-tw-writing",
+      "source": "./skills/zh-tw-writing",
+      "description": "Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation, de-AI tone.",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "jest-rtl-testing",
+      "source": "./skills/jest-rtl-testing",
+      "description": "Jest + React Testing Library testing guidance: queries, async, mocking, debugging failing tests.",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}

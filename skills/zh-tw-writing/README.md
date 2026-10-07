@@ -15,7 +15,7 @@
 ## 安裝
 
 ```bash
-npx skills add lanamaysu/agent-skills --skill taiwan-traditional-chinese
+npx skills add lanamaysu/agent-skills --skill zh-tw-writing
 ```
 
 或列出所有可用技能：

@@ -1,4 +1,4 @@
-# taiwan-traditional-chinese bench
+# zh-tw-writing bench
 
 比較「沒有 skill」與「有 skill」兩個 arm，測三件事：術語、語氣、整體文字品質。
 

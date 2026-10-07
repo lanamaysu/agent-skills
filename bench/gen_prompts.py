@@ -12,7 +12,7 @@ import pathlib
 
 BENCH = pathlib.Path(__file__).parent
 
-HEAD_SKILL = "先讀 ./skills/taiwan-traditional-chinese/SKILL.md，照它的規則處理下面 {n} 句。"
+HEAD_SKILL = "先讀 ./skills/zh-tw-writing/SKILL.md，照它的規則處理下面 {n} 句。"
 HEAD_NEUTRAL = "請把下面 {n} 句改寫成通順的中文，用詞不當的地方請改掉。不需要修改的句子就原句照抄。"
 BODY = """
 

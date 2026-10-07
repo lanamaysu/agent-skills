@@ -1,4 +1,4 @@
-# taiwan-traditional-chinese 實測結果
+# zh-tw-writing 實測結果
 
 測試日期 2026-08-10。方法、限制與重跑指令見 [README.md](./README.md)。
 

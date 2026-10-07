@@ -1,4 +1,4 @@
-先讀 ./skills/taiwan-traditional-chinese/SKILL.md，照它的規則處理下面 12 句。
+先讀 ./skills/zh-tw-writing/SKILL.md，照它的規則處理下面 12 句。
 
 每句輸出修正後的版本；判斷不需要修正就原句照抄。
 只輸出 12 行，格式 `編號<TAB>句子`，不要任何說明、標題或前後文。

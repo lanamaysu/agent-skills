@@ -6,7 +6,7 @@
 
 ## Available Skills
 
-### [Taiwan Traditional Chinese](./skills/taiwan-traditional-chinese)
+### [Taiwan Traditional Chinese](./skills/zh-tw-writing)
 **Taiwan zh-Hant-TW/zh-TW/zh_TW 繁體中文回應指南**
 
 先做品質檢查，僅在不通過時才讀取完整指南與術語對照表。
@@ -24,10 +24,10 @@
 **快速開始：**
 ```bash
 # 預覽技能
-cat skills/taiwan-traditional-chinese/SKILL.md
+cat skills/zh-tw-writing/SKILL.md
 
 # 只更新 zhtw-mcp 規則（標準函式庫即可，不必建 venv）
-cd skills/taiwan-traditional-chinese
+cd skills/zh-tw-writing
 python3 scripts/fetch_terms.py --source ruleset
 
 # 連 Wikibooks 一起重抓（這半邊要 requests + bs4）
@@ -80,7 +80,7 @@ npx skills add lanamaysu/agent-skills --list
 **安裝特定技能：**
 ```bash
 # 安裝台灣繁體中文技能
-npx skills add lanamaysu/agent-skills --skill taiwan-traditional-chinese
+npx skills add lanamaysu/agent-skills --skill zh-tw-writing
 
 # 安裝 Jest + RTL 測試技能
 npx skills add lanamaysu/agent-skills --skill jest-rtl-testing
@@ -93,7 +93,7 @@ npx skills add lanamaysu/agent-skills --skill '*' -g -a claude-code
 
 **不安裝，單次試用：**
 ```bash
-npx skills use lanamaysu/agent-skills@taiwan-traditional-chinese | claude
+npx skills use lanamaysu/agent-skills@zh-tw-writing | claude
 ```
 
 ---
@@ -136,9 +136,9 @@ skills/
 | 範圍 | 授權 |
 |------|------|
 | repository 與未特別標示的技能 | MIT License |
-| `skills/taiwan-traditional-chinese/` | **CC BY-SA 4.0**（見該資料夾的 `LICENSE`） |
+| `skills/zh-tw-writing/` | **CC BY-SA 4.0**（見該資料夾的 `LICENSE`） |
 
-`taiwan-traditional-chinese` 之所以不同：它含有 CC BY-SA 4.0 素材的改作（Wikibooks 術語對照表、[allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) 的行文規範）。ShareAlike 條款要求改作本以相同或相容授權散佈，而 MIT 與 BY-SA 不相容。若你要再散佈該資料夾或其改作，請保留出處並同樣以 CC BY-SA 4.0 釋出。
+`zh-tw-writing` 之所以不同：它含有 CC BY-SA 4.0 素材的改作（Wikibooks 術語對照表、[allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) 的行文規範）。ShareAlike 條款要求改作本以相同或相容授權散佈，而 MIT 與 BY-SA 不相容。若你要再散佈該資料夾或其改作，請保留出處並同樣以 CC BY-SA 4.0 釋出。
 
 `references/terms.csv` 另含 [sysprog21/zhtw-mcp](https://github.com/sysprog21/zhtw-mcp) 的 `assets/ruleset.json`（MIT，跨海峽詞條再上溯 [OpenCC](https://github.com/BYVoid/OpenCC)，Apache-2.0）。MIT 與 Apache-2.0 都允許以 BY-SA 再散佈，條件是保留原始版權聲明，所以整個資料夾仍以 CC BY-SA 4.0 釋出。
 

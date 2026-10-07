@@ -1,4 +1,4 @@
-先讀 ./skills/taiwan-traditional-chinese/SKILL.md，照它的規則完成下面三項任務。
+先讀 ./skills/zh-tw-writing/SKILL.md，照它的規則完成下面三項任務。
 
 輸出格式：每題以 `## G1`／`## G2`／`## G3` 起始，接該題的內容，題與題之間空一行。
 不要輸出任何說明、前言或結語。
