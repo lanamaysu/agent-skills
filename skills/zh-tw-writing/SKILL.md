@@ -1,6 +1,6 @@
 ---
 name: zh-tw-writing
-description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation and de-AI tone. Use it when your output contains Chinese. Decide by the output, not by keywords in the task. Read it before you write the first Chinese character. Git, React and JSON tasks are included when the output is Chinese. Examples: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files. Also use it to repair Chinese: mainland terms (數據/組件), mainland industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Write zh-Hant-TW unless the user asks for 簡體. Do not use it for chat replies. Chat replies follow the conversation style rules. Do not use it when Chinese is the bug, not the output (fonts, encoding, full-width spacing, 繁簡轉換). Do not use it when you translate into another language.'
+description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, punctuation and de-AI tone. Use it when your output contains Chinese. Decide by the output, not by keywords in the task. Read it before you write the first Chinese character. Git, React and JSON tasks are included when the output is Chinese. Examples: commit messages, PR descriptions, ADRs, README, specs, slide decks, code comments, test-case names, zh-TW locale files. Also use it to repair Chinese: mainland terms (數據/組件), mainland industry jargon (落地/對齊/閉環), Taiwan terms (元件/資料/函式), AI 味. Write zh-Hant-TW unless the user asks for 簡體. Do not use it for chat replies. Do not use it when Chinese is the bug, not the output (fonts, encoding, full-width spacing, 繁簡轉換). Do not use it when you translate into another language.'
 ---
 
 # zh-tw-writing
@@ -99,7 +99,7 @@ description: 'Taiwan Traditional Chinese (zh-Hant-TW) house style: terminology, 
 
 **開場與收場**：不復述問題（「這是一個很好的問題」）、不用應答式熱情（「當然可以！」）、不用展望式收尾（「希望這些資訊對你有幫助」）。內容說完就停。
 
-**指示詞**：文件與註解裡不寫單獨的「這層」「那段」「它」，每次都寫出名稱（`useCartStore`、結帳按鈕）。之後改稿時，指示詞會悄悄指到別的東西。
+**指示詞**：文件與註解不寫單獨的「這層」「那段」「它」，每次寫出名稱（`useCartStore`、結帳按鈕）。改稿後指示詞會指到別的東西。
 
 **贅詞「一個」**：英文冠詞的殘影，「一種」「一位」「一項」同理。刪掉後句子仍通就刪。
 

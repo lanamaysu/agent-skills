@@ -79,8 +79,6 @@ claude plugin install zh-tw-writing@lanamaysu
 claude plugin install jest-rtl-testing@lanamaysu
 ```
 
-在 Claude Code 對話中，也可以改用 `/plugin marketplace add` 與 `/plugin install`。
-
 ### skills CLI
 
 使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。
@@ -140,7 +138,7 @@ skills/
 
 需要維護腳本時再加 `scripts/`，把 `requirements.txt` 放在該資料夾內。
 
-最後在 repo 根目錄的 `.claude-plugin/marketplace.json` 的 `plugins` 加一筆，Claude Code plugin 才裝得到新技能。改完跑 `claude plugin validate .` 確認格式。
+新增技能後，在 `.claude-plugin/marketplace.json` 的 `plugins` 加一筆，再跑 `claude plugin validate .`。
 
 ---
 

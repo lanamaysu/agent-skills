@@ -5,10 +5,6 @@ description: Use when writing, reviewing, or debugging Jest + React Testing Libr
 
 # Jest + React Testing Library Best Practices
 
-## Overview
-
-This skill follows the Testing Library guiding principles and the Kent C. Dodds guidance on user-centric tests.
-
 **Core principle:** A test interacts with the application as a user does. A test does not check implementation details.
 
 ## Pre-Check
@@ -20,18 +16,7 @@ Do these steps before you write a test:
 
 ---
 
-## When to Use
-
-Use this skill for these tasks:
-- Write new tests, especially React component tests.
-- Review or refactor existing tests.
-- Debug a test failure that can come from incorrect API use.
-- Make tests easier to read and maintain.
-
-Do not use this skill for these tasks:
-- Unit tests of pure functions (no DOM, no React).
-- E2E tests. Use Playwright or Cypress.
-- Performance tests or visual regression tests.
+Do not use this skill for pure-function tests (no DOM, no React), E2E tests, performance tests or visual regression tests.
 
 ---
 
@@ -39,7 +24,7 @@ Do not use this skill for these tasks:
 
 ### Query Priority
 
-`getByRole` is slow on large views ([issue 820](https://github.com/testing-library/dom-testing-library/issues/820)). Large views are complex UIs with many elements. So this order puts `getByLabelText` and `getByText` first.
+`getByRole` is slow on large views ([issue 820](https://github.com/testing-library/dom-testing-library/issues/820)), so the list puts `getByLabelText` and `getByText` first.
 
 Use the first query in this list that finds the element:
 
@@ -75,7 +60,7 @@ Use the first query in this list that finds the element:
 
 ## References
 
-Do not read a reference file from start to end. Find the heading with `grep -n '^#' <file>`. Then read only that section.
+Do not read a reference file from start to end. Find the heading with `grep -n '^#' <file>`, then read only that section.
 
 - [references/query-cheatsheet.md](./references/query-cheatsheet.md): read a section when you cannot select a query, or when you need `within` or `TextMatch`.
 - [references/common-patterns.md](./references/common-patterns.md): read a section when you need a pattern. The patterns are forms, MSW, errors, modals, lists, file upload, context and hooks.
