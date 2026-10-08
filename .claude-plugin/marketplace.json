@@ -33,6 +33,15 @@
         "./grill-me",
         "./grill-with-docs"
       ]
+    },
+    {
+      "name": "eli5",
+      "source": "./vendor/dreambigou",
+      "description": "eli5 from dreambigou/eli5 (MIT). Explains a topic, code or error at the level of a named audience.",
+      "strict": false,
+      "skills": [
+        "./eli5"
+      ]
     }
   ]
 }

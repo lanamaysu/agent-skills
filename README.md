@@ -80,6 +80,15 @@ grep -n '^#' skills/jest-rtl-testing/references/common-patterns.md
 
 ---
 
+### [eli5](./vendor/dreambigou)
+**轉載 [dreambigou/eli5](https://github.com/dreambigou/eli5) 的 eli5**
+
+依指定讀者的程度解釋主題、程式碼、概念或錯誤訊息，例如「解釋給主管聽」「講給五年級學生聽」。只取上游的 `skills/eli5/SKILL.md`，內容未修改，對應上游 commit [`a766623`](https://github.com/dreambigou/eli5/commit/a766623b062331fdde53467001379b4ddf3acc2f)。
+
+**更新上游版本：** 從上游最新 commit 重新下載 `skills/eli5/SKILL.md`，覆蓋 `vendor/dreambigou/eli5/SKILL.md`，再把上方的 commit 連結換成新的 SHA。
+
+---
+
 ## Installation
 
 ### Claude Code plugin
@@ -91,13 +100,14 @@ claude plugin marketplace add lanamaysu/agent-skills
 claude plugin install zh-tw-writing@lanamaysu
 claude plugin install jest-rtl-testing@lanamaysu
 claude plugin install grill@lanamaysu
+claude plugin install eli5@lanamaysu
 ```
 
 用 plugin 安裝的 skill 指令會加上 plugin 名稱，例如 `/grill:grill-me`。
 
 ### skills CLI
 
-使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。grill 放在 `vendor/`，請改用 Claude Code plugin 安裝。
+使用 [`skills` CLI](https://github.com/vercel-labs/skills) 安裝，它會自動探索本 repo 的 `skills/` 目錄。grill 與 eli5 放在 `vendor/`，請改用 Claude Code plugin 安裝。
 
 **列出可用技能：**
 ```bash
@@ -167,6 +177,7 @@ skills/
 | repository 與未特別標示的技能 | MIT License |
 | `skills/zh-tw-writing/` | **CC BY-SA 4.0**（見該資料夾的 `LICENSE`） |
 | `vendor/mattpocock/` | MIT License，著作權屬 Matt Pocock（見該資料夾的 `LICENSE`） |
+| `vendor/dreambigou/` | MIT License，來自 dreambigou/eli5（見該資料夾的 `LICENSE`） |
 
 `zh-tw-writing` 之所以不同：它含有 CC BY-SA 4.0 素材的改作（Wikibooks 術語對照表、[allenloves/de-ai-tone](https://github.com/allenloves/de-ai-tone) 的行文規範）。ShareAlike 條款要求改作本以相同或相容授權散佈，而 MIT 與 BY-SA 不相容。若你要再散佈該資料夾或其改作，請保留出處並同樣以 CC BY-SA 4.0 釋出。
 
@@ -176,4 +187,4 @@ skills/
 
 ---
 
-**Last Updated**: 2026-10-07
+**Last Updated**: 2026-10-08
